@@ -2,43 +2,42 @@ import requests
 import base64
 import urllib.parse
 import json
+import re
 
-# 定义来源库的 Raw 链接 (跳过 MIX)
 BASE_URL = "https://raw.githubusercontent.com/Vanic24/VPN/main/"
 SOURCES = ["8EB", "9PB", "Lifetime", "Sub3", "Filter"]
 
 def decode_base64(data):
+    # 强力剔除所有换行符和空格，防止解码失败
+    data = re.sub(r'\s+', '', data)
+    data += "=" * ((4 - len(data) % 4) % 4)
     try:
-        data = data.strip()
-        data += "=" * ((4 - len(data) % 4) % 4)
         return base64.b64decode(data).decode('utf-8', errors='ignore')
     except Exception:
         return ""
 
 def parse_and_check_node(link):
     link = link.strip()
-    if not link:
-        return None, False
+    if not link: return None, False
     try:
+        # vless / trojan 协议
         if link.startswith("vless://") or link.startswith("trojan://"):
             parsed = urllib.parse.urlparse(link)
-            if not parsed.username or not parsed.hostname or not parsed.port:
-                return None, False
+            if not parsed.hostname or not parsed.port: return None, False
             return (parsed.scheme, parsed.hostname, parsed.port), True
 
+        # vmess 协议 (Base64格式 json)
         elif link.startswith("vmess://"):
             node_data = json.loads(decode_base64(link[8:]))
-            if not node_data.get("id") or not node_data.get("add") or not node_data.get("port"):
-                return None, False
+            if not node_data.get("add") or not node_data.get("port"): return None, False
             return ("vmess", node_data.get("add"), node_data.get("port")), True
             
-        elif link.startswith("ss://"):
-            parsed = urllib.parse.urlparse(link)
-            if parsed.hostname and parsed.port:
-                return ("ss", parsed.hostname, parsed.port), True
-            return None, False
+        # 其他协议粗略放行
+        elif "://" in link:
+            return link.split("#")[0], True
+            
     except Exception:
-        return None, False
+        pass
     return None, False
 
 def main():
@@ -49,8 +48,12 @@ def main():
             if response.status_code != 200: continue
             
             raw_content = response.text
-            decoded_content = decode_base64(raw_content)
-            lines = decoded_content.splitlines() if decoded_content else raw_content.splitlines()
+            # 自动判断是 Base64 还是明文
+            if "://" not in raw_content[:100]: 
+                decoded_content = decode_base64(raw_content)
+                lines = decoded_content.splitlines()
+            else:
+                lines = raw_content.splitlines()
             
             for line in lines:
                 key, is_valid = parse_and_check_node(line)
@@ -60,8 +63,12 @@ def main():
             pass
 
     valid_links = list(unique_nodes.values())
-    final_base64 = base64.b64encode("\n".join(valid_links).encode('utf-8')).decode('utf-8')
-    
+    # 重新编码成订阅需要的格式
+    if valid_links:
+        final_base64 = base64.b64encode("\n".join(valid_links).encode('utf-8')).decode('utf-8')
+    else:
+        final_base64 = ""
+        
     with open("my_sub.txt", "w", encoding="utf-8") as f:
         f.write(final_base64)
 
