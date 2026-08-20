@@ -1,0 +1,23 @@
+name: Auto Update Subs
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - run: pip install requests
+      - run: python clean_subs.py
+      - run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add my_sub.txt
+          git commit -m "Auto update nodes" || echo "No changes to commit"
+          git push
