@@ -1,1069 +1,995 @@
 proxies:
 - type: vless
-  name: 🇸🇬 SG-1 | 8EB
-  server: 35.185.177.23
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  name: 🇨🇦 CA-1 | 8EB
+  server: 172.64.53.60
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: sq7A8jP_GJvjihr99JE3RRsV3P3ICD-z96dM0iIc9Sw
-    short-id: 451f2fc6
-  network: tcp
-- type: vless
-  name: 🇸🇬 SG-2 | 8EB
-  server: 136.85.69.11
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: UadQYKUcYJNEsxcOo_SZ9BpCJsD3K2rOyTYxUCiRfC4
-    short-id: d652ff80
-  network: tcp
-- type: vless
-  name: 🇸🇬 SG-3 | 8EB
-  server: 34.124.160.220
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 3p7-kd_Di6CwEB48XfYReaMxfwQNxOL9M7kJVuadulo
-    short-id: f73d373e
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-1 | 8EB
-  server: beatrice3.nkinscloud.icu
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: QH3wVRosebllleOpN30KaXV5-v-dcNSX9XYe34tbszs
-    short-id: c0d2ce05
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-2 | 8EB
-  server: beatrice2.nkinscloud.icu
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: v6j3PYx-6bmBuddZLVIORL-gwS5ZEyRumpvTUPvExDs
-    short-id: 51a418ec
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-3 | 8EB
-  server: beatrice1.nkinscloud.icu
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: jZBQ14vBPrMIqdj3NvgfpchLZvJYm1EdmW7ZBU9t9HI
-    short-id: 16c005b0
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-4 | 8EB
-  server: 103.72.5.57
-  port: 25126
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   client-fingerprint: chrome
-  reality-opts:
-    public-key: Iv0BYCcNWeUxk4m26bXXEM81je_IvyNsqGj3CiOF9Uo
-    short-id: e8cfbeb5d07bf120
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-5 | 8EB
-  server: 206.251.53.130
-  port: 13130
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- type: hysteria2
+  name: 🇩🇪 DE-1 | 8EB
+  server: 162.249.126.8
+  port: 8443
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   udp: true
-  flow: xtls-rprx-vision
+  sni: hopp-germany-new.ddnsguru.com
+  skip-cert-verify: true
+- type: ss
+  name: 🇩🇪 DE-2 | 8EB
+  server: 130.61.32.89
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 3AIXOT98856Z37/EC4I30Hm8EkZp5cPv7r9g/Zhcei4=
+  udp: true
+- type: ss
+  name: 🇩🇪 DE-3 | 8EB
+  server: 130.61.84.223
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: RQ/Pmz291j6t2nRAaCbztGTzWRjdPqP3WXIIbXO0BSM=
+  udp: true
+- type: ss
+  name: 🇩🇪 DE-4 | 8EB
+  server: 130.61.34.93
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: yo60240ggWtZhsWrwadPx62gCJkwnKGlhWn62qP7RGg=
+  udp: true
+- type: ss
+  name: 🇩🇪 DE-5 | 8EB
+  server: 130.61.116.110
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: UpeZLBSVADf64wezj0K1CcapVO6MLWWPYtMJue7gxqE=
+  udp: true
+- type: ss
+  name: 🇩🇪 DE-6 | 8EB
+  server: 130.61.148.193
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 1RmIsogd2wO+AKg9dt+4v9PGoeuLhLSAztfnuapH+VI=
+  udp: true
+- type: ss
+  name: 🇩🇪 DE-7 | 8EB
+  server: 130.61.118.114
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: k5pJnvcAyoqjALpD9aI7vbAdkav9hHCRZchV/hv6JRQ=
+  udp: true
+- type: ss
+  name: 🇩🇪 DE-8 | 8EB
+  server: 130.61.181.162
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 6IpJJIUOKtVHjU8zrTJoScGDGLfBBvWobJgMFGDuvM0=
+  udp: true
+- type: ss
+  name: 🇩🇪 DE-9 | 8EB
+  server: 130.61.83.227
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: r0wobeAeafo7jTihelLSR2OBQpYXd5k0CtpAPHaZWew=
+  udp: true
+- type: ss
+  name: 🇩🇪 DE-10 | 8EB
+  server: 130.61.231.49
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: YyvmYnbvBgSLa34idu1vUT3qeqo4QbuqWmJRQyR2x2M=
+  udp: true
+- type: vless
+  name: 🇩🇪 DE-11 | 8EB
+  server: 132.243.203.218
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: Iv0BYCcNWeUxk4m26bXXEM81je_IvyNsqGj3CiOF9Uo
-    short-id: e8cfbeb5d07bf120
-  network: tcp
+  servername: cdn8848.776676.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /v?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
 - type: vless
-  name: 🇯🇵 JP-6 | 8EB
-  server: 34.180.70.60
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  name: 🇩🇪 DE-12 | 8EB
+  server: 103.109.234.61
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
 - type: vless
-  name: 🇯🇵 JP-7 | 8EB
-  server: 35.221.88.199
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  name: 🇩🇪 DE-13 | 8EB
+  server: 150.241.101.102
+  port: 8443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
 - type: vless
-  name: 🇯🇵 JP-8 | 8EB
-  server: 34.84.185.152
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  name: 🇫🇷 FR-1 | 8EB
+  server: 152.228.139.33
+  port: 35108
+  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
+  servername: www.nvidia.com
   client-fingerprint: firefox
   reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
+    public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
+    short-id: 52add08b86a5ccea
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-common3
+  serviceName: grpc-common3
+  mode: gun
 - type: vless
-  name: 🇯🇵 JP-9 | 8EB
-  server: 103.72.5.57
-  port: 30058
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  name: 🇫🇷 FR-2 | 8EB
+  server: 152.228.139.33
+  port: 51671
+  uuid: 75cc7568-abb0-46a8-88be-8137d3c647d4
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: qq
+  servername: www.sony.com
+  client-fingerprint: firefox
   reality-opts:
-    public-key: Iv0BYCcNWeUxk4m26bXXEM81je_IvyNsqGj3CiOF9Uo
-    short-id: e8cfbeb5d07bf120
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-10 | 8EB
-  server: 206.251.53.134
-  port: 13134
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+    public-key: -5PowNUY37Pi01YKO9fjRTrum1m_9n6XauaPDpmOJzU
+    short-id: 2fed44d8c59f7e71
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc_common3
+  serviceName: grpc_common3
+  mode: gun
+- type: ss
+  name: 🇬🇧 GB-1 | 8EB
+  server: 129.151.77.36
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: JAIIG6N6KLuM33ZbMh0jk1fVcDM3qTVfUoXhQr6tiYM=
   udp: true
-  flow: xtls-rprx-vision
+- type: ss
+  name: 🇬🇧 GB-2 | 8EB
+  server: 144.24.224.176
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: hJ+f10t7OSwpGbSouJJ4/DvKxUvgo9hi7u9bLfFVmVc=
+  udp: true
+- type: ss
+  name: 🇬🇧 GB-3 | 8EB
+  server: 129.151.86.235
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Vy4lRpLwy1/ZUJF58f+SpzYRBJCwQpwztiwtHcOtReI=
+  udp: true
+- type: ss
+  name: 🇬🇧 GB-4 | 8EB
+  server: 129.151.89.226
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: hx5/BJFpUSYwk16zA3b//qJ/ZL4UV6/Lg0hXmoPfBq0=
+  udp: true
+- type: vless
+  name: 🇬🇧 GB-5 | 8EB
+  server: 104.194.140.95
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: Iv0BYCcNWeUxk4m26bXXEM81je_IvyNsqGj3CiOF9Uo
-    short-id: e8cfbeb5d07bf120
-  network: tcp
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇬🇧 GB-6 | 8EB
+  server: 185.146.234.242
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
 - type: vless
   name: 🇭🇰 HK-1 | 8EB
-  server: tmp1.deepfind.site
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  server: px2.5ibtc.cn
+  port: 443
+  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
+  servername: px2.5ibtc.cn
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+    headers:
+      Host: px2.5ibtc.cn
 - type: vless
   name: 🇭🇰 HK-2 | 8EB
-  server: 87.83.109.106
-  port: 19106
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  server: 156.248.10.58
+  port: 443
+  uuid: fcc91034-a05d-4da1-ab38-422b21987ff9
   udp: true
   flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: edge
+  servername: nono.hhhkkhktt.xyz
+  client-fingerprint: safari
   reality-opts:
-    public-key: hYb4wEKoSCy8rJqf7MUQ0virZWUoKBQbKT6Fbt96yEs
-    short-id: 63f6e09994d5
+    public-key: EXIEsAJq-s30mA0r997iwrR8ijvGLZ7DOTkr_R39QCE
+    short-id: 54fc3827c8
   network: tcp
 - type: vless
   name: 🇭🇰 HK-3 | 8EB
-  server: 103.182.97.250
-  port: 23198
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  server: 157.66.26.194
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: VMDDT8LM17r-nv3cE7y_lUSRdnIzfWys-96TTVmVfkM
-    short-id: c40b095a
-  network: tcp
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: ss
+  name: 🇮🇳 IN-1 | 8EB
+  server: 92.5.207.103
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: /p4LyJa53iu3KGKt3H154FnEMzqwRw00zS7uK+MbC6c=
+  udp: true
+- type: ss
+  name: 🇮🇳 IN-2 | 8EB
+  server: 141.148.241.38
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 6WkIZ7XnxsrwTRzKoBDXAEf/qVWbAcoiFBCN77bJgi8=
+  udp: true
+- type: ss
+  name: 🇮🇳 IN-3 | 8EB
+  server: 134.98.137.250
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: VXlv62UCZT0hEpYeRjVMemQbihOvPFw14wnKzaGUN5M=
+  udp: true
+- type: ss
+  name: 🇮🇳 IN-4 | 8EB
+  server: 152.70.59.219
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: mNPQO+yw9UOop61BMWzIGDYT25AtmfohIkduLVaoNoU=
+  udp: true
+- type: ss
+  name: 🇮🇳 IN-5 | 8EB
+  server: 158.101.192.180
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: s5oI8eclmdll1bVNtX/H+8M8MKAYgMC6fKcLQEZN2Zw=
+  udp: true
+- type: ss
+  name: 🇮🇳 IN-6 | 8EB
+  server: 141.148.225.103
+  port: 45819
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8RRsprK4nxB5VqKlMGFdXJerGo79K5bKdz4uF4crI8E=
+  udp: true
 - type: vless
-  name: 🇭🇰 HK-4 | 8EB
-  server: tmp.deepfind.site
-  port: 2443
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  name: 🇯🇵 JP-1 | 8EB
+  server: 45.76.206.46
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
+  servername: cdn8848.776676.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tags/go/groups?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
 - type: vless
-  name: 🇭🇰 HK-5 | 8EB
-  server: 87.83.109.246
-  port: 19246
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  name: 🇯🇵 JP-2 | 8EB
+  server: 132.226.5.163
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: zHrps6IQU-eosDd7ikdvrxzpuduxtcqi6pPmFLL_GEo
-    short-id: 4dd1
-  network: tcp
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
 - type: vless
-  name: 🇭🇰 HK-6 | 8EB
-  server: 87.83.109.6
-  port: 11096
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  name: 🇯🇵 JP-3 | 8EB
+  server: 45.202.255.19
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: HyMlyYJ68KV573OEioBe6hsxOcD9zb-Ia12Gr48MZwk
-    short-id: e8b2fd76
-  network: tcp
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇯🇵 JP-4 | 8EB
+  server: 85.149.218.105
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇲🇾 MY-1 | 8EB
+  server: 216.173.67.119
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇳🇱 NL-1 | 8EB
+  server: 103.137.248.227
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: hysteria2
+  name: 🇸🇬 SG-1 | 8EB
+  server: 165.154.193.165
+  port: 443
+  password: qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt
+  udp: true
+  skip-cert-verify: true
+- type: ss
+  name: 🇸🇬 SG-2 | 8EB
+  server: 138.2.93.177
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: dOk5QAp/D1YVR7DSjgvTKHtcVQKZ1/e9iBohBTWQMIg=
+  udp: true
+- type: hysteria2
+  name: 🇸🇬 SG-3 | 8EB
+  server: 161.118.253.238
+  port: 443
+  password: 1027576c-c4df-4277-b3ef-38d3213b6574
+  udp: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- type: ss
+  name: 🇸🇬 SG-4 | 8EB
+  server: 168.107.93.50
+  port: 56927
+  cipher: 2022-blake3-chacha20-poly1305
+  password: oPSmGIzimdWL7HdyrWzXuDgim3IrT/VYo4trcdD+mtg=
+  udp: true
+- type: vmess
+  name: 🇹🇼 TW-1 | 8EB
+  server: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
+  ws-opts:
+    path: /
+    headers:
+      Host: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
 - type: vless
   name: 🇺🇸 US-1 | 8EB
-  server: 23.149.60.45
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  server: www.terence-tunnel.org
+  port: 443
+  uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
+  servername: www.terence-tunnel.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tunnel
+    headers:
+      Host: www.terence-tunnel.org
 - type: vless
   name: 🇺🇸 US-2 | 8EB
-  server: 23.149.60.57
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  server: 45.62.106.145
+  port: 8443
+  uuid: a3054186-5e1d-4c95-a849-a79ee1e447b2
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /vless-ws
+    headers:
+      Host: 45.62.106.145
 - type: vless
   name: 🇺🇸 US-3 | 8EB
-  server: 23.149.60.220
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  server: adheres-scruple.quick-cdn.net
+  port: 443
+  uuid: 7478f643-1ef4-47fd-8ac7-5d53c6c64217
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
+  servername: adheres-scruple.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: adheres-scruple.quick-cdn.net
 - type: vless
   name: 🇺🇸 US-4 | 8EB
-  server: 23.149.60.180
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  server: 34.85.179.6
+  port: 443
+  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
   reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
+    short-id: c08efcd72d7e8389
   network: tcp
 - type: vless
   name: 🇺🇸 US-5 | 8EB
-  server: 166.0.17.114
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  server: lyra.yokkastars.com
+  port: 40443
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
   udp: true
   flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
+  servername: deepl.com
+  client-fingerprint: edge
   reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
   network: tcp
 - type: vless
   name: 🇺🇸 US-6 | 8EB
-  server: 34.20.239.142
+  server: 45.152.113.206
   port: 443
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
   udp: true
   flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: SUYwQs0-9DA2Cv2y5vkALqF1LF24lvXrASi9Um8LhVM
-    short-id: ba095252
-  network: tcp
-- type: vless
-  name: 🇸🇬 SG-4 | 8EB
-  server: xjptmp.deepfind.site
-  port: 443
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: LjGfW6X81U4RGmQX5KrlAmezzY8cn99qBu-kkGNLFVM
-    short-id: 0eb59680
-  network: tcp
-- type: vless
-  name: 🇦🇺 AU-1 | 8EB
-  server: www.aisearch66.com
-  port: 19748
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
-- type: vless
-  name: 🇦🇺 AU-2 | 8EB
-  server: 212.81.47.242
-  port: 8443
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
+  servername: 1.ru.oncloudnineservicestreang.com
   client-fingerprint: firefox
   reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
-- type: vless
-  name: 🇦🇺 AU-3 | 8EB
-  server: 82.23.146.98
-  port: 443
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
-- type: vless
-  name: 🇰🇷 KR-1 | 8EB
-  server: krtmp.deepfind.site
-  port: 2053
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
-- type: vless
-  name: 🇬🇧 GB-1 | 8EB
-  server: www.aisearch66.com
-  port: 15244
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: m0rkDy6OrEXYtYxihYmaz6-ygVgwi15ibBo614utalM
-    short-id: c39b542cb7
-  network: tcp
-- type: vless
-  name: 🇬🇧 GB-2 | 8EB
-  server: 51.241.140.182
-  port: 15244
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: m0rkDy6OrEXYtYxihYmaz6-ygVgwi15ibBo614utalM
-    short-id: c39b542cb7
-  network: tcp
-- type: hysteria2
-  name: 🇬🇧 GB-3 | 8EB
-  server: uk.jpyh123.uk
-  port: 48364
-  password: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-- type: vless
-  name: 🇩🇪 DE-1 | 8EB
-  server: www.aisearch66.com
-  port: 58004
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: K0YqEx8WBYO11acXtUPCJSnmpmgEReVIVJ9-L7oFLS0
-    short-id: 112b3b17
-  network: tcp
-- type: vless
-  name: 🇩🇪 DE-2 | 8EB
-  server: 213.179.69.128
-  port: 19128
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: K0YqEx8WBYO11acXtUPCJSnmpmgEReVIVJ9-L7oFLS0
-    short-id: 112b3b17
-  network: tcp
-- type: hysteria2
-  name: 🇩🇪 DE-3 | 8EB
-  server: germary.jpyh123.uk
-  port: 49021
-  password: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-- type: vless
-  name: 🇯🇵 JP-11 | 8EB
-  server: www.aisearch66.com
-  port: 64543
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
-- type: vless
-  name: 🇫🇷 FR-1 | 8EB
-  server: 51.146.240.141
-  port: 443
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
-- type: vless
-  name: 🇮🇹 IT-1 | 8EB
-  server: 51.194.80.85
-  port: 443
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-12 | 8EB
-  server: www.aisearch66.com
-  port: 17188
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: g-Rc56odSO_5SFo_eJUUuGkF-UpOPj94X0g0jqhCnRA
-    short-id: d04cdd72f15e07
-  network: tcp
-- type: vless
-  name: 🇨🇭 CH-1 | 8EB
-  server: 185.167.234.219
-  port: 17188
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: g-Rc56odSO_5SFo_eJUUuGkF-UpOPj94X0g0jqhCnRA
-    short-id: d04cdd72f15e07
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-13 | 8EB
-  server: www.aisearch66.com
-  port: 13252
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: VJBZx39OxjCu8XzmAFVsh3AgmVGMnY9toMe40epOzSQ
-    short-id: c94159258d
-  network: tcp
-- type: vless
-  name: 🇪🇸 ES-1 | 8EB
-  server: 192.142.52.91
-  port: 443
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: VJBZx39OxjCu8XzmAFVsh3AgmVGMnY9toMe40epOzSQ
-    short-id: c94159258d
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-14 | 8EB
-  server: www.aisearch66.com
-  port: 14196
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: lj1IL7m3pkOIf_7RPgDJ3vjZqKmlle4xnYDsIAta7Xw
-    short-id: 4fbc5a26121e6efb
-  network: tcp
-- type: vless
-  name: 🇳🇴 NO-1 | 8EB
-  server: 82.25.34.196
-  port: 14196
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: lj1IL7m3pkOIf_7RPgDJ3vjZqKmlle4xnYDsIAta7Xw
-    short-id: 4fbc5a26121e6efb
-  network: tcp
-- type: vless
-  name: 🇹🇭 TH-1 | 8EB
-  server: www.aisearch66.com
-  port: 14938
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: rgHe12JeWdUE7vzOuuMIK7durN-tFaiJAalxDBYzBVI
-    short-id: b3cb889777
-  network: tcp
-- type: vless
-  name: 🇹🇭 TH-2 | 8EB
-  server: 130.94.22.68
-  port: 24563
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: rgHe12JeWdUE7vzOuuMIK7durN-tFaiJAalxDBYzBVI
-    short-id: b3cb889777
-  network: tcp
-- type: vless
-  name: 🇹🇷 TR-1 | 8EB
-  server: www.aisearch66.com
-  port: 31105
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: QaAEn2qRqovBLfSIx2MGUQx50TBmOG3yRxRFN_VE01s
-    short-id: '37'
-  network: tcp
-- type: vless
-  name: 🇹🇷 TR-2 | 8EB
-  server: 38.54.105.74
-  port: 10574
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: QaAEn2qRqovBLfSIx2MGUQx50TBmOG3yRxRFN_VE01s
-    short-id: '37'
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-15 | 8EB
-  server: www.aisearch66.com
-  port: 11344
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: HIYCtNfDfR8DCroReH-6FRipAVO9XQI2TS_r4lKyNX0
-    short-id: d61bc31d737250
-  network: tcp
-- type: vless
-  name: 🇸🇦 SA-1 | 8EB
-  server: 154.205.134.4
-  port: 11344
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: HIYCtNfDfR8DCroReH-6FRipAVO9XQI2TS_r4lKyNX0
-    short-id: d61bc31d737250
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-16 | 8EB
-  server: www.aisearch66.com
-  port: 19350
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: rlv4tZSKrdgfV2vwCdspLThdjOhNGvuUMMARHbxNnHs
-    short-id: 9195fcf93a
-  network: tcp
-- type: vless
-  name: 🇰🇭 KH-1 | 8EB
-  server: 38.54.93.50
-  port: 19350
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: rlv4tZSKrdgfV2vwCdspLThdjOhNGvuUMMARHbxNnHs
-    short-id: 9195fcf93a
-  network: tcp
-- type: vless
-  name: 🇻🇳 VN-1 | 8EB
-  server: www.aisearch66.com
-  port: 14135
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: 4kg-LfTstNTAHOmGtT6cuvz0-7689qUkmTrXOOQtZQI
-    short-id: ae04
-  network: tcp
-- type: vless
-  name: 🇻🇳 VN-2 | 8EB
-  server: 123.31.24.135
-  port: 14135
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: 4kg-LfTstNTAHOmGtT6cuvz0-7689qUkmTrXOOQtZQI
-    short-id: ae04
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-17 | 8EB
-  server: www.aisearch66.com
-  port: 16218
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: UOm0J3F4jQCKZUJXU0roM9yhl7YwTcibxYgXnfY6kF8
-    short-id: 8bce
-  network: tcp
-- type: vless
-  name: 🇦🇷 AR-1 | 8EB
-  server: 149.104.76.218
-  port: 16218
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: UOm0J3F4jQCKZUJXU0roM9yhl7YwTcibxYgXnfY6kF8
-    short-id: 8bce
-  network: tcp
-- type: vless
-  name: 🇲🇾 MY-1 | 8EB
-  server: www.aisearch66.com
-  port: 10298
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: KZUlOnK6frAx_HFpwG0TGu-Lwhtu4507gIGNsLK-kko
-    short-id: d0b14a7f0c52
-  network: tcp
-- type: vless
-  name: 🇲🇾 MY-2 | 8EB
-  server: mlxytmp.deepfind.site
-  port: 10298
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: KZUlOnK6frAx_HFpwG0TGu-Lwhtu4507gIGNsLK-kko
-    short-id: d0b14a7f0c52
-  network: tcp
-- type: vless
-  name: 🇹🇼 TW-1 | 8EB
-  server: www.aisearch66.com
-  port: 60531
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: n4lBj6UGcj-O-SmvKXHC_uLtp0IyefVCVMVhPz6WsQg
-    short-id: 1be9ffe7d5
-  network: tcp
-- type: vless
-  name: 🇹🇼 TW-2 | 8EB
-  server: 210.79.155.98
-  port: 60011
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: n4lBj6UGcj-O-SmvKXHC_uLtp0IyefVCVMVhPz6WsQg
-    short-id: 1be9ffe7d5
-  network: tcp
-- type: vless
-  name: 🇨🇦 CA-1 | 8EB
-  server: www.aisearch66.com
-  port: 13058
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: 7nxuKa6wivZ-NvRpb9EERz-X-DFmo5-980GkuAau0nM
-    short-id: 2ae5a06c
-  network: tcp
-- type: vless
-  name: 🇨🇦 CA-2 | 8EB
-  server: 104.234.240.209
-  port: 16666
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: 7nxuKa6wivZ-NvRpb9EERz-X-DFmo5-980GkuAau0nM
-    short-id: 2ae5a06c
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-18 | 8EB
-  server: www.aisearch66.com
-  port: 14985
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: LBC_PDIjHFT6XEodHyLcNj9Px8PnsZDxVguWA5yvZQs
-    short-id: f2caf431b7
-  network: tcp
-- type: vless
-  name: 🇮🇩 ID-1 | 8EB
-  server: 103.115.164.151
-  port: 14985
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: LBC_PDIjHFT6XEodHyLcNj9Px8PnsZDxVguWA5yvZQs
-    short-id: f2caf431b7
-  network: tcp
-- type: vless
-  name: 🇮🇳 IN-1 | 8EB
-  server: www.aisearch66.com
-  port: 10587
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: w-BHssseWQhbWNe0Pr31-g5KJeQRabacgPpsqX4tGxY
-    short-id: 706e3cf0
-  network: tcp
-- type: vless
-  name: 🇮🇳 IN-2 | 8EB
-  server: 34.100.189.159
-  port: 443
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: w-BHssseWQhbWNe0Pr31-g5KJeQRabacgPpsqX4tGxY
-    short-id: 706e3cf0
-  network: tcp
-- type: vless
-  name: 🇯🇵 JP-19 | 8EB
-  server: www.aisearch66.com
-  port: 20246
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g
-    short-id: ac
-  network: tcp
-- type: vless
-  name: 🇧🇷 BR-1 | 8EB
-  server: 178.92.205.63
-  port: 11167
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: zrwJjaWEAfAZ3QCgnLnLoPE-edB_3wvKCqIz9maP02g
-    short-id: ac
-  network: tcp
-- type: vless
-  name: 🇸🇬 SG-5 | 8EB
-  server: www.aisearch66.com
-  port: 14592
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: LjGfW6X81U4RGmQX5KrlAmezzY8cn99qBu-kkGNLFVM
-    short-id: 0eb59680
+    public-key: Thx57ocixT-wpeK_mdnJaluVW6eAwhlMgglxgjxEmhs
+    short-id: 65557338e1cd5605
   network: tcp
 - type: vless
   name: 🇺🇸 US-7 | 8EB
-  server: 103.72.5.57
-  port: 16692
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  server: 31.77.7.122
+  port: 8443
+  uuid: 36cd557b-2b3d-46d3-8071-c77dd9cf7623
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: qq
+  servername: www.nokia.com
+  client-fingerprint: ios
   reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    public-key: TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs
+    short-id: 407f4d9be75efc56
   network: tcp
 - type: vless
-  name: 🇯🇵 JP-20 | 8EB
-  server: 103.72.5.57
-  port: 30249
-  uuid: d944a700-8c40-4fc1-9e50-20bd3e96bd8f
+  name: 🇺🇸 US-8 | 8EB
+  server: 31.77.7.122
+  port: 2087
+  uuid: 36cd557b-2b3d-46d3-8071-c77dd9cf7623
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.tesla.com
-  client-fingerprint: safari
+  servername: www.nokia.com
+  client-fingerprint: ios
   reality-opts:
-    public-key: o2uLRBkgcAPCavo12l6VUzaSnSmxjUvod-NBSiUPdy8
-    short-id: '85'
+    public-key: TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs
+    short-id: 407f4d9be75efc56
   network: tcp
+- type: trojan
+  name: 🇺🇸 US-9 | 8EB
+  server: 151.101.56.56
+  port: 443
+  password: MiTIVPN
+  skip-cert-verify: false
+  security: tls
+  sni: ssl.fastly.com
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ssl.fastly.com
+- type: vless
+  name: 🇺🇸 US-10 | 8EB
+  server: kz3.zuoai.cf
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇦🇲 AM-1 | 8EB
+  server: 2.56.204.183
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇦🇹 AT-1 | 8EB
+  server: 132.243.203.202
+  port: 8443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇦🇿 AZ-1 | 8EB
+  server: 94.20.154.66
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇧🇪 BE-1 | 8EB
+  server: 141.98.233.6
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇨🇱 CL-1 | 8EB
+  server: 64.176.9.246
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇩🇰 DK-1 | 8EB
+  server: 185.111.109.47
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇪🇪 EE-1 | 8EB
+  server: 109.206.241.16
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇫🇮 FI-1 | 8EB
+  server: 2.26.9.243
+  port: 3454
+  uuid: 5adaf80e-2347-481f-84cb-46109d582c95
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Bz2EFAfox-uD9nn8qAVKy86A1kDKO2OpYQhMO4fCrCg
+    short-id: 159b4efc
+  network: grpc
+  grpc-opts:
+    grpc-service-name: google.android.location.SyncService
+  serviceName: google.android.location.SyncService
+  mode: gun
+- type: vless
+  name: 🇫🇮 FI-2 | 8EB
+  server: 103.71.22.234
+  port: 8443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇮🇱 IL-1 | 8EB
+  server: 185.162.127.54
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇮🇱 IL-2 | 8EB
+  server: 185.253.75.119
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇰🇿 KZ-2 | 8EB
+  server: 104.238.24.152
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇰🇿 KZ-3 | 8EB
+  server: 109.248.18.121
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇰🇬 KG-1 | 8EB
+  server: 188.240.213.98
+  port: 2053
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇱🇹 LT-1 | 8EB
+  server: 144.31.243.69
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇲🇽 MX-1 | 8EB
+  server: 216.238.80.148
+  port: 8443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇲🇰 MK-1 | 8EB
+  server: 89.185.82.188
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇳🇴 NO-1 | 8EB
+  server: 185.125.171.128
+  port: 8443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇷🇸 RS-1 | 8EB
+  server: 185.105.108.92
+  port: 8443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇪🇸 ES-1 | 8EB
+  server: 152.114.195.163
+  port: 8443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇫🇮 FI-3 | 8EB
+  server: 109.120.134.243
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇨🇭 CH-1 | 8EB
+  server: 103.63.30.163
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇨🇭 CH-2 | 8EB
+  server: 103.63.30.73
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: vless
+  name: 🇫🇮 FI-4 | 8EB
+  server: 103.71.23.244
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- type: ss
+  name: 🇲🇾 MY-2 | 8EB
+  server: 130.61.151.93
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: jcGrOPLXBqRT+ZnVbhom8HavJ2p5MkyjZdyxfkOzgLY=
+  udp: true
+- type: vless
+  name: 🇲🇾 MY-3 | 8EB
+  server: 172.64.79.241
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: cdn8848.776676.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pics?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+- type: vless
+  name: 🇲🇾 MY-4 | 8EB
+  server: 31.185.108.223
+  port: 443
+  uuid: Telegramid%3ADaredevil_404
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: daredevil2.manufacturingcity.ir
+  client-fingerprint: chrome
+  network: xhttp
+  mode: auto
+  extra: '{"xPaddingBytes":"100-1000"}'
 - type: anytls
   name: 🇯🇵 JP-1 | 9PB
-  server: dsc64n6c.zf-mix-01.9999231.xyz
+  server: 7pd3d65c.zf-mix-01.9999231.xyz
   port: 1001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1072,7 +998,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇳 CN-1 | 9PB
-  server: optc4as0.zf-mix-02.9999231.xyz
+  server: pz5lll4k.zf-mix-02.9999231.xyz
   port: 1001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1081,7 +1007,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇳 CN-2 | 9PB
-  server: 0qbv5s3u.zf-jp-01.9999231.xyz
+  server: 7gca66pd.zf-jp-01.9999231.xyz
   port: 1001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1090,7 +1016,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇳 CN-3 | 9PB
-  server: hg6a1hsq.zf-jp-02.9999231.xyz
+  server: 8f2p4if8.zf-jp-02.9999231.xyz
   port: 1001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1099,7 +1025,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇳 CN-4 | 9PB
-  server: x3hcw78j.zf-jp-03.9999231.xyz
+  server: 1cbkwvgg.zf-jp-03.9999231.xyz
   port: 1001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1108,7 +1034,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇨🇳 CN-5 | 9PB
-  server: 3fyey05i.zf-mix-01.9999231.xyz
+  server: fk0w53sm.zf-mix-01.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1117,7 +1043,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-6 | 9PB
-  server: lnxh2gp9.zf-mix-02.9999231.xyz
+  server: nk702vkj.zf-mix-02.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1126,7 +1052,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-7 | 9PB
-  server: 1et540sk.zf-jp-01.9999231.xyz
+  server: 63qzww3m.zf-jp-01.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1135,7 +1061,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-8 | 9PB
-  server: m7krl818.zf-jp-02.9999231.xyz
+  server: r2v9l14q.zf-jp-02.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1144,7 +1070,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-9 | 9PB
-  server: 2awpbgrv.zf-jp-03.9999231.xyz
+  server: mzg0f3er.zf-jp-03.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1153,7 +1079,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇺🇸 US-1 | 9PB
-  server: 5x8wv1ax.zf-jp-01.9999231.xyz
+  server: 61bpjfex.zf-jp-01.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1162,7 +1088,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-2 | 9PB
-  server: kysq3xtt.zf-jp-02.9999231.xyz
+  server: oz9jv4p7.zf-jp-02.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1171,7 +1097,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-3 | 9PB
-  server: 8ifk3qqr.zf-jp-03.9999231.xyz
+  server: ob30a2bp.zf-jp-03.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1180,7 +1106,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-4 | 9PB
-  server: 3igfyp0s.zf-mix-01.9999231.xyz
+  server: n0sj5lr9.zf-mix-01.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1189,7 +1115,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-5 | 9PB
-  server: 864jrhhc.zf-mix-02.9999231.xyz
+  server: ix2z86jt.zf-mix-02.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1198,7 +1124,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇺🇸 US-6 | 9PB
-  server: bhjxgm7v.zf-jp-01.9999231.xyz
+  server: ywe71oqn.zf-jp-01.9999231.xyz
   port: 2002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1208,7 +1134,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-7 | 9PB
-  server: 2rf2mi6w.zf-jp-02.9999231.xyz
+  server: fy5dt19u.zf-jp-02.9999231.xyz
   port: 2002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1218,7 +1144,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-8 | 9PB
-  server: 6tdo03m0.zf-jp-03.9999231.xyz
+  server: 1e1goks8.zf-jp-03.9999231.xyz
   port: 2002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1228,7 +1154,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-9 | 9PB
-  server: 11mqwn0s.zf-mix-01.9999231.xyz
+  server: c6tljkwg.zf-mix-01.9999231.xyz
   port: 2002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1238,7 +1164,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-10 | 9PB
-  server: urdjyxu6.zf-mix-02.9999231.xyz
+  server: k8xx805h.zf-mix-02.9999231.xyz
   port: 2002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1248,7 +1174,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇨🇳 CN-10 | 9PB
-  server: xnk3ewer.zf-jp-01.9999231.xyz
+  server: c111cps4.zf-jp-01.9999231.xyz
   port: 1003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1257,7 +1183,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇳 CN-11 | 9PB
-  server: daax7ltl.zf-jp-02.9999231.xyz
+  server: 2b0jjhw3.zf-jp-02.9999231.xyz
   port: 1003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1266,7 +1192,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇳 CN-12 | 9PB
-  server: uawga3fy.zf-jp-03.9999231.xyz
+  server: 9uvbmus9.zf-jp-03.9999231.xyz
   port: 1003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1275,7 +1201,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇳 CN-13 | 9PB
-  server: eyb5ysab.zf-mix-01.9999231.xyz
+  server: eanihbr2.zf-mix-01.9999231.xyz
   port: 1003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1284,7 +1210,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇳 CN-14 | 9PB
-  server: teb0w092.zf-mix-02.9999231.xyz
+  server: yz2cvrv6.zf-mix-02.9999231.xyz
   port: 1003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1293,7 +1219,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇨🇳 CN-15 | 9PB
-  server: 8zlz8zi8.zf-jp-01.9999231.xyz
+  server: w47zazsq.zf-jp-01.9999231.xyz
   port: 2003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1302,7 +1228,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-16 | 9PB
-  server: j64c5dev.zf-jp-02.9999231.xyz
+  server: mw5gm8ti.zf-jp-02.9999231.xyz
   port: 2003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1311,7 +1237,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-17 | 9PB
-  server: xxtn06lu.zf-jp-03.9999231.xyz
+  server: k0eu1x5m.zf-jp-03.9999231.xyz
   port: 2003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1320,7 +1246,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-18 | 9PB
-  server: j45og91f.zf-mix-01.9999231.xyz
+  server: 4ogh5isc.zf-mix-01.9999231.xyz
   port: 2003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1329,7 +1255,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-19 | 9PB
-  server: t6yxgn07.zf-mix-02.9999231.xyz
+  server: x7clj1jf.zf-mix-02.9999231.xyz
   port: 2003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1338,7 +1264,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇯🇵 JP-2 | 9PB
-  server: mdf4zcg1.zf-jp-01.9999231.xyz
+  server: 0a8j1fia.zf-jp-01.9999231.xyz
   port: 1004
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1347,7 +1273,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇯🇵 JP-3 | 9PB
-  server: 0z4w5vgv.zf-jp-02.9999231.xyz
+  server: i2820qrv.zf-jp-02.9999231.xyz
   port: 1004
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1356,7 +1282,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇯🇵 JP-4 | 9PB
-  server: cqx91k2i.zf-jp-03.9999231.xyz
+  server: y4gtdvuw.zf-jp-03.9999231.xyz
   port: 1004
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1365,7 +1291,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇯🇵 JP-5 | 9PB
-  server: ohilgt8l.zf-mix-01.9999231.xyz
+  server: xfyg7yfp.zf-mix-01.9999231.xyz
   port: 1004
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1374,7 +1300,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇯🇵 JP-6 | 9PB
-  server: b3rqwbts.zf-mix-02.9999231.xyz
+  server: 9yhfjuug.zf-mix-02.9999231.xyz
   port: 1004
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1383,7 +1309,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇯🇵 JP-7 | 9PB
-  server: 3x1fshk3.zf-jp-01.9999231.xyz
+  server: dzho9fdo.zf-jp-01.9999231.xyz
   port: 2004
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1392,7 +1318,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇯🇵 JP-8 | 9PB
-  server: 4o6cmqcj.zf-jp-02.9999231.xyz
+  server: 8lpyiliz.zf-jp-02.9999231.xyz
   port: 2004
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1401,7 +1327,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇯🇵 JP-9 | 9PB
-  server: le4cg252.zf-jp-03.9999231.xyz
+  server: rc8tky1f.zf-jp-03.9999231.xyz
   port: 2004
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1410,7 +1336,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇯🇵 JP-10 | 9PB
-  server: jv53j1oz.zf-mix-01.9999231.xyz
+  server: 4fout08s.zf-mix-01.9999231.xyz
   port: 2004
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1419,7 +1345,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇯🇵 JP-11 | 9PB
-  server: 56do49fl.zf-mix-02.9999231.xyz
+  server: pqvey2t9.zf-mix-02.9999231.xyz
   port: 2004
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1428,7 +1354,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇻🇳 VN-1 | 9PB
-  server: yh997wun.zf-jp-01.9999231.xyz
+  server: ck4epu3z.zf-jp-01.9999231.xyz
   port: 1007
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1437,7 +1363,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇻🇳 VN-2 | 9PB
-  server: 7achrx6r.zf-jp-02.9999231.xyz
+  server: u5sqxnfq.zf-jp-02.9999231.xyz
   port: 1007
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1446,7 +1372,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇻🇳 VN-3 | 9PB
-  server: jfpqmvu6.zf-jp-03.9999231.xyz
+  server: h5y27ptc.zf-jp-03.9999231.xyz
   port: 1007
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1455,7 +1381,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇻🇳 VN-4 | 9PB
-  server: t178untx.zf-mix-01.9999231.xyz
+  server: v4ggx9uq.zf-mix-01.9999231.xyz
   port: 1007
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1464,7 +1390,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇻🇳 VN-5 | 9PB
-  server: kq7fdw90.zf-mix-02.9999231.xyz
+  server: 9ntfwn2r.zf-mix-02.9999231.xyz
   port: 1007
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1473,7 +1399,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇻🇳 VN-6 | 9PB
-  server: ixg5epvz.zf-jp-01.9999231.xyz
+  server: 21o5yhnx.zf-jp-01.9999231.xyz
   port: 2007
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1482,7 +1408,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇻🇳 VN-7 | 9PB
-  server: 90li85n0.zf-jp-02.9999231.xyz
+  server: 2ew2x8z4.zf-jp-02.9999231.xyz
   port: 2007
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1491,7 +1417,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇻🇳 VN-8 | 9PB
-  server: l81ostmq.zf-jp-03.9999231.xyz
+  server: 7bdwmk6b.zf-jp-03.9999231.xyz
   port: 2007
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1500,7 +1426,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇻🇳 VN-9 | 9PB
-  server: r47oomkg.zf-mix-01.9999231.xyz
+  server: q1mnq5sp.zf-mix-01.9999231.xyz
   port: 2007
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1509,7 +1435,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇻🇳 VN-10 | 9PB
-  server: y1b0fp71.zf-mix-02.9999231.xyz
+  server: tm6opiwk.zf-mix-02.9999231.xyz
   port: 2007
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1518,7 +1444,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇺🇸 US-11 | 9PB
-  server: nt45zfgq.zf-jp-01.9999231.xyz
+  server: gyc9sya3.zf-jp-01.9999231.xyz
   port: 1008
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1527,7 +1453,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-12 | 9PB
-  server: 3lnyu0w9.zf-jp-02.9999231.xyz
+  server: m5tn5hy4.zf-jp-02.9999231.xyz
   port: 1008
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1536,7 +1462,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-13 | 9PB
-  server: 6lv02n4a.zf-jp-03.9999231.xyz
+  server: ad3eydv8.zf-jp-03.9999231.xyz
   port: 1008
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1545,7 +1471,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-14 | 9PB
-  server: 853fupp3.zf-mix-01.9999231.xyz
+  server: drtu4ne6.zf-mix-01.9999231.xyz
   port: 1008
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1554,7 +1480,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-15 | 9PB
-  server: xjgjau50.zf-mix-02.9999231.xyz
+  server: eblrz6a4.zf-mix-02.9999231.xyz
   port: 1008
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1563,7 +1489,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇺🇸 US-16 | 9PB
-  server: eous7oy1.zf-jp-01.9999231.xyz
+  server: 7aoyzlwq.zf-jp-01.9999231.xyz
   port: 2008
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1572,7 +1498,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-17 | 9PB
-  server: r4yce2mk.zf-jp-02.9999231.xyz
+  server: 0qkv86ro.zf-jp-02.9999231.xyz
   port: 2008
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1581,7 +1507,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-18 | 9PB
-  server: c162sv00.zf-jp-03.9999231.xyz
+  server: 3ium2ylc.zf-jp-03.9999231.xyz
   port: 2008
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1590,7 +1516,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-19 | 9PB
-  server: 4vzlawuo.zf-mix-01.9999231.xyz
+  server: v8w7jffe.zf-mix-01.9999231.xyz
   port: 2008
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1599,7 +1525,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-20 | 9PB
-  server: kv5xnssj.zf-mix-02.9999231.xyz
+  server: d2tz1n3u.zf-mix-02.9999231.xyz
   port: 2008
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1608,7 +1534,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇨🇦 CA-1 | 9PB
-  server: 2sy4mrjn.zf-jp-01.9999231.xyz
+  server: 8cuce28d.zf-jp-01.9999231.xyz
   port: 1009
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1617,7 +1543,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇦 CA-2 | 9PB
-  server: 5wqlqx1m.zf-jp-02.9999231.xyz
+  server: orye2afj.zf-jp-02.9999231.xyz
   port: 1009
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1626,7 +1552,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇦 CA-3 | 9PB
-  server: wtpct71j.zf-jp-03.9999231.xyz
+  server: esq8egst.zf-jp-03.9999231.xyz
   port: 1009
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1635,7 +1561,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇦 CA-4 | 9PB
-  server: yei5v4sm.zf-mix-01.9999231.xyz
+  server: h122rz4i.zf-mix-01.9999231.xyz
   port: 1009
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1644,7 +1570,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇦 CA-5 | 9PB
-  server: 01kabftv.zf-mix-02.9999231.xyz
+  server: js4sv72w.zf-mix-02.9999231.xyz
   port: 1009
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1653,7 +1579,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇨🇦 CA-6 | 9PB
-  server: omsusao9.zf-jp-01.9999231.xyz
+  server: 3xoxu6n0.zf-jp-01.9999231.xyz
   port: 2009
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1662,7 +1588,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-7 | 9PB
-  server: 4xqm8lzm.zf-jp-02.9999231.xyz
+  server: 61d0qrfd.zf-jp-02.9999231.xyz
   port: 2009
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1671,7 +1597,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-8 | 9PB
-  server: jgmyarx7.zf-jp-03.9999231.xyz
+  server: n3mss1ig.zf-jp-03.9999231.xyz
   port: 2009
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1680,7 +1606,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-9 | 9PB
-  server: m5kluth1.zf-mix-01.9999231.xyz
+  server: ii039rwe.zf-mix-01.9999231.xyz
   port: 2009
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1689,7 +1615,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-10 | 9PB
-  server: iu43lx6v.zf-mix-02.9999231.xyz
+  server: r9xuzdyu.zf-mix-02.9999231.xyz
   port: 2009
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1698,7 +1624,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇹🇷 TR-1 | 9PB
-  server: 8jlv2l3x.zf-jp-01.9999231.xyz
+  server: kf33xlo3.zf-jp-01.9999231.xyz
   port: 1010
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1707,7 +1633,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇷 TR-2 | 9PB
-  server: x48kik04.zf-jp-02.9999231.xyz
+  server: 725xn5hg.zf-jp-02.9999231.xyz
   port: 1010
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1716,7 +1642,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇷 TR-3 | 9PB
-  server: wgdgj45d.zf-jp-03.9999231.xyz
+  server: 1bbqjfjs.zf-jp-03.9999231.xyz
   port: 1010
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1725,7 +1651,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇷 TR-4 | 9PB
-  server: kp6g2v3s.zf-mix-01.9999231.xyz
+  server: b3hnh51l.zf-mix-01.9999231.xyz
   port: 1010
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1734,7 +1660,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇷 TR-5 | 9PB
-  server: fzpx4qvb.zf-mix-02.9999231.xyz
+  server: gh1fmyje.zf-mix-02.9999231.xyz
   port: 1010
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1743,7 +1669,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇹🇷 TR-6 | 9PB
-  server: 15qny716.zf-jp-01.9999231.xyz
+  server: gpdrnl4c.zf-jp-01.9999231.xyz
   port: 2010
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1752,7 +1678,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇷 TR-7 | 9PB
-  server: 0cx82g71.zf-jp-02.9999231.xyz
+  server: yb4yvdlu.zf-jp-02.9999231.xyz
   port: 2010
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1761,7 +1687,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇷 TR-8 | 9PB
-  server: gctt49sv.zf-jp-03.9999231.xyz
+  server: 2vkicko4.zf-jp-03.9999231.xyz
   port: 2010
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1770,7 +1696,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇷 TR-9 | 9PB
-  server: f4hh0etm.zf-mix-01.9999231.xyz
+  server: 4z7wmd15.zf-mix-01.9999231.xyz
   port: 2010
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1779,7 +1705,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇷 TR-10 | 9PB
-  server: taczq0d1.zf-mix-02.9999231.xyz
+  server: abbftf3w.zf-mix-02.9999231.xyz
   port: 2010
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1788,7 +1714,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇫🇷 FR-1 | 9PB
-  server: k2s3poue.zf-jp-01.9999231.xyz
+  server: wvilcrm6.zf-jp-01.9999231.xyz
   port: 1012
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1797,7 +1723,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇫🇷 FR-2 | 9PB
-  server: x12ko1cn.zf-jp-02.9999231.xyz
+  server: twhh4si1.zf-jp-02.9999231.xyz
   port: 1012
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1806,7 +1732,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇫🇷 FR-3 | 9PB
-  server: 77weq1x5.zf-jp-03.9999231.xyz
+  server: ug2g7c0u.zf-jp-03.9999231.xyz
   port: 1012
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1815,7 +1741,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇫🇷 FR-4 | 9PB
-  server: 42palv72.zf-mix-01.9999231.xyz
+  server: kdj8fcv8.zf-mix-01.9999231.xyz
   port: 1012
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1824,7 +1750,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇫🇷 FR-5 | 9PB
-  server: aafj0bqj.zf-mix-02.9999231.xyz
+  server: jp0lgyod.zf-mix-02.9999231.xyz
   port: 1012
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1833,7 +1759,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇫🇷 FR-6 | 9PB
-  server: 6muq5tmr.zf-jp-01.9999231.xyz
+  server: oy6kxcn8.zf-jp-01.9999231.xyz
   port: 2012
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1842,7 +1768,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇫🇷 FR-7 | 9PB
-  server: t3728802.zf-jp-02.9999231.xyz
+  server: eey7lqah.zf-jp-02.9999231.xyz
   port: 2012
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1851,7 +1777,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇫🇷 FR-8 | 9PB
-  server: rkdxb05g.zf-jp-03.9999231.xyz
+  server: 7z7xq2n7.zf-jp-03.9999231.xyz
   port: 2012
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1860,7 +1786,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇫🇷 FR-9 | 9PB
-  server: rd5flhb4.zf-mix-01.9999231.xyz
+  server: hm3elr8v.zf-mix-01.9999231.xyz
   port: 2012
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1869,7 +1795,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇫🇷 FR-10 | 9PB
-  server: 0cliuh0u.zf-mix-02.9999231.xyz
+  server: 9k7fiexr.zf-mix-02.9999231.xyz
   port: 2012
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1878,7 +1804,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇺🇦 UA-1 | 9PB
-  server: w13j2z85.zf-jp-01.9999231.xyz
+  server: 5iyiiegq.zf-jp-01.9999231.xyz
   port: 1013
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1887,7 +1813,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇦 UA-2 | 9PB
-  server: 3ew6jxwb.zf-jp-02.9999231.xyz
+  server: ubnylhq0.zf-jp-02.9999231.xyz
   port: 1013
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1896,7 +1822,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇦 UA-3 | 9PB
-  server: 4t7bhhv4.zf-jp-03.9999231.xyz
+  server: 53rkrreq.zf-jp-03.9999231.xyz
   port: 1013
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1905,7 +1831,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇦 UA-4 | 9PB
-  server: crad7cwg.zf-mix-01.9999231.xyz
+  server: phv4rnbg.zf-mix-01.9999231.xyz
   port: 1013
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1914,7 +1840,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇦 UA-5 | 9PB
-  server: y71eijo8.zf-mix-02.9999231.xyz
+  server: h2b7obah.zf-mix-02.9999231.xyz
   port: 1013
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1923,7 +1849,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇺🇦 UA-6 | 9PB
-  server: p3lp95mf.zf-jp-01.9999231.xyz
+  server: xmh9ul5y.zf-jp-01.9999231.xyz
   port: 2013
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1932,7 +1858,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇦 UA-7 | 9PB
-  server: 077t5zdq.zf-jp-02.9999231.xyz
+  server: 49mk8tw6.zf-jp-02.9999231.xyz
   port: 2013
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1941,7 +1867,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇦 UA-8 | 9PB
-  server: 6bkkh6ns.zf-jp-03.9999231.xyz
+  server: 2wq9o67o.zf-jp-03.9999231.xyz
   port: 2013
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1950,7 +1876,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇦 UA-9 | 9PB
-  server: 4t462bvm.zf-mix-01.9999231.xyz
+  server: yhwa5bqy.zf-mix-01.9999231.xyz
   port: 2013
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1959,7 +1885,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇦 UA-10 | 9PB
-  server: p410tpd4.zf-mix-02.9999231.xyz
+  server: bsndo6bw.zf-mix-02.9999231.xyz
   port: 2013
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1968,7 +1894,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇲🇰 MK-1 | 9PB
-  server: f3gg6xxg.zf-jp-01.9999231.xyz
+  server: t55saena.zf-jp-01.9999231.xyz
   port: 1014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1977,7 +1903,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇲🇰 MK-2 | 9PB
-  server: edk86eja.zf-jp-02.9999231.xyz
+  server: kbm6mpxk.zf-jp-02.9999231.xyz
   port: 1014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1986,7 +1912,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇲🇰 MK-3 | 9PB
-  server: hn3zuqox.zf-jp-03.9999231.xyz
+  server: os0beqf0.zf-jp-03.9999231.xyz
   port: 1014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1995,7 +1921,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇲🇰 MK-4 | 9PB
-  server: 5gdidr62.zf-mix-01.9999231.xyz
+  server: arqty2bx.zf-mix-01.9999231.xyz
   port: 1014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2004,7 +1930,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇲🇰 MK-5 | 9PB
-  server: tcrod24s.zf-mix-02.9999231.xyz
+  server: hv54qhov.zf-mix-02.9999231.xyz
   port: 1014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2013,7 +1939,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇲🇰 MK-6 | 9PB
-  server: 1cuih76g.zf-jp-01.9999231.xyz
+  server: axb2c7q4.zf-jp-01.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2022,7 +1948,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇲🇰 MK-7 | 9PB
-  server: 0lefwmrb.zf-jp-02.9999231.xyz
+  server: n1bvbq1f.zf-jp-02.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2031,7 +1957,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇲🇰 MK-8 | 9PB
-  server: 3r89cbx9.zf-jp-03.9999231.xyz
+  server: k64w4sb1.zf-jp-03.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2040,7 +1966,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇲🇰 MK-9 | 9PB
-  server: i7uzv814.zf-mix-01.9999231.xyz
+  server: j6whv8ax.zf-mix-01.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2049,7 +1975,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇲🇰 MK-10 | 9PB
-  server: r4jet17u.zf-mix-02.9999231.xyz
+  server: it2mi63t.zf-mix-02.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2058,7 +1984,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇮🇩 ID-1 | 9PB
-  server: 5qa37jjo.zf-jp-01.9999231.xyz
+  server: uuojp020.zf-jp-01.9999231.xyz
   port: 1015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2067,7 +1993,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇩 ID-2 | 9PB
-  server: cqhhwtw6.zf-jp-02.9999231.xyz
+  server: dwzyb4mb.zf-jp-02.9999231.xyz
   port: 1015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2076,7 +2002,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇩 ID-3 | 9PB
-  server: 7gkw1xx5.zf-jp-03.9999231.xyz
+  server: 8gxxo7hb.zf-jp-03.9999231.xyz
   port: 1015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2085,7 +2011,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇩 ID-4 | 9PB
-  server: 5gduyx2q.zf-mix-01.9999231.xyz
+  server: jnuwrzz5.zf-mix-01.9999231.xyz
   port: 1015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2094,7 +2020,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇩 ID-5 | 9PB
-  server: 7k5k44nd.zf-mix-02.9999231.xyz
+  server: 1l7puj9e.zf-mix-02.9999231.xyz
   port: 1015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2103,7 +2029,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇮🇩 ID-6 | 9PB
-  server: ph4lljdr.zf-jp-01.9999231.xyz
+  server: gzbo91u0.zf-jp-01.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2112,7 +2038,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇩 ID-7 | 9PB
-  server: eopj7v4a.zf-jp-02.9999231.xyz
+  server: vza7s4zk.zf-jp-02.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2121,7 +2047,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇩 ID-8 | 9PB
-  server: vyn5l9lu.zf-jp-03.9999231.xyz
+  server: gaegemg2.zf-jp-03.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2130,7 +2056,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇩 ID-9 | 9PB
-  server: 8v5fmdkd.zf-mix-01.9999231.xyz
+  server: bp31uimz.zf-mix-01.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2139,7 +2065,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇩 ID-10 | 9PB
-  server: ccy33cge.zf-mix-02.9999231.xyz
+  server: 5lnbts5y.zf-mix-02.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2148,7 +2074,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇪🇬 EG-1 | 9PB
-  server: a7rc76f5.zf-jp-01.9999231.xyz
+  server: mif44bhy.zf-jp-01.9999231.xyz
   port: 1016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2157,7 +2083,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇪🇬 EG-2 | 9PB
-  server: yr49fjhj.zf-jp-02.9999231.xyz
+  server: dsa2b4xi.zf-jp-02.9999231.xyz
   port: 1016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2166,7 +2092,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇪🇬 EG-3 | 9PB
-  server: yn8w194a.zf-jp-03.9999231.xyz
+  server: l499tg4b.zf-jp-03.9999231.xyz
   port: 1016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2175,7 +2101,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇪🇬 EG-4 | 9PB
-  server: sro6r8gz.zf-mix-01.9999231.xyz
+  server: rqvepk4s.zf-mix-01.9999231.xyz
   port: 1016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2184,7 +2110,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇪🇬 EG-5 | 9PB
-  server: sudz64bn.zf-mix-02.9999231.xyz
+  server: 7fox2hta.zf-mix-02.9999231.xyz
   port: 1016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2193,7 +2119,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇪🇬 EG-6 | 9PB
-  server: 7m3w1a4u.zf-jp-01.9999231.xyz
+  server: 7uhl3my1.zf-jp-01.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2202,7 +2128,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇬 EG-7 | 9PB
-  server: r55wz9ot.zf-jp-02.9999231.xyz
+  server: 9i9v8itv.zf-jp-02.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2211,7 +2137,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇬 EG-8 | 9PB
-  server: 1rso0kok.zf-jp-03.9999231.xyz
+  server: 6xt7mdoe.zf-jp-03.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2220,7 +2146,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇬 EG-9 | 9PB
-  server: ej1ri86s.zf-mix-01.9999231.xyz
+  server: d9nz4uaz.zf-mix-01.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2229,7 +2155,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇬 EG-10 | 9PB
-  server: lgnd92en.zf-mix-02.9999231.xyz
+  server: jcjy0l00.zf-mix-02.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2238,7 +2164,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇧🇷 BR-1 | 9PB
-  server: jb1x6fe2.zf-jp-01.9999231.xyz
+  server: h673wus9.zf-jp-01.9999231.xyz
   port: 1017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2247,7 +2173,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇧🇷 BR-2 | 9PB
-  server: yfk02k0x.zf-jp-02.9999231.xyz
+  server: ko5mevy4.zf-jp-02.9999231.xyz
   port: 1017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2256,7 +2182,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇧🇷 BR-3 | 9PB
-  server: 4286o5py.zf-jp-03.9999231.xyz
+  server: 8tef434u.zf-jp-03.9999231.xyz
   port: 1017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2265,7 +2191,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇧🇷 BR-4 | 9PB
-  server: qh30uy72.zf-mix-01.9999231.xyz
+  server: s7dye545.zf-mix-01.9999231.xyz
   port: 1017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2274,7 +2200,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇧🇷 BR-5 | 9PB
-  server: oa208kyd.zf-mix-02.9999231.xyz
+  server: uzrqg8uf.zf-mix-02.9999231.xyz
   port: 1017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2283,7 +2209,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇧🇷 BR-6 | 9PB
-  server: i21rmgrq.zf-jp-01.9999231.xyz
+  server: 8q5s5sw1.zf-jp-01.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2292,7 +2218,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇧🇷 BR-7 | 9PB
-  server: 2uhkgeno.zf-jp-02.9999231.xyz
+  server: kvb58fu2.zf-jp-02.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2301,7 +2227,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇧🇷 BR-8 | 9PB
-  server: g5ub6a5u.zf-jp-03.9999231.xyz
+  server: bnvxcb14.zf-jp-03.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2310,7 +2236,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇧🇷 BR-9 | 9PB
-  server: 4tzuzl2p.zf-mix-01.9999231.xyz
+  server: ae83qung.zf-mix-01.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2319,7 +2245,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇧🇷 BR-10 | 9PB
-  server: k41ldfz3.zf-mix-02.9999231.xyz
+  server: 6pb73atd.zf-mix-02.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2328,7 +2254,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇹🇭 TH-1 | 9PB
-  server: 5dvo554e.zf-jp-01.9999231.xyz
+  server: 9cocfsu9.zf-jp-01.9999231.xyz
   port: 1018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2337,7 +2263,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇭 TH-2 | 9PB
-  server: zbxk3as1.zf-jp-02.9999231.xyz
+  server: 08fpejsg.zf-jp-02.9999231.xyz
   port: 1018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2346,7 +2272,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇭 TH-3 | 9PB
-  server: yu73k81u.zf-jp-03.9999231.xyz
+  server: mkvri4y2.zf-jp-03.9999231.xyz
   port: 1018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2355,7 +2281,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇭 TH-4 | 9PB
-  server: hzbghf0y.zf-mix-01.9999231.xyz
+  server: nyne1qp2.zf-mix-01.9999231.xyz
   port: 1018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2364,7 +2290,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇭 TH-5 | 9PB
-  server: wefc7f79.zf-mix-02.9999231.xyz
+  server: v8pashkx.zf-mix-02.9999231.xyz
   port: 1018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2373,7 +2299,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇹🇭 TH-6 | 9PB
-  server: 1csu3rj0.zf-jp-01.9999231.xyz
+  server: nentq1zs.zf-jp-01.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2382,7 +2308,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇭 TH-7 | 9PB
-  server: oznrpb5u.zf-jp-02.9999231.xyz
+  server: z7udn4qu.zf-jp-02.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2391,7 +2317,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇭 TH-8 | 9PB
-  server: kw3w78fd.zf-jp-03.9999231.xyz
+  server: psme11m8.zf-jp-03.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2400,7 +2326,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇭 TH-9 | 9PB
-  server: 6dqlkz61.zf-mix-01.9999231.xyz
+  server: kgv5dz41.zf-mix-01.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2409,7 +2335,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇭 TH-10 | 9PB
-  server: 0dh0cq0q.zf-mix-02.9999231.xyz
+  server: dbgxni3s.zf-mix-02.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2418,7 +2344,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇵🇱 PL-1 | 9PB
-  server: m5jd6cav.zf-jp-01.9999231.xyz
+  server: re6bx71q.zf-jp-01.9999231.xyz
   port: 1019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2427,7 +2353,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇵🇱 PL-2 | 9PB
-  server: 27keqmt2.zf-jp-02.9999231.xyz
+  server: xl7nw0kt.zf-jp-02.9999231.xyz
   port: 1019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2436,7 +2362,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇵🇱 PL-3 | 9PB
-  server: yzi24k6j.zf-jp-03.9999231.xyz
+  server: 2wkgnl3y.zf-jp-03.9999231.xyz
   port: 1019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2445,7 +2371,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇵🇱 PL-4 | 9PB
-  server: cse59emy.zf-mix-01.9999231.xyz
+  server: 9czv5m0k.zf-mix-01.9999231.xyz
   port: 1019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2454,7 +2380,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇵🇱 PL-5 | 9PB
-  server: fyhd2f5o.zf-mix-02.9999231.xyz
+  server: bz8s4kge.zf-mix-02.9999231.xyz
   port: 1019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2463,7 +2389,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇵🇱 PL-6 | 9PB
-  server: oq600yvf.zf-jp-01.9999231.xyz
+  server: 4i9vit6j.zf-jp-01.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2472,7 +2398,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇵🇱 PL-7 | 9PB
-  server: 1teg4bu5.zf-jp-02.9999231.xyz
+  server: orkunfk0.zf-jp-02.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2481,7 +2407,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇵🇱 PL-8 | 9PB
-  server: k4uq36sl.zf-jp-03.9999231.xyz
+  server: hrj0vghq.zf-jp-03.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2490,7 +2416,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇵🇱 PL-9 | 9PB
-  server: qha55dgf.zf-mix-01.9999231.xyz
+  server: fvafliw9.zf-mix-01.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2499,7 +2425,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇵🇱 PL-10 | 9PB
-  server: vw9m8ofk.zf-mix-02.9999231.xyz
+  server: wb9hs47o.zf-mix-02.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2508,7 +2434,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇸🇪 SE-1 | 9PB
-  server: 86pi3frt.zf-jp-01.9999231.xyz
+  server: n4y3sckl.zf-jp-01.9999231.xyz
   port: 1020
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2517,7 +2443,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇪 SE-2 | 9PB
-  server: g8i7kcka.zf-jp-02.9999231.xyz
+  server: xfxu3o7n.zf-jp-02.9999231.xyz
   port: 1020
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2526,7 +2452,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇪 SE-3 | 9PB
-  server: 33xrru78.zf-jp-03.9999231.xyz
+  server: 2cuvh2op.zf-jp-03.9999231.xyz
   port: 1020
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2535,7 +2461,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇪 SE-4 | 9PB
-  server: w29cqnps.zf-mix-01.9999231.xyz
+  server: jfchch6g.zf-mix-01.9999231.xyz
   port: 1020
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2544,7 +2470,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇪 SE-5 | 9PB
-  server: qtsni7v3.zf-mix-02.9999231.xyz
+  server: pkbnm2no.zf-mix-02.9999231.xyz
   port: 1020
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2553,7 +2479,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇸🇪 SE-6 | 9PB
-  server: jjx91fdl.zf-jp-01.9999231.xyz
+  server: no4l8s0t.zf-jp-01.9999231.xyz
   port: 2020
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2562,7 +2488,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇪 SE-7 | 9PB
-  server: ysf1pp4i.zf-jp-02.9999231.xyz
+  server: ir9v86uy.zf-jp-02.9999231.xyz
   port: 2020
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2571,7 +2497,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇪 SE-8 | 9PB
-  server: 5u9i8lun.zf-jp-03.9999231.xyz
+  server: awwvy7cg.zf-jp-03.9999231.xyz
   port: 2020
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2580,7 +2506,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇪 SE-9 | 9PB
-  server: 1sqhw423.zf-mix-01.9999231.xyz
+  server: jbluh1rk.zf-mix-01.9999231.xyz
   port: 2020
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2589,7 +2515,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇪 SE-10 | 9PB
-  server: ardfzgt6.zf-mix-02.9999231.xyz
+  server: x6qo4mpj.zf-mix-02.9999231.xyz
   port: 2020
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2598,7 +2524,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇺🇸 US-21 | 9PB
-  server: 4vr0adbh.zf-jp-01.9999231.xyz
+  server: eg5zpijv.zf-jp-01.9999231.xyz
   port: 1021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2607,7 +2533,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-22 | 9PB
-  server: 8sqxkd4b.zf-jp-02.9999231.xyz
+  server: mxxg6hff.zf-jp-02.9999231.xyz
   port: 1021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2616,7 +2542,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-23 | 9PB
-  server: 4sbzxcoz.zf-jp-03.9999231.xyz
+  server: zkts599u.zf-jp-03.9999231.xyz
   port: 1021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2625,7 +2551,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-24 | 9PB
-  server: vsz80l33.zf-mix-01.9999231.xyz
+  server: ezw2j9d0.zf-mix-01.9999231.xyz
   port: 1021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2634,7 +2560,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-25 | 9PB
-  server: vl1lz2ra.zf-mix-02.9999231.xyz
+  server: s75y02i9.zf-mix-02.9999231.xyz
   port: 1021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2643,7 +2569,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-26 | 9PB
-  server: 3g17obrx.zf-jp-01.9999231.xyz
+  server: 1oxgmjvw.zf-jp-01.9999231.xyz
   port: 1022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2652,7 +2578,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-27 | 9PB
-  server: 5vprkylw.zf-jp-02.9999231.xyz
+  server: 8xtqlm8h.zf-jp-02.9999231.xyz
   port: 1022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2661,7 +2587,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-28 | 9PB
-  server: 61h4e77c.zf-jp-03.9999231.xyz
+  server: 8qq0094c.zf-jp-03.9999231.xyz
   port: 1022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2670,7 +2596,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-29 | 9PB
-  server: s79wjrzl.zf-mix-01.9999231.xyz
+  server: wg4mzd94.zf-mix-01.9999231.xyz
   port: 1022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2679,7 +2605,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-30 | 9PB
-  server: hwlee8bn.zf-mix-02.9999231.xyz
+  server: 3elhnuh7.zf-mix-02.9999231.xyz
   port: 1022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2688,7 +2614,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇬 SG-1 | 9PB
-  server: 9inxmrhz.zf-jp-01.9999231.xyz
+  server: qjv2djkp.zf-jp-01.9999231.xyz
   port: 1023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2697,7 +2623,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇬 SG-2 | 9PB
-  server: mxq60ww6.zf-jp-02.9999231.xyz
+  server: vre054jt.zf-jp-02.9999231.xyz
   port: 1023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2706,7 +2632,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇬 SG-3 | 9PB
-  server: qi78yp17.zf-jp-03.9999231.xyz
+  server: jvwj0r44.zf-jp-03.9999231.xyz
   port: 1023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2715,7 +2641,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇬 SG-4 | 9PB
-  server: j1y5srfy.zf-mix-01.9999231.xyz
+  server: 7mmeqmpb.zf-mix-01.9999231.xyz
   port: 1023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2724,7 +2650,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇬 SG-5 | 9PB
-  server: h45hvxtw.zf-mix-02.9999231.xyz
+  server: xgq3z3m2.zf-mix-02.9999231.xyz
   port: 1023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2733,7 +2659,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇭 CH-1 | 9PB
-  server: 5bv8tmzc.zf-jp-01.9999231.xyz
+  server: hm2y6a1q.zf-jp-01.9999231.xyz
   port: 1024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2742,7 +2668,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇭 CH-2 | 9PB
-  server: 1uxeifwe.zf-jp-02.9999231.xyz
+  server: 79d4wzsx.zf-jp-02.9999231.xyz
   port: 1024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2751,7 +2677,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇭 CH-3 | 9PB
-  server: 1rn3jjie.zf-jp-03.9999231.xyz
+  server: unhlcn6e.zf-jp-03.9999231.xyz
   port: 1024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2760,7 +2686,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇭 CH-4 | 9PB
-  server: b1laxvsq.zf-mix-01.9999231.xyz
+  server: 0b1qlphi.zf-mix-01.9999231.xyz
   port: 1024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2769,7 +2695,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇭 CH-5 | 9PB
-  server: 69ieav51.zf-mix-02.9999231.xyz
+  server: 9rnqoop6.zf-mix-02.9999231.xyz
   port: 1024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2778,7 +2704,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇨🇭 CH-6 | 9PB
-  server: y7d0sbr1.zf-jp-01.9999231.xyz
+  server: n26z0dse.zf-jp-01.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2787,7 +2713,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇭 CH-7 | 9PB
-  server: qtngd8jm.zf-jp-02.9999231.xyz
+  server: 9rdnkyr5.zf-jp-02.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2796,7 +2722,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇭 CH-8 | 9PB
-  server: nove79w9.zf-jp-03.9999231.xyz
+  server: 2lel9byk.zf-jp-03.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2805,7 +2731,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇭 CH-9 | 9PB
-  server: ixxhht54.zf-mix-01.9999231.xyz
+  server: bxb9cikx.zf-mix-01.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2814,7 +2740,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇭 CH-10 | 9PB
-  server: 6kv6p5cq.zf-mix-02.9999231.xyz
+  server: cl6o2z32.zf-mix-02.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2823,7 +2749,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇩🇪 DE-1 | 9PB
-  server: 415donto.zf-jp-01.9999231.xyz
+  server: up6u2suy.zf-jp-01.9999231.xyz
   port: 1025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2832,7 +2758,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇩🇪 DE-2 | 9PB
-  server: ov68pn2a.zf-jp-02.9999231.xyz
+  server: s3t6u8as.zf-jp-02.9999231.xyz
   port: 1025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2841,7 +2767,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇩🇪 DE-3 | 9PB
-  server: mw6hwy4u.zf-jp-03.9999231.xyz
+  server: cky8ddko.zf-jp-03.9999231.xyz
   port: 1025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2850,7 +2776,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇩🇪 DE-4 | 9PB
-  server: vcvgag4m.zf-mix-01.9999231.xyz
+  server: rglm7bk2.zf-mix-01.9999231.xyz
   port: 1025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2859,7 +2785,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇩🇪 DE-5 | 9PB
-  server: x66muntd.zf-mix-02.9999231.xyz
+  server: 0of3l7cy.zf-mix-02.9999231.xyz
   port: 1025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2868,7 +2794,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇩🇪 DE-6 | 9PB
-  server: lsoxf9ay.zf-jp-01.9999231.xyz
+  server: w1agpxuo.zf-jp-01.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2877,7 +2803,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇩🇪 DE-7 | 9PB
-  server: bi7u8qer.zf-jp-02.9999231.xyz
+  server: 6sgv2nsx.zf-jp-02.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2886,7 +2812,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇩🇪 DE-8 | 9PB
-  server: 7gpgxlce.zf-jp-03.9999231.xyz
+  server: 7eo9nec8.zf-jp-03.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2895,7 +2821,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇩🇪 DE-9 | 9PB
-  server: skjef8lj.zf-mix-01.9999231.xyz
+  server: r7b3gu5o.zf-mix-01.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2904,7 +2830,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇩🇪 DE-10 | 9PB
-  server: kmx51yvf.zf-mix-02.9999231.xyz
+  server: 5vudoyfw.zf-mix-02.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2913,7 +2839,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇳🇱 NL-1 | 9PB
-  server: 39fdxuvd.zf-jp-01.9999231.xyz
+  server: 57wgtyu4.zf-jp-01.9999231.xyz
   port: 1026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2922,7 +2848,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇱 NL-2 | 9PB
-  server: zq41m5ss.zf-jp-02.9999231.xyz
+  server: d1oxx5vx.zf-jp-02.9999231.xyz
   port: 1026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2931,7 +2857,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇱 NL-3 | 9PB
-  server: v3xfdtxh.zf-jp-03.9999231.xyz
+  server: h315b6u1.zf-jp-03.9999231.xyz
   port: 1026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2940,7 +2866,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇱 NL-4 | 9PB
-  server: u781zngc.zf-mix-01.9999231.xyz
+  server: 3b08h0q2.zf-mix-01.9999231.xyz
   port: 1026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2949,7 +2875,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇱 NL-5 | 9PB
-  server: axzk2tmx.zf-mix-02.9999231.xyz
+  server: jv8x8tf1.zf-mix-02.9999231.xyz
   port: 1026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2958,7 +2884,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇩🇰 DK-1 | 9PB
-  server: ge097jmm.zf-jp-01.9999231.xyz
+  server: 3fxiiq0l.zf-jp-01.9999231.xyz
   port: 1027
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2967,7 +2893,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇩🇰 DK-2 | 9PB
-  server: 7h3tdgzu.zf-jp-02.9999231.xyz
+  server: z4rno67n.zf-jp-02.9999231.xyz
   port: 1027
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2976,7 +2902,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇩🇰 DK-3 | 9PB
-  server: wxvthyz3.zf-jp-03.9999231.xyz
+  server: dps8r3r2.zf-jp-03.9999231.xyz
   port: 1027
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2985,7 +2911,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇩🇰 DK-4 | 9PB
-  server: 59gwm4aa.zf-mix-01.9999231.xyz
+  server: 49fh67fk.zf-mix-01.9999231.xyz
   port: 1027
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2994,7 +2920,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇩🇰 DK-5 | 9PB
-  server: m57f02iv.zf-mix-02.9999231.xyz
+  server: g9pyolos.zf-mix-02.9999231.xyz
   port: 1027
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3003,7 +2929,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇩🇰 DK-6 | 9PB
-  server: fgfz46cz.zf-jp-01.9999231.xyz
+  server: 52bf1zee.zf-jp-01.9999231.xyz
   port: 2027
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3012,7 +2938,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇩🇰 DK-7 | 9PB
-  server: 7pnf6am5.zf-jp-02.9999231.xyz
+  server: 4f9yvr8c.zf-jp-02.9999231.xyz
   port: 2027
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3021,7 +2947,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇩🇰 DK-8 | 9PB
-  server: u01igw5n.zf-jp-03.9999231.xyz
+  server: 40jqkmoj.zf-jp-03.9999231.xyz
   port: 2027
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3030,7 +2956,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇩🇰 DK-9 | 9PB
-  server: 67b5shzo.zf-mix-01.9999231.xyz
+  server: y3j4njgy.zf-mix-01.9999231.xyz
   port: 2027
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3039,7 +2965,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇩🇰 DK-10 | 9PB
-  server: tn0a56ko.zf-mix-02.9999231.xyz
+  server: w4joi0r0.zf-mix-02.9999231.xyz
   port: 2027
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3048,7 +2974,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇳🇴 NO-1 | 9PB
-  server: 8i3rtent.zf-jp-01.9999231.xyz
+  server: t1r3gbh0.zf-jp-01.9999231.xyz
   port: 1028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3057,7 +2983,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇴 NO-2 | 9PB
-  server: tj5gjqkq.zf-jp-02.9999231.xyz
+  server: 3g57mqj7.zf-jp-02.9999231.xyz
   port: 1028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3066,7 +2992,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇴 NO-3 | 9PB
-  server: wiv5tugw.zf-jp-03.9999231.xyz
+  server: 00cowh80.zf-jp-03.9999231.xyz
   port: 1028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3075,7 +3001,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇴 NO-4 | 9PB
-  server: 2xmeyyje.zf-mix-01.9999231.xyz
+  server: ka12xdzg.zf-mix-01.9999231.xyz
   port: 1028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3084,7 +3010,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇴 NO-5 | 9PB
-  server: 44p9x4u2.zf-mix-02.9999231.xyz
+  server: 2sdutgtv.zf-mix-02.9999231.xyz
   port: 1028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3093,7 +3019,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇳🇴 NO-6 | 9PB
-  server: ggo5124e.zf-jp-01.9999231.xyz
+  server: muub3qaw.zf-jp-01.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3102,7 +3028,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇳🇴 NO-7 | 9PB
-  server: gx1umepc.zf-jp-02.9999231.xyz
+  server: pobaws81.zf-jp-02.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3111,7 +3037,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇳🇴 NO-8 | 9PB
-  server: 2roqawbp.zf-jp-03.9999231.xyz
+  server: dqkg2o06.zf-jp-03.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3120,7 +3046,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇳🇴 NO-9 | 9PB
-  server: 29ehcunw.zf-mix-01.9999231.xyz
+  server: kma4czef.zf-mix-01.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3129,7 +3055,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇳🇴 NO-10 | 9PB
-  server: 5yqj15t9.zf-mix-02.9999231.xyz
+  server: 5no69qb8.zf-mix-02.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3138,7 +3064,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇮🇳 IN-1 | 9PB
-  server: 2xfyw2k3.zf-jp-01.9999231.xyz
+  server: f5jeeg1h.zf-jp-01.9999231.xyz
   port: 1029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3147,7 +3073,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇳 IN-2 | 9PB
-  server: ye5patz0.zf-jp-02.9999231.xyz
+  server: cm7sgl31.zf-jp-02.9999231.xyz
   port: 1029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3156,7 +3082,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇳 IN-3 | 9PB
-  server: 9fs0ifps.zf-jp-03.9999231.xyz
+  server: 0c9cib41.zf-jp-03.9999231.xyz
   port: 1029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3165,7 +3091,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇳 IN-4 | 9PB
-  server: nzag00wy.zf-mix-01.9999231.xyz
+  server: uorvi6j1.zf-mix-01.9999231.xyz
   port: 1029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3174,7 +3100,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇳 IN-5 | 9PB
-  server: 8j96ub39.zf-mix-02.9999231.xyz
+  server: z2subhuh.zf-mix-02.9999231.xyz
   port: 1029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3183,7 +3109,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇮🇳 IN-6 | 9PB
-  server: 82pv2426.zf-jp-01.9999231.xyz
+  server: ro5mtx3e.zf-jp-01.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3192,7 +3118,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇳 IN-7 | 9PB
-  server: ywnjcc6p.zf-jp-02.9999231.xyz
+  server: zkxld8aj.zf-jp-02.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3201,7 +3127,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇳 IN-8 | 9PB
-  server: hgk03oz2.zf-jp-03.9999231.xyz
+  server: vf442mg8.zf-jp-03.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3210,7 +3136,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇳 IN-9 | 9PB
-  server: k0j1imw6.zf-mix-01.9999231.xyz
+  server: pca8d72x.zf-mix-01.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3219,7 +3145,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇳 IN-10 | 9PB
-  server: 09dhoiok.zf-mix-02.9999231.xyz
+  server: wbs57m43.zf-mix-02.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3228,7 +3154,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇮🇶 IQ-1 | 9PB
-  server: c5mkkrt0.zf-jp-01.9999231.xyz
+  server: uur0xvs7.zf-jp-01.9999231.xyz
   port: 1031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3237,7 +3163,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇶 IQ-2 | 9PB
-  server: 0r2ua8i5.zf-jp-02.9999231.xyz
+  server: jh5fdn2v.zf-jp-02.9999231.xyz
   port: 1031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3246,7 +3172,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇶 IQ-3 | 9PB
-  server: 3739w4yq.zf-jp-03.9999231.xyz
+  server: gz545zk3.zf-jp-03.9999231.xyz
   port: 1031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3255,7 +3181,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇶 IQ-4 | 9PB
-  server: zpj1th6m.zf-mix-01.9999231.xyz
+  server: 2hgett0a.zf-mix-01.9999231.xyz
   port: 1031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3264,7 +3190,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇶 IQ-5 | 9PB
-  server: eyzfu46f.zf-mix-02.9999231.xyz
+  server: ldts2y2j.zf-mix-02.9999231.xyz
   port: 1031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3273,7 +3199,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇮🇶 IQ-6 | 9PB
-  server: 7ra63ynm.zf-jp-01.9999231.xyz
+  server: 1mvar6r9.zf-jp-01.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3282,7 +3208,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇶 IQ-7 | 9PB
-  server: p9wgjt51.zf-jp-02.9999231.xyz
+  server: bvnd0ggd.zf-jp-02.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3291,7 +3217,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇶 IQ-8 | 9PB
-  server: 0a2i8ia2.zf-jp-03.9999231.xyz
+  server: x3ubb0y8.zf-jp-03.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3300,7 +3226,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇶 IQ-9 | 9PB
-  server: mau529pv.zf-mix-01.9999231.xyz
+  server: 5bau2kt0.zf-mix-01.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3309,7 +3235,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇶 IQ-10 | 9PB
-  server: 74rbz30i.zf-mix-02.9999231.xyz
+  server: 4uu6oklv.zf-mix-02.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3318,7 +3244,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇷🇺 RU-1 | 9PB
-  server: jw8lm7yc.zf-jp-01.9999231.xyz
+  server: z4hfo4d3.zf-jp-01.9999231.xyz
   port: 1032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3327,7 +3253,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇷🇺 RU-2 | 9PB
-  server: 5y2bjuyb.zf-jp-02.9999231.xyz
+  server: k9ar96rj.zf-jp-02.9999231.xyz
   port: 1032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3336,7 +3262,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇷🇺 RU-3 | 9PB
-  server: 2ur1eabx.zf-jp-03.9999231.xyz
+  server: c09frwk7.zf-jp-03.9999231.xyz
   port: 1032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3345,7 +3271,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇷🇺 RU-4 | 9PB
-  server: uvabtn0q.zf-mix-01.9999231.xyz
+  server: cf8q1wn7.zf-mix-01.9999231.xyz
   port: 1032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3354,7 +3280,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇷🇺 RU-5 | 9PB
-  server: l1739vzi.zf-mix-02.9999231.xyz
+  server: 2zovvzbq.zf-mix-02.9999231.xyz
   port: 1032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3363,7 +3289,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇷🇺 RU-6 | 9PB
-  server: cfnxcd8k.zf-jp-01.9999231.xyz
+  server: 2r42yzf0.zf-jp-01.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3372,7 +3298,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇷🇺 RU-7 | 9PB
-  server: s21uvzpm.zf-jp-02.9999231.xyz
+  server: put0xlnz.zf-jp-02.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3381,7 +3307,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇷🇺 RU-8 | 9PB
-  server: tse7ng8i.zf-jp-03.9999231.xyz
+  server: a4ns4unj.zf-jp-03.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3390,7 +3316,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇷🇺 RU-9 | 9PB
-  server: g4v82gkd.zf-mix-01.9999231.xyz
+  server: 1ix0nqbg.zf-mix-01.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3399,7 +3325,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇷🇺 RU-10 | 9PB
-  server: e9qvdrp7.zf-mix-02.9999231.xyz
+  server: e0d7uih4.zf-mix-02.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3408,7 +3334,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇮🇹 IT-1 | 9PB
-  server: cp9gpebc.zf-jp-01.9999231.xyz
+  server: hlvz4u7a.zf-jp-01.9999231.xyz
   port: 1033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3417,7 +3343,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇹 IT-2 | 9PB
-  server: ggxup8e0.zf-jp-02.9999231.xyz
+  server: c0iui60x.zf-jp-02.9999231.xyz
   port: 1033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3426,7 +3352,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇹 IT-3 | 9PB
-  server: cca2ky6n.zf-jp-03.9999231.xyz
+  server: ai6a5za7.zf-jp-03.9999231.xyz
   port: 1033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3435,7 +3361,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇹 IT-4 | 9PB
-  server: jmxu5uoc.zf-mix-01.9999231.xyz
+  server: f0g3w5r6.zf-mix-01.9999231.xyz
   port: 1033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3444,7 +3370,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇮🇹 IT-5 | 9PB
-  server: 6ci8dow9.zf-mix-02.9999231.xyz
+  server: yk0atqn7.zf-mix-02.9999231.xyz
   port: 1033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3453,7 +3379,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇮🇹 IT-6 | 9PB
-  server: oj7cjdva.zf-jp-01.9999231.xyz
+  server: aeytma2z.zf-jp-01.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3462,7 +3388,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇹 IT-7 | 9PB
-  server: 7570wb3q.zf-jp-02.9999231.xyz
+  server: b2o22rtc.zf-jp-02.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3471,7 +3397,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇹 IT-8 | 9PB
-  server: r9153zno.zf-jp-03.9999231.xyz
+  server: 6o98ybb3.zf-jp-03.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3480,7 +3406,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇹 IT-9 | 9PB
-  server: m2wgx4gh.zf-mix-01.9999231.xyz
+  server: 9yoeaq1e.zf-mix-01.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3489,7 +3415,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇮🇹 IT-10 | 9PB
-  server: 4k1pzrwe.zf-mix-02.9999231.xyz
+  server: st1k58ii.zf-mix-02.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3498,7 +3424,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇦🇹 AT-1 | 9PB
-  server: 7jzdmydv.zf-jp-01.9999231.xyz
+  server: sdweq2zo.zf-jp-01.9999231.xyz
   port: 1034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3507,7 +3433,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇦🇹 AT-2 | 9PB
-  server: bypnma8x.zf-jp-02.9999231.xyz
+  server: g4vfzpua.zf-jp-02.9999231.xyz
   port: 1034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3516,7 +3442,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇦🇹 AT-3 | 9PB
-  server: 2gstmdap.zf-jp-03.9999231.xyz
+  server: 31lry4yb.zf-jp-03.9999231.xyz
   port: 1034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3525,7 +3451,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇦🇹 AT-4 | 9PB
-  server: toyarm93.zf-mix-01.9999231.xyz
+  server: peue7u4h.zf-mix-01.9999231.xyz
   port: 1034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3534,7 +3460,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇦🇹 AT-5 | 9PB
-  server: g1qq2k8o.zf-mix-02.9999231.xyz
+  server: fzjxnv13.zf-mix-02.9999231.xyz
   port: 1034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3543,7 +3469,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇦🇹 AT-6 | 9PB
-  server: t4q94bu0.zf-jp-01.9999231.xyz
+  server: qgum7fg9.zf-jp-01.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3552,7 +3478,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇦🇹 AT-7 | 9PB
-  server: e444r2nd.zf-jp-02.9999231.xyz
+  server: gsr11it0.zf-jp-02.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3561,7 +3487,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇦🇹 AT-8 | 9PB
-  server: 48eht9zy.zf-jp-03.9999231.xyz
+  server: yfcine78.zf-jp-03.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3570,7 +3496,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇦🇹 AT-9 | 9PB
-  server: 2dgqu44c.zf-mix-01.9999231.xyz
+  server: ao6otwvx.zf-mix-01.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3579,7 +3505,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇦🇹 AT-10 | 9PB
-  server: mlkup5fx.zf-mix-02.9999231.xyz
+  server: lr4valwy.zf-mix-02.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3588,7 +3514,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇦🇿 AZ-1 | 9PB
-  server: 9dzv3p7f.zf-jp-01.9999231.xyz
+  server: g696ih3q.zf-jp-01.9999231.xyz
   port: 1035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3597,7 +3523,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇦🇿 AZ-2 | 9PB
-  server: c979bjka.zf-jp-02.9999231.xyz
+  server: o66e7379.zf-jp-02.9999231.xyz
   port: 1035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3606,7 +3532,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇦🇿 AZ-3 | 9PB
-  server: wor1n74b.zf-jp-03.9999231.xyz
+  server: ry9u36ju.zf-jp-03.9999231.xyz
   port: 1035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3615,7 +3541,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇦🇿 AZ-4 | 9PB
-  server: ppvpodv1.zf-mix-01.9999231.xyz
+  server: ilzkp4z6.zf-mix-01.9999231.xyz
   port: 1035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3624,7 +3550,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇦🇿 AZ-5 | 9PB
-  server: xx7vd460.zf-mix-02.9999231.xyz
+  server: f9otslxw.zf-mix-02.9999231.xyz
   port: 1035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3633,7 +3559,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇦🇿 AZ-6 | 9PB
-  server: njqmgs0n.zf-jp-01.9999231.xyz
+  server: bpjue55q.zf-jp-01.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3642,7 +3568,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇦🇿 AZ-7 | 9PB
-  server: qaqod3r6.zf-jp-02.9999231.xyz
+  server: rz0bzjit.zf-jp-02.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3651,7 +3577,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇦🇿 AZ-8 | 9PB
-  server: 80o4i79e.zf-jp-03.9999231.xyz
+  server: oexa5qge.zf-jp-03.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3660,7 +3586,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇦🇿 AZ-9 | 9PB
-  server: m2o56465.zf-mix-01.9999231.xyz
+  server: gvph8dao.zf-mix-01.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3669,7 +3595,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇦🇿 AZ-10 | 9PB
-  server: t05vp5zl.zf-mix-02.9999231.xyz
+  server: 595gjxln.zf-mix-02.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3678,7 +3604,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇰🇬 KG-1 | 9PB
-  server: 79wu39if.zf-jp-01.9999231.xyz
+  server: f0dznv5c.zf-jp-01.9999231.xyz
   port: 1036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3687,7 +3613,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇰🇬 KG-2 | 9PB
-  server: 922jsjht.zf-jp-02.9999231.xyz
+  server: hmcuu87g.zf-jp-02.9999231.xyz
   port: 1036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3696,7 +3622,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇰🇬 KG-3 | 9PB
-  server: l1otbssh.zf-jp-03.9999231.xyz
+  server: tb7q21g9.zf-jp-03.9999231.xyz
   port: 1036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3705,7 +3631,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇰🇬 KG-4 | 9PB
-  server: 95977oau.zf-mix-01.9999231.xyz
+  server: nd2zk7s6.zf-mix-01.9999231.xyz
   port: 1036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3714,7 +3640,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇰🇬 KG-5 | 9PB
-  server: v7nrsj5x.zf-mix-02.9999231.xyz
+  server: ojx7xkt8.zf-mix-02.9999231.xyz
   port: 1036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3723,7 +3649,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇰🇬 KG-6 | 9PB
-  server: c6336jxk.zf-jp-01.9999231.xyz
+  server: p3083kz4.zf-jp-01.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3732,7 +3658,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇰🇬 KG-7 | 9PB
-  server: cfifcb9k.zf-jp-02.9999231.xyz
+  server: 58vawskr.zf-jp-02.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3741,7 +3667,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇰🇬 KG-8 | 9PB
-  server: hk7z30i7.zf-jp-03.9999231.xyz
+  server: 168hlzo6.zf-jp-03.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3750,7 +3676,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇰🇬 KG-9 | 9PB
-  server: j769fvfn.zf-mix-01.9999231.xyz
+  server: 48j5v63n.zf-mix-01.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3759,7 +3685,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇰🇬 KG-10 | 9PB
-  server: p3j5hatg.zf-mix-02.9999231.xyz
+  server: jrvnoo8x.zf-mix-02.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3768,7 +3694,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇳🇬 NG-1 | 9PB
-  server: 8qf6zk5d.zf-jp-01.9999231.xyz
+  server: t09qmj49.zf-jp-01.9999231.xyz
   port: 1038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3777,7 +3703,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇬 NG-2 | 9PB
-  server: ikepy7dp.zf-jp-02.9999231.xyz
+  server: zcxygn9n.zf-jp-02.9999231.xyz
   port: 1038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3786,7 +3712,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇬 NG-3 | 9PB
-  server: dzl54hey.zf-jp-03.9999231.xyz
+  server: jamg0fnf.zf-jp-03.9999231.xyz
   port: 1038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3795,7 +3721,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇬 NG-4 | 9PB
-  server: owoa96um.zf-mix-01.9999231.xyz
+  server: hk89bs3b.zf-mix-01.9999231.xyz
   port: 1038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3804,7 +3730,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇳🇬 NG-5 | 9PB
-  server: g971py0l.zf-mix-02.9999231.xyz
+  server: hzm5aqqq.zf-mix-02.9999231.xyz
   port: 1038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3813,7 +3739,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇳🇬 NG-6 | 9PB
-  server: 16advg9o.zf-jp-01.9999231.xyz
+  server: 14aofibk.zf-jp-01.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3822,7 +3748,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇳🇬 NG-7 | 9PB
-  server: yaks50cy.zf-jp-02.9999231.xyz
+  server: pszm2tu2.zf-jp-02.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3831,7 +3757,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇳🇬 NG-8 | 9PB
-  server: u1hiqwjq.zf-jp-03.9999231.xyz
+  server: l7q5znuf.zf-jp-03.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3840,7 +3766,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇳🇬 NG-9 | 9PB
-  server: rv0zan7x.zf-mix-01.9999231.xyz
+  server: dp7mck8h.zf-mix-01.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3849,7 +3775,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇳🇬 NG-10 | 9PB
-  server: 6t6lhuzg.zf-mix-02.9999231.xyz
+  server: 7j0q3lb7.zf-mix-02.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3858,7 +3784,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇷🇴 RO-1 | 9PB
-  server: x9py93wj.zf-jp-01.9999231.xyz
+  server: nt76bdqc.zf-jp-01.9999231.xyz
   port: 1039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3867,7 +3793,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇷🇴 RO-2 | 9PB
-  server: 9dm41a4s.zf-jp-02.9999231.xyz
+  server: ffb9z47s.zf-jp-02.9999231.xyz
   port: 1039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3876,7 +3802,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇷🇴 RO-3 | 9PB
-  server: stfks5yn.zf-jp-03.9999231.xyz
+  server: w1bhperv.zf-jp-03.9999231.xyz
   port: 1039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3885,7 +3811,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇷🇴 RO-4 | 9PB
-  server: m0yafqx1.zf-mix-01.9999231.xyz
+  server: n0bheqn5.zf-mix-01.9999231.xyz
   port: 1039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3894,7 +3820,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇷🇴 RO-5 | 9PB
-  server: a3mhtyt3.zf-mix-02.9999231.xyz
+  server: ughxz6lz.zf-mix-02.9999231.xyz
   port: 1039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3903,7 +3829,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇷🇴 RO-6 | 9PB
-  server: lg9aqe5r.zf-jp-01.9999231.xyz
+  server: 5pwl928n.zf-jp-01.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3912,7 +3838,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇷🇴 RO-7 | 9PB
-  server: i3630zhl.zf-jp-02.9999231.xyz
+  server: imtyd09q.zf-jp-02.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3921,7 +3847,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇷🇴 RO-8 | 9PB
-  server: 2ht6qnhf.zf-jp-03.9999231.xyz
+  server: 8ioiwd22.zf-jp-03.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3930,7 +3856,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇷🇴 RO-9 | 9PB
-  server: bicz7pm7.zf-mix-01.9999231.xyz
+  server: 0kkr30zd.zf-mix-01.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3939,7 +3865,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇷🇴 RO-10 | 9PB
-  server: lg569sc3.zf-mix-02.9999231.xyz
+  server: vpq3cnji.zf-mix-02.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3948,7 +3874,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇸🇮 SI-1 | 9PB
-  server: ij5bneba.zf-jp-01.9999231.xyz
+  server: 1kiyjdfs.zf-jp-01.9999231.xyz
   port: 1040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3957,7 +3883,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇮 SI-2 | 9PB
-  server: ax0owyp8.zf-jp-02.9999231.xyz
+  server: fh13o2jx.zf-jp-02.9999231.xyz
   port: 1040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3966,7 +3892,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇮 SI-3 | 9PB
-  server: 3gvv43s1.zf-jp-03.9999231.xyz
+  server: vdqcj08k.zf-jp-03.9999231.xyz
   port: 1040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3975,7 +3901,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇮 SI-4 | 9PB
-  server: 4egn2i3f.zf-mix-01.9999231.xyz
+  server: 8epa04s3.zf-mix-01.9999231.xyz
   port: 1040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3984,7 +3910,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇮 SI-5 | 9PB
-  server: rspt9nx9.zf-mix-02.9999231.xyz
+  server: hfqr3ffr.zf-mix-02.9999231.xyz
   port: 1040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3993,7 +3919,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇸🇮 SI-6 | 9PB
-  server: lpw4y7pc.zf-jp-01.9999231.xyz
+  server: 5xilr5l3.zf-jp-01.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4002,7 +3928,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇮 SI-7 | 9PB
-  server: cyfjy46b.zf-jp-02.9999231.xyz
+  server: 8kh36u71.zf-jp-02.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4011,7 +3937,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇮 SI-8 | 9PB
-  server: x6mvlfil.zf-jp-03.9999231.xyz
+  server: eyk4pivi.zf-jp-03.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4020,7 +3946,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇮 SI-9 | 9PB
-  server: qzfav8dl.zf-mix-01.9999231.xyz
+  server: 3se69rn5.zf-mix-01.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4029,7 +3955,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇮 SI-10 | 9PB
-  server: 2jg7d6bu.zf-mix-02.9999231.xyz
+  server: gd5o2cv5.zf-mix-02.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4038,7 +3964,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇰🇿 KZ-1 | 9PB
-  server: ovbm8h8p.zf-jp-01.9999231.xyz
+  server: eegz396v.zf-jp-01.9999231.xyz
   port: 1041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4047,7 +3973,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇰🇿 KZ-2 | 9PB
-  server: yd10txib.zf-jp-02.9999231.xyz
+  server: hxh43q0o.zf-jp-02.9999231.xyz
   port: 1041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4056,7 +3982,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇰🇿 KZ-3 | 9PB
-  server: x0wukism.zf-jp-03.9999231.xyz
+  server: 27xgw1tk.zf-jp-03.9999231.xyz
   port: 1041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4065,7 +3991,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇰🇿 KZ-4 | 9PB
-  server: cbz7axc0.zf-mix-01.9999231.xyz
+  server: kjtc4yjt.zf-mix-01.9999231.xyz
   port: 1041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4074,7 +4000,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇰🇿 KZ-5 | 9PB
-  server: sz8upst5.zf-mix-02.9999231.xyz
+  server: p5h62sm9.zf-mix-02.9999231.xyz
   port: 1041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4083,7 +4009,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇰🇿 KZ-6 | 9PB
-  server: y7nj4jsx.zf-jp-01.9999231.xyz
+  server: jlmwt2ba.zf-jp-01.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4092,7 +4018,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇰🇿 KZ-7 | 9PB
-  server: lpeo0wh0.zf-jp-02.9999231.xyz
+  server: w7wojj1o.zf-jp-02.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4101,7 +4027,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇰🇿 KZ-8 | 9PB
-  server: m08dxag7.zf-jp-03.9999231.xyz
+  server: bqkw2ul9.zf-jp-03.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4110,7 +4036,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇰🇿 KZ-9 | 9PB
-  server: ar7z3gpq.zf-mix-01.9999231.xyz
+  server: fjz5g11s.zf-mix-01.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4119,7 +4045,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇰🇿 KZ-10 | 9PB
-  server: 0ed5n5sq.zf-mix-02.9999231.xyz
+  server: qn1q7c8n.zf-mix-02.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4128,7 +4054,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇹🇬 TG-1 | 9PB
-  server: wqssu8lh.zf-jp-01.9999231.xyz
+  server: v66u2ee9.zf-jp-01.9999231.xyz
   port: 1042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4137,7 +4063,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇬 TG-2 | 9PB
-  server: 9g71qqot.zf-jp-02.9999231.xyz
+  server: th91hqpz.zf-jp-02.9999231.xyz
   port: 1042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4146,7 +4072,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇬 TG-3 | 9PB
-  server: 2x5qbvpq.zf-jp-03.9999231.xyz
+  server: fqds1phd.zf-jp-03.9999231.xyz
   port: 1042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4155,7 +4081,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇬 TG-4 | 9PB
-  server: c8ly45e6.zf-mix-01.9999231.xyz
+  server: iyo6imfb.zf-mix-01.9999231.xyz
   port: 1042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4164,7 +4090,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇹🇬 TG-5 | 9PB
-  server: yh3sgzq8.zf-mix-02.9999231.xyz
+  server: 5bbv9zdn.zf-mix-02.9999231.xyz
   port: 1042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4173,7 +4099,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇹🇬 TG-6 | 9PB
-  server: dy4mchfv.zf-jp-01.9999231.xyz
+  server: f2cjhoxl.zf-jp-01.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4182,7 +4108,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇬 TG-7 | 9PB
-  server: 9rl7108w.zf-jp-02.9999231.xyz
+  server: fbeo6p5z.zf-jp-02.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4191,7 +4117,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇬 TG-8 | 9PB
-  server: fztipat1.zf-jp-03.9999231.xyz
+  server: ph6i6cxh.zf-jp-03.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4200,7 +4126,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇬 TG-9 | 9PB
-  server: o7qjytav.zf-mix-01.9999231.xyz
+  server: 2c5o6w5g.zf-mix-01.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4209,7 +4135,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇹🇬 TG-10 | 9PB
-  server: 54d8m6cg.zf-mix-02.9999231.xyz
+  server: msas33i7.zf-mix-02.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4218,7 +4144,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇵🇪 PE-1 | 9PB
-  server: u9rimsal.zf-jp-01.9999231.xyz
+  server: ox9pzd1w.zf-jp-01.9999231.xyz
   port: 1043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4227,7 +4153,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇵🇪 PE-2 | 9PB
-  server: 3zhhuv35.zf-jp-02.9999231.xyz
+  server: irxrtx30.zf-jp-02.9999231.xyz
   port: 1043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4236,7 +4162,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇵🇪 PE-3 | 9PB
-  server: 0qcsejtx.zf-jp-03.9999231.xyz
+  server: 0yekikr7.zf-jp-03.9999231.xyz
   port: 1043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4245,7 +4171,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇵🇪 PE-4 | 9PB
-  server: 1jbuocwp.zf-mix-01.9999231.xyz
+  server: r39o2orl.zf-mix-01.9999231.xyz
   port: 1043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4254,7 +4180,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇵🇪 PE-5 | 9PB
-  server: 1y5xgpgr.zf-mix-02.9999231.xyz
+  server: z0vp1l2i.zf-mix-02.9999231.xyz
   port: 1043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4263,7 +4189,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇵🇪 PE-6 | 9PB
-  server: s1xmtj0w.zf-jp-01.9999231.xyz
+  server: m3f4tsyh.zf-jp-01.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4272,7 +4198,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇵🇪 PE-7 | 9PB
-  server: aj3vxuel.zf-jp-02.9999231.xyz
+  server: ig2hux10.zf-jp-02.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4281,7 +4207,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇵🇪 PE-8 | 9PB
-  server: hue8btn8.zf-jp-03.9999231.xyz
+  server: 3oplhp0m.zf-jp-03.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4290,7 +4216,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇵🇪 PE-9 | 9PB
-  server: zekj8wej.zf-mix-01.9999231.xyz
+  server: 0z38o5j5.zf-mix-01.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4299,7 +4225,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇵🇪 PE-10 | 9PB
-  server: axihv08o.zf-mix-02.9999231.xyz
+  server: 6wb7lnzr.zf-mix-02.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4879,17 +4805,8 @@ proxies:
   mode: multi
   spx: /
 - type: anytls
-  name: 🇯🇵 JP-1 | Filter
-  server: o50yaz98.zf-jp-01.9999231.xyz
-  port: 1002
-  password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
-  udp: true
-  sni: iosapps.itunes.apple.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- type: anytls
   name: 🇺🇸 US-1 | Filter
-  server: 5g16aws0.zf-jp-02.9999231.xyz
+  server: 24uj5gry.zf-jp-02.9999231.xyz
   port: 1002
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4898,7 +4815,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-2 | Filter
-  server: 4mykd6lw.zf-jp-03.9999231.xyz
+  server: ohp0vb25.zf-jp-03.9999231.xyz
   port: 1002
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4907,7 +4824,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇺🇸 US-3 | Filter
-  server: sfhwvz6m.zf-jp-01.9999231.xyz
+  server: 1g7da6oh.zf-jp-01.9999231.xyz
   port: 2002
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4917,7 +4834,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-4 | Filter
-  server: 05n67oz7.zf-jp-02.9999231.xyz
+  server: 2wfsjwap.zf-jp-02.9999231.xyz
   port: 2002
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4927,7 +4844,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-5 | Filter
-  server: 2neq5pko.zf-jp-03.9999231.xyz
+  server: z6iq0q43.zf-jp-03.9999231.xyz
   port: 2002
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4937,7 +4854,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇻🇳 VN-1 | Filter
-  server: jgup6gvg.zf-jp-01.9999231.xyz
+  server: gg91r7xx.zf-jp-01.9999231.xyz
   port: 1007
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4946,7 +4863,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇻🇳 VN-2 | Filter
-  server: 4dwuoehy.zf-jp-02.9999231.xyz
+  server: 282yzta0.zf-jp-02.9999231.xyz
   port: 1007
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4955,7 +4872,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇻🇳 VN-3 | Filter
-  server: tnrl7l66.zf-jp-03.9999231.xyz
+  server: lw1xmpjv.zf-jp-03.9999231.xyz
   port: 1007
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4964,7 +4881,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇻🇳 VN-4 | Filter
-  server: p3t6eeu4.zf-jp-01.9999231.xyz
+  server: ptubxk42.zf-jp-01.9999231.xyz
   port: 2007
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4973,7 +4890,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇻🇳 VN-5 | Filter
-  server: p26j4w7d.zf-jp-02.9999231.xyz
+  server: 4zbe4sl2.zf-jp-02.9999231.xyz
   port: 2007
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4982,7 +4899,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇻🇳 VN-6 | Filter
-  server: 9veofejd.zf-jp-03.9999231.xyz
+  server: esa66oob.zf-jp-03.9999231.xyz
   port: 2007
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4991,7 +4908,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇺🇸 US-6 | Filter
-  server: x6mh3c8q.zf-jp-01.9999231.xyz
+  server: b0r7oia3.zf-jp-01.9999231.xyz
   port: 1021
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5000,7 +4917,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-7 | Filter
-  server: xwjk7d9p.zf-jp-02.9999231.xyz
+  server: ly3jdqhp.zf-jp-02.9999231.xyz
   port: 1021
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5009,7 +4926,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-8 | Filter
-  server: w8cs5xar.zf-jp-03.9999231.xyz
+  server: rsvmfwt9.zf-jp-03.9999231.xyz
   port: 1021
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5018,7 +4935,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-9 | Filter
-  server: kumityo0.zf-jp-01.9999231.xyz
+  server: 2qij3o29.zf-jp-01.9999231.xyz
   port: 1022
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5027,7 +4944,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-10 | Filter
-  server: i6hf38l7.zf-jp-02.9999231.xyz
+  server: 1sdkw4i4.zf-jp-02.9999231.xyz
   port: 1022
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5036,7 +4953,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇺🇸 US-11 | Filter
-  server: ah3gkjua.zf-jp-03.9999231.xyz
+  server: m5nzfmvj.zf-jp-03.9999231.xyz
   port: 1022
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5045,7 +4962,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇬 SG-1 | Filter
-  server: zai3xjee.zf-jp-01.9999231.xyz
+  server: pek6ikxq.zf-jp-01.9999231.xyz
   port: 1023
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5054,7 +4971,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇬 SG-2 | Filter
-  server: rprouhe9.zf-jp-02.9999231.xyz
+  server: kgc0nqmy.zf-jp-02.9999231.xyz
   port: 1023
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5063,7 +4980,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇸🇬 SG-3 | Filter
-  server: uetjr5r2.zf-jp-03.9999231.xyz
+  server: bgvi0nil.zf-jp-03.9999231.xyz
   port: 1023
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5072,7 +4989,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇭 CH-1 | Filter
-  server: gjbpyuq9.zf-jp-01.9999231.xyz
+  server: 8d653vzi.zf-jp-01.9999231.xyz
   port: 1024
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5081,7 +4998,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇭 CH-2 | Filter
-  server: quzry64q.zf-jp-02.9999231.xyz
+  server: uab27mb4.zf-jp-02.9999231.xyz
   port: 1024
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5090,7 +5007,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇨🇭 CH-3 | Filter
-  server: k6ktrd2k.zf-jp-03.9999231.xyz
+  server: 86obvfcc.zf-jp-03.9999231.xyz
   port: 1024
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5099,7 +5016,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇨🇭 CH-4 | Filter
-  server: 9xnh7rw5.zf-jp-01.9999231.xyz
+  server: 73w84gpk.zf-jp-01.9999231.xyz
   port: 2024
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5108,7 +5025,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇭 CH-5 | Filter
-  server: uyu123wb.zf-jp-02.9999231.xyz
+  server: 9v0dsu99.zf-jp-02.9999231.xyz
   port: 2024
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5117,7 +5034,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇭 CH-6 | Filter
-  server: dj2aiqmj.zf-jp-03.9999231.xyz
+  server: 3hbau0dy.zf-jp-03.9999231.xyz
   port: 2024
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5126,7 +5043,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇩🇪 DE-1 | Filter
-  server: 6vy711nt.zf-jp-01.9999231.xyz
+  server: 7dowhm06.zf-jp-01.9999231.xyz
   port: 1025
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5135,7 +5052,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇩🇪 DE-2 | Filter
-  server: v1yqbfxl.zf-jp-02.9999231.xyz
+  server: j3tg24s8.zf-jp-02.9999231.xyz
   port: 1025
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5144,7 +5061,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇩🇪 DE-3 | Filter
-  server: ak4rao6e.zf-jp-03.9999231.xyz
+  server: 3zl9w4yo.zf-jp-03.9999231.xyz
   port: 1025
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5153,7 +5070,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇩🇪 DE-4 | Filter
-  server: rdj9rhkm.zf-jp-01.9999231.xyz
+  server: s5mx18wt.zf-jp-01.9999231.xyz
   port: 2025
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5162,7 +5079,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇩🇪 DE-5 | Filter
-  server: vldm3na0.zf-jp-02.9999231.xyz
+  server: 6wle1e4f.zf-jp-02.9999231.xyz
   port: 2025
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5171,7 +5088,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇩🇪 DE-6 | Filter
-  server: ayr5dus6.zf-jp-03.9999231.xyz
+  server: yuo59lr3.zf-jp-03.9999231.xyz
   port: 2025
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
