@@ -1,36 +1,205 @@
 proxies:
 - type: vless
-  name: 🇭🇰 HK-1 | 8EB
-  server: 43.175.131.30
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇭🇰 HK-2 | 8EB
-  server: 103.242.15.87
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
   name: 🇸🇬 SG-1 | 8EB
+  server: 143.198.222.4
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇸🇬 SG-2 | 8EB
+  server: 168.144.33.100
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇸🇬 SG-3 | 8EB
+  server: 43.156.2.91
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇸🇬 SG-4 | 8EB
+  server: 165.232.175.180
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇸🇬 SG-5 | 8EB
+  server: 172.237.81.42
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇸🇬 SG-6 | 8EB
+  server: 172.237.91.206
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇯🇵 JP-1 | 8EB
+  server: JP032011.ssgreen.org
+  port: 443
+  uuid: b8075c1b-a178-4c73-92c0-7eb031354a4f
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: JP032011.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032011.ssgreen.org
+- type: vless
+  name: 🇸🇬 SG-7 | 8EB
+  server: 159.89.203.141
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇯🇵 JP-2 | 8EB
+  server: JP032006.ssgreen.org
+  port: 443
+  uuid: b8571791-b92a-4a29-a598-80f3bc4342f8
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: JP032006.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032006.ssgreen.org
+- type: vmess
+  name: 🇯🇵 JP-3 | 8EB
+  server: JP032005.ssgreen.org
+  port: 443
+  uuid: e22252a3-4bcf-44e9-a324-f85ca924e053
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: JP032005.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032005.ssgreen.org
+- type: vless
+  name: 🇭🇰 HK-1 | 8EB
+  server: 85.121.245.35
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇯🇵 JP-4 | 8EB
+  server: JP032012.ssgreen.org
+  port: 443
+  uuid: 0917adc2-eb70-4e1d-a0bd-625c50238fad
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: JP032012.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032012.ssgreen.org
+- type: vless
+  name: 🇰🇷 KR-1 | 8EB
+  server: 168.107.36.254
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇸🇬 SG-8 | 8EB
   server: 43.174.195.1
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
@@ -45,8 +214,8 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇭🇰 HK-3 | 8EB
-  server: 103.97.201.61
+  name: 🇺🇸 US-1 | 8EB
+  server: 172.64.154.191
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -60,8 +229,1135 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
+  name: 🇺🇸 US-2 | 8EB
+  server: 172.66.193.19
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇰🇷 KR-2 | 8EB
+  server: 52.78.141.133
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇻🇳 VN-1 | 8EB
+  server: 160.30.50.48
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇸🇬 SG-9 | 8EB
+  server: 104.234.174.220
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-3 | 8EB
+  server: 179.253.231.12
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇮🇳 IN-1 | 8EB
+  server: 168.144.70.236
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-4 | 8EB
+  server: 104.19.61.216
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-5 | 8EB
+  server: US032010.westmgreen.com
+  port: 443
+  uuid: 149ca051-5ee6-4982-bade-9650702976d5
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032010.westmgreen.com
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032010.westmgreen.com
+- type: vless
   name: 🇨🇦 CA-1 | 8EB
-  server: 104.19.53.46
+  server: 104.18.42.153
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇨🇫 CF-1 | 8EB
+  server: 172.67.74.177
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-6 | 8EB
+  server: 172.64.156.236
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-7 | 8EB
+  server: 104.18.47.189
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇯🇵 JP-5 | 8EB
+  server: JP032002.ssgreen.org
+  port: 443
+  uuid: cfe00f11-d95e-4d14-a913-889a1b6207a0
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: JP032002.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032002.ssgreen.org
+- type: vless
+  name: 🇩🇪 DE-1 | 8EB
+  server: 207.244.199.221
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-8 | 8EB
+  server: 104.18.39.203
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-9 | 8EB
+  server: US032022.ssgreen.org
+  port: 443
+  uuid: 5af360c5-ed5a-4774-8083-eb2b13b28560
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032022.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032022.ssgreen.org
+- type: vless
+  name: 🇺🇸 US-10 | 8EB
+  server: 172.64.147.223
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇯🇵 JP-6 | 8EB
+  server: 45.8.173.253
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇨🇦 CA-2 | 8EB
+  server: 104.17.162.3
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇭🇰 HK-2 | 8EB
+  server: 156.224.79.105
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-11 | 8EB
+  server: 104.17.158.232
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-12 | 8EB
+  server: 179.255.123.215
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-13 | 8EB
+  server: US122204.ssgreen.org
+  port: 443
+  uuid: d4f03b5f-6382-4522-ae21-630851019982
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US122204.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122204.ssgreen.org
+- type: vless
+  name: 🇭🇰 HK-3 | 8EB
+  server: 45.39.199.98
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇩🇰 DK-1 | 8EB
+  server: 193.181.211.52
+  port: 2053
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-14 | 8EB
+  server: 104.19.152.130
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-15 | 8EB
+  server: 208.68.180.108
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-16 | 8EB
+  server: 203.88.114.252
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇨🇫 CF-2 | 8EB
+  server: 172.67.67.89
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-17 | 8EB
+  server: 172.64.152.37
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇻🇳 VN-2 | 8EB
+  server: 103.161.178.72
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-18 | 8EB
+  server: 104.27.55.4
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-19 | 8EB
+  server: US122201.ssgreen.org
+  port: 443
+  uuid: 5e1646e9-2016-482f-9f32-559d7095aabd
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US122201.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122201.ssgreen.org
+- type: vmess
+  name: 🇺🇸 US-20 | 8EB
+  server: US122202.ssgreen.org
+  port: 443
+  uuid: 41fdc47a-1566-4c84-b4fc-88e85182eb19
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US122202.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122202.ssgreen.org
+- type: vless
+  name: 🇫🇷 FR-1 | 8EB
+  server: 51.15.236.52
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-21 | 8EB
+  server: 104.18.44.58
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇨🇫 CF-3 | 8EB
+  server: 104.17.145.43
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-22 | 8EB
+  server: 104.16.65.1
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-23 | 8EB
+  server: US032024.ssgreen.org
+  port: 443
+  uuid: bbf0c507-c6d7-4328-80e1-5adb749a1659
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032024.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032024.ssgreen.org
+- type: vless
+  name: 🇺🇸 US-24 | 8EB
+  server: 104.16.160.1
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-25 | 8EB
+  server: 104.18.255.167
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-26 | 8EB
+  server: 162.159.198.1
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-27 | 8EB
+  server: 192.155.85.108
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-28 | 8EB
+  server: 104.17.149.181
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-29 | 8EB
+  server: US032012.westmgreen.com
+  port: 443
+  uuid: d7e70c0e-e48f-4c7a-8a91-88d673771451
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032012.westmgreen.com
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032012.westmgreen.com
+- type: vless
+  name: 🇨🇦 CA-3 | 8EB
+  server: 104.17.134.88
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-30 | 8EB
+  server: 172.64.150.120
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-31 | 8EB
+  server: 104.17.69.244
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-32 | 8EB
+  server: 104.25.60.205
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-33 | 8EB
+  server: US032023.ssgreen.org
+  port: 443
+  uuid: 2ae5f874-29cd-4cc8-854a-1ea5c25dd62b
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032023.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032023.ssgreen.org
+- type: vless
+  name: 🇩🇪 DE-2 | 8EB
+  server: 3.70.206.161
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-34 | 8EB
+  server: 104.18.34.102
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-35 | 8EB
+  server: US032011.westmgreen.com
+  port: 443
+  uuid: fe0feb77-402a-4fd8-8b47-390566e850bd
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032011.westmgreen.com
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032011.westmgreen.com
+- type: vless
+  name: 🇨🇦 CA-4 | 8EB
+  server: 104.16.105.166
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-36 | 8EB
+  server: 104.16.170.229
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-37 | 8EB
+  server: 104.18.223.253
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-38 | 8EB
+  server: US032019.ssgreen.org
+  port: 443
+  uuid: 93d321f8-922f-44c2-acc2-50f25503aa77
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032019.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032019.ssgreen.org
+- type: vless
+  name: 🇺🇸 US-39 | 8EB
+  server: 104.17.167.67
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-40 | 8EB
+  server: 104.18.151.172
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-41 | 8EB
+  server: 104.16.137.145
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-42 | 8EB
+  server: 172.67.94.180
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-43 | 8EB
+  server: 104.19.0.1
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-44 | 8EB
+  server: 104.17.139.37
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇯🇵 JP-7 | 8EB
+  server: 172.104.80.248
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇰🇷 KR-3 | 8EB
+  server: 130.94.29.155
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇸🇬 SG-10 | 8EB
+  server: 152.42.163.208
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: socks
+  name: 🇺🇸 US-45 | 8EB
+  server: 104.168.249.36
+  port: 1080
+  username: dGVzdDEyMzp0ZXN0MTIz
+- type: vless
+  name: 🇨🇦 CA-5 | 8EB
+  server: 162.159.128.253
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-46 | 8EB
+  server: US032017.ssgreen.org
+  port: 443
+  uuid: 14969fc0-3e84-41c9-9409-26b6c03e9f80
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032017.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032017.ssgreen.org
+- type: vless
+  name: 🇺🇸 US-47 | 8EB
+  server: 173.245.49.194
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇹🇭 TH-1 | 8EB
+  server: 103.114.203.189
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇷🇸 RS-1 | 8EB
+  server: 194.87.85.5
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-48 | 8EB
+  server: 104.17.155.109
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇩🇪 DE-3 | 8EB
+  server: 2.26.251.174
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇯🇵 JP-8 | 8EB
+  server: 160.251.210.41
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇩🇪 DE-4 | 8EB
+  server: 64.188.96.27
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -90,8 +1386,102 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇨🇦 CA-2 | 8EB
-  server: 104.18.42.153
+  name: 🇺🇸 US-49 | 8EB
+  server: 15.204.106.24
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-50 | 8EB
+  server: US122206.ssgreen.org
+  port: 443
+  uuid: f7233d02-cfa9-4823-ac09-4144cdae61f7
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US122206.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122206.ssgreen.org
+- type: vmess
+  name: 🇺🇸 US-51 | 8EB
+  server: US032014.ssgreen.org
+  port: 443
+  uuid: 3c36abb2-1c23-408f-b5e1-bae92a9f54d7
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032014.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032014.ssgreen.org
+- type: vless
+  name: 🇸🇬 SG-11 | 8EB
+  server: 206.189.151.133
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-52 | 8EB
+  server: US122208.ssgreen.org
+  port: 443
+  uuid: e2cc641e-1d2d-4b83-8ca5-0b795ae1f5d9
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US122208.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122208.ssgreen.org
+- type: vmess
+  name: 🇺🇸 US-53 | 8EB
+  server: US032020.ssgreen.org
+  port: 443
+  uuid: dacdda20-7476-457e-bb0e-c05db5e6a89c
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032020.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032020.ssgreen.org
+- type: vless
+  name: 🇲🇽 MX-1 | 8EB
+  server: 38.213.228.91
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -105,8 +1495,23 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇨🇦 CA-3 | 8EB
-  server: 104.18.42.162
+  name: 🇺🇸 US-54 | 8EB
+  server: 173.208.166.58
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇸🇬 SG-12 | 8EB
+  server: 167.150.100.46
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -120,9 +1525,9 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇨🇦 CA-4 | 8EB
-  server: 104.17.162.3
-  port: 443
+  name: 🇬🇪 GE-1 | 8EB
+  server: 194.135.119.82
+  port: 2053
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
   tls: true
@@ -131,12 +1536,12 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇨🇦 CA-5 | 8EB
-  server: 104.17.187.57
+  name: 🇫🇷 FR-2 | 8EB
+  server: 185.252.233.195
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -150,8 +1555,55 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇨🇦 CA-6 | 8EB
-  server: 104.18.33.121
+  name: 🇸🇪 SE-1 | 8EB
+  server: 84.32.208.201
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇯🇵 JP-9 | 8EB
+  server: JP032001.ssgreen.org
+  port: 443
+  uuid: b111bbb4-361e-496b-935a-1066df22cf98
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: JP032001.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032001.ssgreen.org
+- type: vmess
+  name: 🇯🇵 JP-10 | 8EB
+  server: JP032008.ssgreen.org
+  port: 443
+  uuid: 9b909c7f-2ec6-478c-948b-96d0e08c5c41
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: JP032008.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032008.ssgreen.org
+- type: vless
+  name: 🇺🇸 US-55 | 8EB
+  server: 104.18.91.192
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -165,8 +1617,8 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇨🇦 CA-7 | 8EB
-  server: 104.18.236.11
+  name: 🇻🇳 VN-3 | 8EB
+  server: 103.161.179.171
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -180,23 +1632,8 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇨🇦 CA-8 | 8EB
-  server: 104.17.134.88
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇨🇦 CA-9 | 8EB
-  server: 162.159.128.253
+  name: 🇩🇪 DE-5 | 8EB
+  server: 185.170.153.132
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -207,169 +1644,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇨🇦 CA-10 | 8EB
-  server: 104.17.69.244
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇨🇦 CA-11 | 8EB
-  server: 104.16.105.166
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇨🇦 CA-12 | 8EB
-  server: 104.19.212.207
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-1 | 8EB
-  server: 154.21.95.70
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇨🇦 CA-13 | 8EB
-  server: 104.16.250.207
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇨🇦 CA-14 | 8EB
-  server: 104.18.46.214
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: ss
-  name: 🇪🇸 ES-1 | 8EB
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: ss
-  name: 🇪🇸 ES-2 | 8EB
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: ss
-  name: 🇪🇸 ES-3 | 8EB
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: ss
-  name: 🇪🇸 ES-4 | 8EB
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: vless
-  name: 🇧🇪 BE-1 | 8EB
-  server: 141.98.233.6
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇻🇳 VN-1 | 8EB
-  server: 103.161.178.72
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇻🇳 VN-2 | 8EB
-  server: 160.30.50.48
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
@@ -388,6 +1662,382 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
+  name: 🇨🇦 CA-6 | 8EB
+  server: 15.235.104.68
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: ss
+  name: 🇪🇸 ES-1 | 8EB
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: vless
+  name: 🇨🇿 CZ-1 | 8EB
+  server: 85.137.164.56
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇬🇧 GB-1 | 8EB
+  server: 139.59.190.23
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇳🇴 NO-1 | 8EB
+  server: 81.29.149.210
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇹🇼 TW-1 | 8EB
+  server: 85.237.207.141
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇲🇽 MX-2 | 8EB
+  server: 38.213.228.141
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-56 | 8EB
+  server: US032013.ssgreen.org
+  port: 443
+  uuid: 05001e74-f5c0-43ba-a0fc-2f8960b3dd98
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032013.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032013.ssgreen.org
+- type: vless
+  name: 🇳🇱 NL-2 | 8EB
+  server: 129.101.125.66
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇳🇱 NL-3 | 8EB
+  server: 141.98.235.196
+  port: 2087
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇨🇿 CZ-2 | 8EB
+  server: 91.199.147.241
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇯🇵 JP-11 | 8EB
+  server: 161.33.29.51
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇩🇪 DE-6 | 8EB
+  server: 217.60.245.141
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇮🇸 IS-1 | 8EB
+  server: 89.147.108.16
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇵🇹 PT-1 | 8EB
+  server: 195.133.92.71
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇭🇰 HK-4 | 8EB
+  server: 103.97.201.61
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇭🇰 HK-5 | 8EB
+  server: 206.237.27.219
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-57 | 8EB
+  server: 91.149.239.37
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇨🇿 CZ-3 | 8EB
+  server: 141.133.172.163
+  port: 2053
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇳🇱 NL-4 | 8EB
+  server: 95.85.5.217
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇸🇬 SG-13 | 8EB
+  server: 149.28.137.52
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇻🇳 VN-4 | 8EB
+  server: 103.161.178.205
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇺🇸 US-58 | 8EB
+  server: 174.136.206.102
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇮🇸 IS-2 | 8EB
+  server: 89.127.232.228
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: ss
+  name: 🇪🇸 ES-2 | 8EB
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: vmess
+  name: 🇯🇵 JP-12 | 8EB
+  server: JP032007.ssgreen.org
+  port: 443
+  uuid: 07b7e991-5ff9-4101-bd03-f795a4bf1f56
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: JP032007.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032007.ssgreen.org
+- type: vless
   name: 🇰🇭 KH-1 | 8EB
   server: 38.54.4.209
   port: 443
@@ -403,8 +2053,8 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇯🇵 JP-1 | 8EB
-  server: 13.158.39.80
+  name: 🇩🇪 DE-7 | 8EB
+  server: 147.90.44.207
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -418,8 +2068,8 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇯🇵 JP-2 | 8EB
-  server: 3.112.67.101
+  name: 🇬🇹 GT-1 | 8EB
+  server: 170.80.111.48
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -433,187 +2083,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇸🇬 SG-2 | 8EB
-  server: 172.104.59.228
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇸🇬 SG-3 | 8EB
-  server: 43.156.2.91
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-2 | 8EB
-  server: 179.255.121.10
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-3 | 8EB
-  server: 104.16.66.12
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-4 | 8EB
-  server: 104.16.170.229
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-5 | 8EB
-  server: 104.18.91.192
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-6 | 8EB
-  server: 104.18.47.189
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-7 | 8EB
-  server: 104.18.34.102
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-8 | 8EB
-  server: 104.18.39.203
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-9 | 8EB
-  server: 104.19.49.138
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-10 | 8EB
-  server: 104.18.84.225
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-11 | 8EB
-  server: 104.16.87.148
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-12 | 8EB
+  name: 🇺🇸 US-59 | 8EB
   server: 172.66.205.185
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
@@ -628,8 +2098,53 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇺🇸 US-13 | 8EB
-  server: 104.27.55.4
+  name: 🇺🇸 US-60 | 8EB
+  server: 45.59.184.117
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇸🇪 SE-2 | 8EB
+  server: 45.158.116.117
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇨🇱 CL-1 | 8EB
+  server: 64.176.4.154
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇹🇼 TW-2 | 8EB
+  server: 114.34.210.159
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -643,263 +2158,8 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
-  name: 🇺🇸 US-14 | 8EB
-  server: 104.16.137.145
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-15 | 8EB
-  server: 104.18.18.95
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-16 | 8EB
-  server: 104.17.96.139
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-17 | 8EB
-  server: 104.17.153.64
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-18 | 8EB
-  server: 104.17.103.33
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-19 | 8EB
+  name: 🇺🇸 US-61 | 8EB
   server: 104.19.148.121
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-20 | 8EB
-  server: 104.17.139.37
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-21 | 8EB
-  server: 104.17.151.3
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-22 | 8EB
-  server: 104.17.153.11
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-23 | 8EB
-  server: 104.17.149.181
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-24 | 8EB
-  server: 104.17.158.232
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-25 | 8EB
-  server: 172.64.154.191
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-26 | 8EB
-  server: 104.18.43.114
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-27 | 8EB
-  server: 104.18.223.253
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-28 | 8EB
-  server: 104.16.65.1
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇨🇫 CF-1 | 8EB
-  server: 188.164.248.18
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇨🇫 CF-2 | 8EB
-  server: 172.67.74.177
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇨🇫 CF-3 | 8EB
-  server: 172.67.67.89
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -928,8 +2188,85 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
 - type: vless
+  name: 🇺🇸 US-62 | 8EB
+  server: 104.17.103.33
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-63 | 8EB
+  server: US122209.ssgreen.org
+  port: 443
+  uuid: a24e42fa-2587-4c7d-9918-a43e3efefd51
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US122209.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122209.ssgreen.org
+- type: vmess
+  name: 🇺🇸 US-64 | 8EB
+  server: US122205.ssgreen.org
+  port: 443
+  uuid: b4b7f85a-8368-44cc-b975-0d6f1e8e0ba7
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US122205.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122205.ssgreen.org
+- type: vless
+  name: 🇺🇸 US-65 | 8EB
+  server: 172.64.145.164
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
+  name: 🇨🇦 CA-7 | 8EB
+  server: 104.17.187.57
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: snip.edgeoneai.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- type: vless
   name: 🇨🇫 CF-5 | 8EB
-  server: 104.17.125.98
+  server: 104.18.33.121
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -942,9 +2279,25 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
+- type: vmess
+  name: 🇺🇸 US-66 | 8EB
+  server: US032018.ssgreen.org
+  port: 443
+  uuid: c0767dfc-c313-4faa-9053-5554c2a25260
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032018.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032018.ssgreen.org
 - type: vless
-  name: 🇨🇫 CF-6 | 8EB
-  server: 104.16.240.177
+  name: 🇯🇵 JP-13 | 8EB
+  server: 207.148.104.30
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -957,305 +2310,9 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇨🇫 CF-7 | 8EB
-  server: 104.17.145.43
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇯🇵 JP-3 | 8EB
-  server: 103.85.25.226
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇯🇵 JP-4 | 8EB
-  server: 54.65.187.99
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇯🇵 JP-5 | 8EB
-  server: 172.104.80.248
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇻🇳 VN-3 | 8EB
-  server: 103.161.178.205
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇸🇬 SG-4 | 8EB
-  server: 168.144.33.100
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇸🇬 SG-5 | 8EB
-  server: 172.104.47.210
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇭🇰 HK-4 | 8EB
-  server: 198.20.133.121
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-29 | 8EB
-  server: 143.198.99.229
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇺🇸 US-30 | 8EB
-  server: 45.59.128.70
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇰🇷 KR-1 | 8EB
-  server: 43.164.139.71
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: vless
-  name: 🇩🇪 DE-1 | 8EB
-  server: 95.169.166.3
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- type: ss
-  name: 🇪🇸 ES-5 | 8EB
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: vless
-  name: 🇦🇪 AE-1 | 8EB
-  server: l415ng0o.himoy.space
-  port: 443
-  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: l415ng0o.himoy.space
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: JOoD5ze_pwrMnQoAIRVieQM8SPJjiLJEw1fwx57iYgk
-    short-id: bbd20b213341644c
-  network: tcp
-- type: ss
-  name: 🇪🇸 ES-6 | 8EB
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: ss
-  name: 🇪🇸 ES-7 | 8EB
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: vless
-  name: 🇨🇦 CA-15 | 8EB
-  server: 213.152.165.203
-  port: 2093
-  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  network: tcp
-- type: ss
-  name: 🇪🇸 ES-8 | 8EB
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: ss
-  name: 🇪🇸 ES-9 | 8EB
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: vless
-  name: 🇺🇸 US-31 | 8EB
-  server: grimness-backlogs.cdn-content.com
-  port: 443
-  uuid: 752e7b64-09bd-4aa6-8ac0-116a45457458
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: grimness-backlogs.cdn-content.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: grimness-backlogs.cdn-content.com
-  alpn:
-  - http/1.1
-- type: vless
-  name: 🇺🇸 US-32 | 8EB
-  server: ghosts-spasm.quick-cdn.net
-  port: 443
-  uuid: 752e7b64-09bd-4aa6-8ac0-116a45457458
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: ghosts-spasm.quick-cdn.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-  alpn:
-  - http/1.1
-- type: vless
-  name: 🇺🇸 US-33 | 8EB
-  server: bounded-crammed.video-streams.org
-  port: 443
-  uuid: 752e7b64-09bd-4aa6-8ac0-116a45457458
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: bounded-crammed.video-streams.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: bounded-crammed.video-streams.org
-  alpn:
-  - http/1.1
 - type: vless
   name: 🇩🇪 DE-1 | 9PB
-  server: 4egr53ap.zf-low.9999231.xyz
+  server: x4itatl9.zf-low.9999231.xyz
   port: 1001
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1270,7 +2327,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-1 | 9PB
-  server: t6c58q4f.zf-fast.9999231.xyz
+  server: n0r4sqm4.zf-fast.9999231.xyz
   port: 1001
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1285,7 +2342,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-2 | 9PB
-  server: y10n0k68.zf-fast.9999231.xyz
+  server: k49qooy0.zf-fast.9999231.xyz
   port: 1001
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1300,7 +2357,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-3 | 9PB
-  server: ol78088j.zf-fast.9999231.xyz
+  server: 9wy55n4m.zf-fast.9999231.xyz
   port: 1001
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1315,7 +2372,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-4 | 9PB
-  server: ctvv44dz.zf-fast.9999231.xyz
+  server: njy270bz.zf-fast.9999231.xyz
   port: 1001
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1330,7 +2387,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇸 US-5 | 9PB
-  server: 6dtip1r2.zf-low.9999231.xyz
+  server: ehhc56w9.zf-low.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1339,7 +2396,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-6 | 9PB
-  server: d8m7hdrg.zf-fast.9999231.xyz
+  server: cie1dfli.zf-fast.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1348,7 +2405,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-7 | 9PB
-  server: 8xzk97ti.zf-fast.9999231.xyz
+  server: ymlqnly2.zf-fast.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1357,7 +2414,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-8 | 9PB
-  server: jtso02yl.zf-fast.9999231.xyz
+  server: 41ydx6bn.zf-fast.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1366,7 +2423,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-9 | 9PB
-  server: 9tpfgc08.zf-fast.9999231.xyz
+  server: 038eb2xk.zf-fast.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1375,7 +2432,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇭🇰 HK-1 | 9PB
-  server: hzlh2gmo.zf-fast.9999231.xyz
+  server: 2ga7h3z0.zf-fast.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1384,7 +2441,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇭🇰 HK-2 | 9PB
-  server: 45xbed53.zf-fast.9999231.xyz
+  server: ukdgoso0.zf-fast.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1393,7 +2450,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇭🇰 HK-3 | 9PB
-  server: wth60zws.zf-fast.9999231.xyz
+  server: 8d4r0oed.zf-fast.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1402,7 +2459,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇭🇰 HK-4 | 9PB
-  server: x3ycx0zp.zf-fast.9999231.xyz
+  server: v67aurs5.zf-fast.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1411,7 +2468,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇭🇰 HK-5 | 9PB
-  server: 2qyroap3.zf-fast.9999231.xyz
+  server: xh6c06y5.zf-fast.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1420,7 +2477,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇨🇳 CN-1 | 9PB
-  server: jxn2l2sg.zf-fast.9999231.xyz
+  server: 0fyrqrzs.zf-fast.9999231.xyz
   port: 1003
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1435,7 +2492,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇳 CN-2 | 9PB
-  server: 905q6g6c.zf-fast.9999231.xyz
+  server: nl063bl3.zf-fast.9999231.xyz
   port: 1003
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1450,7 +2507,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇳 CN-3 | 9PB
-  server: hreu852g.zf-fast.9999231.xyz
+  server: 7u49458w.zf-fast.9999231.xyz
   port: 1003
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1465,7 +2522,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇳 CN-4 | 9PB
-  server: stlhobk2.zf-fast.9999231.xyz
+  server: kzd61tk1.zf-fast.9999231.xyz
   port: 1003
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1480,7 +2537,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇳 CN-5 | 9PB
-  server: d41szl4j.zf-fast.9999231.xyz
+  server: e8kd6gvd.zf-fast.9999231.xyz
   port: 1003
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1495,7 +2552,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇨🇳 CN-6 | 9PB
-  server: mj6xm67h.zf-fast.9999231.xyz
+  server: kmbx1fhf.zf-fast.9999231.xyz
   port: 2003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1504,7 +2561,7 @@ proxies:
   obfs-password: ZDQxZDhjZD24ZjAxYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-7 | 9PB
-  server: 3l99sbgz.zf-fast.9999231.xyz
+  server: uf35pjgs.zf-fast.9999231.xyz
   port: 2003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1513,7 +2570,7 @@ proxies:
   obfs-password: ZDQxZDhjZD24ZjAxYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-8 | 9PB
-  server: 4wgvucim.zf-fast.9999231.xyz
+  server: zwg95gty.zf-fast.9999231.xyz
   port: 2003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1522,7 +2579,7 @@ proxies:
   obfs-password: ZDQxZDhjZD24ZjAxYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-9 | 9PB
-  server: pq08dej0.zf-fast.9999231.xyz
+  server: tkbps778.zf-fast.9999231.xyz
   port: 2003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1531,7 +2588,7 @@ proxies:
   obfs-password: ZDQxZDhjZD24ZjAxYjIwNA==
 - type: hysteria2
   name: 🇨🇳 CN-10 | 9PB
-  server: m0izgc79.zf-fast.9999231.xyz
+  server: u4uwznhv.zf-fast.9999231.xyz
   port: 2003
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1540,7 +2597,7 @@ proxies:
   obfs-password: ZDQxZDhjZD24ZjAxYjIwNA==
 - type: vless
   name: 🇺🇸 US-10 | 9PB
-  server: xboquox3.zf-fast.9999231.xyz
+  server: kkjuxs06.zf-fast.9999231.xyz
   port: 1004
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1555,7 +2612,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-11 | 9PB
-  server: f8q72kq3.zf-fast.9999231.xyz
+  server: ymrou9b5.zf-fast.9999231.xyz
   port: 1004
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1570,7 +2627,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-12 | 9PB
-  server: yu8w4rj1.zf-fast.9999231.xyz
+  server: 9pn164mp.zf-fast.9999231.xyz
   port: 1004
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1585,7 +2642,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-13 | 9PB
-  server: 2j4acavj.zf-fast.9999231.xyz
+  server: c08v0z8e.zf-fast.9999231.xyz
   port: 1004
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1600,7 +2657,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-14 | 9PB
-  server: 40odplir.zf-fast.9999231.xyz
+  server: eq6igdv4.zf-fast.9999231.xyz
   port: 1004
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1615,7 +2672,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-15 | 9PB
-  server: q6g02vck.zf-fast.9999231.xyz
+  server: reysirn9.zf-fast.9999231.xyz
   port: 1005
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1630,7 +2687,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-16 | 9PB
-  server: 642hv4jp.zf-fast.9999231.xyz
+  server: op5fylmk.zf-fast.9999231.xyz
   port: 1005
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1645,7 +2702,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-17 | 9PB
-  server: 3f0q91ba.zf-fast.9999231.xyz
+  server: i0s4t8m8.zf-fast.9999231.xyz
   port: 1005
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1660,7 +2717,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-18 | 9PB
-  server: 9d72styv.zf-fast.9999231.xyz
+  server: m811j8k2.zf-fast.9999231.xyz
   port: 1005
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1675,7 +2732,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-19 | 9PB
-  server: l7hyjokh.zf-fast.9999231.xyz
+  server: am0ugqff.zf-fast.9999231.xyz
   port: 1005
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1690,7 +2747,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-1 | 9PB
-  server: fhiww329.zf-fast.9999231.xyz
+  server: jaaqzy9y.zf-fast.9999231.xyz
   port: 1006
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1705,7 +2762,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-2 | 9PB
-  server: pp1kirfq.zf-fast.9999231.xyz
+  server: 2hypdryl.zf-fast.9999231.xyz
   port: 1006
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1720,7 +2777,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-3 | 9PB
-  server: fyacaky8.zf-fast.9999231.xyz
+  server: 9reim9ok.zf-fast.9999231.xyz
   port: 1006
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1735,7 +2792,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-4 | 9PB
-  server: gni7b5dj.zf-fast.9999231.xyz
+  server: 3unh2lrf.zf-fast.9999231.xyz
   port: 1006
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1750,7 +2807,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-5 | 9PB
-  server: imsrf2h5.zf-fast.9999231.xyz
+  server: ctzyrp9u.zf-fast.9999231.xyz
   port: 1006
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1765,7 +2822,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-1 | 9PB
-  server: dc7cdwnn.zf-fast.9999231.xyz
+  server: gsyhmm67.zf-fast.9999231.xyz
   port: 1007
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1780,7 +2837,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-2 | 9PB
-  server: mry1krdn.zf-fast.9999231.xyz
+  server: xhn07p7p.zf-fast.9999231.xyz
   port: 1007
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1795,7 +2852,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-3 | 9PB
-  server: 8i5ivd1x.zf-fast.9999231.xyz
+  server: oa5zuosy.zf-fast.9999231.xyz
   port: 1007
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1810,7 +2867,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-4 | 9PB
-  server: 5hkz72m9.zf-fast.9999231.xyz
+  server: jbbbrj7c.zf-fast.9999231.xyz
   port: 1007
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1825,7 +2882,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-5 | 9PB
-  server: 3bd80plu.zf-fast.9999231.xyz
+  server: 4bruz1in.zf-fast.9999231.xyz
   port: 1007
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1840,7 +2897,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-6 | 9PB
-  server: br9k1tcs.zf-fast.9999231.xyz
+  server: qn9mzb7w.zf-fast.9999231.xyz
   port: 1008
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1855,7 +2912,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-7 | 9PB
-  server: wzz3nyn5.zf-fast.9999231.xyz
+  server: yj33jou7.zf-fast.9999231.xyz
   port: 1008
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1870,7 +2927,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-8 | 9PB
-  server: 7smzunft.zf-fast.9999231.xyz
+  server: 1fellu31.zf-fast.9999231.xyz
   port: 1008
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1885,7 +2942,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-9 | 9PB
-  server: i2pyylck.zf-fast.9999231.xyz
+  server: 4qa87xft.zf-fast.9999231.xyz
   port: 1008
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1900,7 +2957,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-10 | 9PB
-  server: 9f0s75lx.zf-fast.9999231.xyz
+  server: u457232c.zf-fast.9999231.xyz
   port: 1008
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1915,7 +2972,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-1 | 9PB
-  server: sm54y71o.zf-low.9999231.xyz
+  server: 31k6y20h.zf-low.9999231.xyz
   port: 1009
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1930,7 +2987,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-2 | 9PB
-  server: rkz88ce4.zf-fast.9999231.xyz
+  server: ne3vg4oe.zf-fast.9999231.xyz
   port: 1009
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1945,7 +3002,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-3 | 9PB
-  server: o4r4ep72.zf-fast.9999231.xyz
+  server: u8kckz6c.zf-fast.9999231.xyz
   port: 1009
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1960,7 +3017,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-4 | 9PB
-  server: v6warr5e.zf-fast.9999231.xyz
+  server: r33k7zl9.zf-fast.9999231.xyz
   port: 1009
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1975,7 +3032,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-5 | 9PB
-  server: gmhlp0lf.zf-fast.9999231.xyz
+  server: 1852m2ch.zf-fast.9999231.xyz
   port: 1009
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1990,7 +3047,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-1 | 9PB
-  server: jicrfu2t.zf-fast.9999231.xyz
+  server: vroj6cw8.zf-fast.9999231.xyz
   port: 1010
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2005,7 +3062,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-2 | 9PB
-  server: bsab2kq6.zf-fast.9999231.xyz
+  server: mr2eocp5.zf-fast.9999231.xyz
   port: 1010
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2020,7 +3077,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-3 | 9PB
-  server: upva9wkh.zf-fast.9999231.xyz
+  server: 8fyv96ep.zf-fast.9999231.xyz
   port: 1010
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2035,7 +3092,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-4 | 9PB
-  server: 32cfwpws.zf-fast.9999231.xyz
+  server: 6quepvl1.zf-fast.9999231.xyz
   port: 1010
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2050,7 +3107,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-5 | 9PB
-  server: zwzovh9e.zf-fast.9999231.xyz
+  server: 5s37skvf.zf-fast.9999231.xyz
   port: 1010
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2065,7 +3122,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇩🇪 DE-2 | 9PB
-  server: zkjglm2i.zf-fast.9999231.xyz
+  server: myb5q5sw.zf-fast.9999231.xyz
   port: 1011
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2080,7 +3137,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇩🇪 DE-3 | 9PB
-  server: dh8c9v5v.zf-fast.9999231.xyz
+  server: ztgk37ig.zf-fast.9999231.xyz
   port: 1011
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2095,7 +3152,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇩🇪 DE-4 | 9PB
-  server: wp5hcfrp.zf-fast.9999231.xyz
+  server: w5109b92.zf-fast.9999231.xyz
   port: 1011
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2110,7 +3167,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇩🇪 DE-5 | 9PB
-  server: yvw593ys.zf-fast.9999231.xyz
+  server: vhj5ojxx.zf-fast.9999231.xyz
   port: 1011
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2125,7 +3182,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇩🇪 DE-6 | 9PB
-  server: ezlfm6xb.zf-fast.9999231.xyz
+  server: q1bfz4jh.zf-fast.9999231.xyz
   port: 1011
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2140,7 +3197,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇹 IT-1 | 9PB
-  server: zi940uxu.zf-fast.9999231.xyz
+  server: 8dv9kwgz.zf-fast.9999231.xyz
   port: 1012
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2155,7 +3212,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇹 IT-2 | 9PB
-  server: 7ulubpb4.zf-fast.9999231.xyz
+  server: 5k91qtdu.zf-fast.9999231.xyz
   port: 1012
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2170,7 +3227,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇹 IT-3 | 9PB
-  server: 1angly0i.zf-fast.9999231.xyz
+  server: u1kz665v.zf-fast.9999231.xyz
   port: 1012
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2185,7 +3242,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇹 IT-4 | 9PB
-  server: wrl5nkzr.zf-fast.9999231.xyz
+  server: f46p4y1x.zf-fast.9999231.xyz
   port: 1012
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2200,7 +3257,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇹 IT-5 | 9PB
-  server: ji8bnl6t.zf-fast.9999231.xyz
+  server: fnkzy748.zf-fast.9999231.xyz
   port: 1012
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2215,7 +3272,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇱 IL-1 | 9PB
-  server: lr2bvv2w.zf-fast.9999231.xyz
+  server: j95kkoh4.zf-fast.9999231.xyz
   port: 1013
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2230,7 +3287,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇱 IL-2 | 9PB
-  server: nde9dcnd.zf-fast.9999231.xyz
+  server: ietao35i.zf-fast.9999231.xyz
   port: 1013
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2245,7 +3302,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇱 IL-3 | 9PB
-  server: 6z5tu3q8.zf-fast.9999231.xyz
+  server: 1extdvoe.zf-fast.9999231.xyz
   port: 1013
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2260,7 +3317,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇱 IL-4 | 9PB
-  server: u8tvmdt7.zf-fast.9999231.xyz
+  server: s7s5qksw.zf-fast.9999231.xyz
   port: 1013
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2275,7 +3332,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇱 IL-5 | 9PB
-  server: 03psmijw.zf-fast.9999231.xyz
+  server: e37on9p0.zf-fast.9999231.xyz
   port: 1013
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2290,7 +3347,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇻🇳 VN-1 | 9PB
-  server: 5f1i9yk5.zf-fast.9999231.xyz
+  server: xreg5qwx.zf-fast.9999231.xyz
   port: 1014
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2305,7 +3362,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇻🇳 VN-2 | 9PB
-  server: 9ozcn7ut.zf-fast.9999231.xyz
+  server: k2zvlx3h.zf-fast.9999231.xyz
   port: 1014
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2320,7 +3377,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇻🇳 VN-3 | 9PB
-  server: tdpb8xna.zf-fast.9999231.xyz
+  server: cxs4brdp.zf-fast.9999231.xyz
   port: 1014
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2335,7 +3392,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇻🇳 VN-4 | 9PB
-  server: 6xi9uza9.zf-fast.9999231.xyz
+  server: uj9p5jpc.zf-fast.9999231.xyz
   port: 1014
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2350,7 +3407,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇻🇳 VN-5 | 9PB
-  server: q87t6wcm.zf-fast.9999231.xyz
+  server: 1l0wrhmc.zf-fast.9999231.xyz
   port: 1014
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2365,7 +3422,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇻🇳 VN-6 | 9PB
-  server: dxg2pbaa.zf-fast.9999231.xyz
+  server: vo79q29k.zf-fast.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2374,7 +3431,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇻🇳 VN-7 | 9PB
-  server: 7v4divd9.zf-fast.9999231.xyz
+  server: 80kbnyd1.zf-fast.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2383,7 +3440,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇻🇳 VN-8 | 9PB
-  server: xe7swydw.zf-fast.9999231.xyz
+  server: wvzqwld3.zf-fast.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2392,7 +3449,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇻🇳 VN-9 | 9PB
-  server: 7x38f6an.zf-fast.9999231.xyz
+  server: hnb5yskk.zf-fast.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2401,7 +3458,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇻🇳 VN-10 | 9PB
-  server: k3bs9e57.zf-fast.9999231.xyz
+  server: zagkd1wh.zf-fast.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2410,7 +3467,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇯🇵 JP-6 | 9PB
-  server: fuxc6so4.zf-fast.9999231.xyz
+  server: alwtu0ui.zf-fast.9999231.xyz
   port: 1015
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2425,7 +3482,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-7 | 9PB
-  server: sla86jlz.zf-fast.9999231.xyz
+  server: pbhhoch4.zf-fast.9999231.xyz
   port: 1015
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2440,7 +3497,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-8 | 9PB
-  server: 4rkq7eap.zf-fast.9999231.xyz
+  server: c339aj03.zf-fast.9999231.xyz
   port: 1015
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2455,7 +3512,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-9 | 9PB
-  server: j1az1q2s.zf-fast.9999231.xyz
+  server: 0oocdrn0.zf-fast.9999231.xyz
   port: 1015
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2470,7 +3527,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-10 | 9PB
-  server: cwjug8lw.zf-fast.9999231.xyz
+  server: rznrf06u.zf-fast.9999231.xyz
   port: 1015
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2485,7 +3542,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇯🇵 JP-11 | 9PB
-  server: lk62vvpk.zf-fast.9999231.xyz
+  server: e98o2sv1.zf-fast.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2494,7 +3551,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇯🇵 JP-12 | 9PB
-  server: da2mqclt.zf-fast.9999231.xyz
+  server: 5kqpb0wi.zf-fast.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2503,7 +3560,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇯🇵 JP-13 | 9PB
-  server: wxnmb7wz.zf-fast.9999231.xyz
+  server: 12k6xvg3.zf-fast.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2512,7 +3569,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇯🇵 JP-14 | 9PB
-  server: 6g3cpbjt.zf-fast.9999231.xyz
+  server: ojvjzf4t.zf-fast.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2521,7 +3578,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇯🇵 JP-15 | 9PB
-  server: qcn3guxa.zf-fast.9999231.xyz
+  server: 73vxv3w7.zf-fast.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2530,7 +3587,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-1 | 9PB
-  server: r8jgdxxz.zf-fast.9999231.xyz
+  server: lyt8qhpl.zf-fast.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2539,7 +3596,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-2 | 9PB
-  server: uhtit2e5.zf-fast.9999231.xyz
+  server: jbtrbey5.zf-fast.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2548,7 +3605,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-3 | 9PB
-  server: d5xzcv1q.zf-fast.9999231.xyz
+  server: ehpe5mkx.zf-fast.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2557,7 +3614,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-4 | 9PB
-  server: azlt8d1k.zf-fast.9999231.xyz
+  server: 1vqa2zkw.zf-fast.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2566,7 +3623,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-5 | 9PB
-  server: glk460yz.zf-fast.9999231.xyz
+  server: vl0dgpsy.zf-fast.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2575,7 +3632,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇦🇿 AZ-1 | 9PB
-  server: f11qgops.zf-fast.9999231.xyz
+  server: gjna5899.zf-fast.9999231.xyz
   port: 1017
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2590,7 +3647,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇿 AZ-2 | 9PB
-  server: nf6s2b6l.zf-fast.9999231.xyz
+  server: az8iev3y.zf-fast.9999231.xyz
   port: 1017
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2605,7 +3662,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇿 AZ-3 | 9PB
-  server: u3dpy5u5.zf-fast.9999231.xyz
+  server: 045heofu.zf-fast.9999231.xyz
   port: 1017
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2620,7 +3677,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇿 AZ-4 | 9PB
-  server: zx4com80.zf-fast.9999231.xyz
+  server: l26u5txk.zf-fast.9999231.xyz
   port: 1017
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2635,7 +3692,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇿 AZ-5 | 9PB
-  server: iaeyca8o.zf-fast.9999231.xyz
+  server: o8b1taok.zf-fast.9999231.xyz
   port: 1017
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2650,7 +3707,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇦🇿 AZ-6 | 9PB
-  server: 5ipwontz.zf-fast.9999231.xyz
+  server: s8kb3z8v.zf-fast.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2659,7 +3716,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇿 AZ-7 | 9PB
-  server: 4uk84ucf.zf-fast.9999231.xyz
+  server: acnylr1w.zf-fast.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2668,7 +3725,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇿 AZ-8 | 9PB
-  server: 8kx7gfry.zf-fast.9999231.xyz
+  server: i79g9cym.zf-fast.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2677,7 +3734,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇿 AZ-9 | 9PB
-  server: vbhen4zg.zf-fast.9999231.xyz
+  server: zo373cxa.zf-fast.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2686,7 +3743,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇿 AZ-10 | 9PB
-  server: hz5vppw8.zf-fast.9999231.xyz
+  server: z91alm2y.zf-fast.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2695,7 +3752,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇹🇭 TH-1 | 9PB
-  server: 5u8ppu0d.zf-fast.9999231.xyz
+  server: jwo0zejy.zf-fast.9999231.xyz
   port: 1018
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2710,7 +3767,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇭 TH-2 | 9PB
-  server: iet82q1r.zf-fast.9999231.xyz
+  server: 117to5l6.zf-fast.9999231.xyz
   port: 1018
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2725,7 +3782,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇭 TH-3 | 9PB
-  server: 264hxavz.zf-fast.9999231.xyz
+  server: ewoss80o.zf-fast.9999231.xyz
   port: 1018
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2740,7 +3797,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇭 TH-4 | 9PB
-  server: w23hvmkp.zf-fast.9999231.xyz
+  server: 1oz8mt8f.zf-fast.9999231.xyz
   port: 1018
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2755,7 +3812,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇭 TH-5 | 9PB
-  server: x6iaamm8.zf-fast.9999231.xyz
+  server: fxhm2o0p.zf-fast.9999231.xyz
   port: 1018
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2770,7 +3827,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇹🇭 TH-6 | 9PB
-  server: qly2antt.zf-fast.9999231.xyz
+  server: ae8nwac9.zf-fast.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2779,7 +3836,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇭 TH-7 | 9PB
-  server: 7em3pdpi.zf-fast.9999231.xyz
+  server: bgnt1jj5.zf-fast.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2788,7 +3845,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇭 TH-8 | 9PB
-  server: farvt89z.zf-fast.9999231.xyz
+  server: ne9bkoao.zf-fast.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2797,7 +3854,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇭 TH-9 | 9PB
-  server: k3cr720s.zf-fast.9999231.xyz
+  server: r0j5lsx2.zf-fast.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2806,7 +3863,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇭 TH-10 | 9PB
-  server: m1mrsxim.zf-fast.9999231.xyz
+  server: 04g4q7ce.zf-fast.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2815,7 +3872,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇧🇷 BR-1 | 9PB
-  server: pzon1svy.zf-fast.9999231.xyz
+  server: jmsowt9s.zf-fast.9999231.xyz
   port: 1019
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2830,7 +3887,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇧🇷 BR-2 | 9PB
-  server: 8ecg8z15.zf-fast.9999231.xyz
+  server: qmqjs0ko.zf-fast.9999231.xyz
   port: 1019
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2845,7 +3902,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇧🇷 BR-3 | 9PB
-  server: o1c79oty.zf-fast.9999231.xyz
+  server: kmj4x21j.zf-fast.9999231.xyz
   port: 1019
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2860,7 +3917,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇧🇷 BR-4 | 9PB
-  server: 5jyq0xuk.zf-fast.9999231.xyz
+  server: q6k71xrv.zf-fast.9999231.xyz
   port: 1019
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2875,7 +3932,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇧🇷 BR-5 | 9PB
-  server: eq6xh0ud.zf-fast.9999231.xyz
+  server: 9r5w4c2d.zf-fast.9999231.xyz
   port: 1019
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2890,7 +3947,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇧🇷 BR-6 | 9PB
-  server: zwtonl7z.zf-fast.9999231.xyz
+  server: c45ijbkn.zf-fast.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2899,7 +3956,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇷 BR-7 | 9PB
-  server: gu6tf9sr.zf-fast.9999231.xyz
+  server: 1kgp7w1e.zf-fast.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2908,7 +3965,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇷 BR-8 | 9PB
-  server: joi0kaf9.zf-fast.9999231.xyz
+  server: arwgl6v5.zf-fast.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2917,7 +3974,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇷 BR-9 | 9PB
-  server: 2f6hscjy.zf-fast.9999231.xyz
+  server: 9hnraiw9.zf-fast.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2926,7 +3983,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇷 BR-10 | 9PB
-  server: 5wj2tawh.zf-fast.9999231.xyz
+  server: o50lbu3j.zf-fast.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2935,7 +3992,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇮🇩 ID-1 | 9PB
-  server: f9f3awoz.zf-fast.9999231.xyz
+  server: y9l2fbwj.zf-fast.9999231.xyz
   port: 1020
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2950,7 +4007,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-2 | 9PB
-  server: y7z45opy.zf-fast.9999231.xyz
+  server: kxfgoi4g.zf-fast.9999231.xyz
   port: 1020
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2965,7 +4022,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-3 | 9PB
-  server: k3y2on1d.zf-fast.9999231.xyz
+  server: 73izvmj5.zf-fast.9999231.xyz
   port: 1020
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2980,7 +4037,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-4 | 9PB
-  server: g4ftiugz.zf-fast.9999231.xyz
+  server: c0k7t0oo.zf-fast.9999231.xyz
   port: 1020
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2995,7 +4052,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-5 | 9PB
-  server: 2am5wh56.zf-fast.9999231.xyz
+  server: le2chzdj.zf-fast.9999231.xyz
   port: 1020
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3010,7 +4067,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-6 | 9PB
-  server: but1o4ky.zf-fast.9999231.xyz
+  server: 2hv5q2p4.zf-fast.9999231.xyz
   port: 1021
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3025,7 +4082,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-7 | 9PB
-  server: ye2wj563.zf-fast.9999231.xyz
+  server: 1vqnz49k.zf-fast.9999231.xyz
   port: 1021
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3040,7 +4097,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-8 | 9PB
-  server: eh76didg.zf-fast.9999231.xyz
+  server: ed8z4qmt.zf-fast.9999231.xyz
   port: 1021
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3055,7 +4112,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-9 | 9PB
-  server: id8zda03.zf-fast.9999231.xyz
+  server: ubut01gs.zf-fast.9999231.xyz
   port: 1021
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3070,7 +4127,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-10 | 9PB
-  server: omz59g6c.zf-fast.9999231.xyz
+  server: 4kzpwm1e.zf-fast.9999231.xyz
   port: 1021
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3085,7 +4142,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇩 ID-11 | 9PB
-  server: rdsq273t.zf-fast.9999231.xyz
+  server: 6xh4y4ix.zf-fast.9999231.xyz
   port: 2021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3094,7 +4151,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇩 ID-12 | 9PB
-  server: s1e9olwp.zf-fast.9999231.xyz
+  server: y1xxduf6.zf-fast.9999231.xyz
   port: 2021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3103,7 +4160,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇩 ID-13 | 9PB
-  server: g95jd1i4.zf-fast.9999231.xyz
+  server: 84qq5ocq.zf-fast.9999231.xyz
   port: 2021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3112,7 +4169,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇩 ID-14 | 9PB
-  server: zq95hrh2.zf-fast.9999231.xyz
+  server: xvxj3e2y.zf-fast.9999231.xyz
   port: 2021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3121,7 +4178,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇩 ID-15 | 9PB
-  server: 8pavd2up.zf-fast.9999231.xyz
+  server: nxh3swf3.zf-fast.9999231.xyz
   port: 2021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3130,7 +4187,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇵🇱 PL-1 | 9PB
-  server: g9k1hcpb.zf-fast.9999231.xyz
+  server: ufrc3kvj.zf-fast.9999231.xyz
   port: 1022
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3145,7 +4202,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇱 PL-2 | 9PB
-  server: 95dcolx2.zf-fast.9999231.xyz
+  server: o9cco0ez.zf-fast.9999231.xyz
   port: 1022
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3160,7 +4217,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇱 PL-3 | 9PB
-  server: 7fggnvvb.zf-fast.9999231.xyz
+  server: uyk29gf7.zf-fast.9999231.xyz
   port: 1022
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3175,7 +4232,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇱 PL-4 | 9PB
-  server: px0aw3fk.zf-fast.9999231.xyz
+  server: 25l7k4dp.zf-fast.9999231.xyz
   port: 1022
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3190,7 +4247,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇱 PL-5 | 9PB
-  server: nuoaepg2.zf-fast.9999231.xyz
+  server: w14ehtnb.zf-fast.9999231.xyz
   port: 1022
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3205,7 +4262,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇵🇱 PL-6 | 9PB
-  server: w2bhsruu.zf-fast.9999231.xyz
+  server: avlhuf2r.zf-fast.9999231.xyz
   port: 2022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3214,7 +4271,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇱 PL-7 | 9PB
-  server: pb5vhx6j.zf-fast.9999231.xyz
+  server: awnpd959.zf-fast.9999231.xyz
   port: 2022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3223,7 +4280,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇱 PL-8 | 9PB
-  server: l6qdivnv.zf-fast.9999231.xyz
+  server: a69hn083.zf-fast.9999231.xyz
   port: 2022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3232,7 +4289,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇱 PL-9 | 9PB
-  server: x7rlr6db.zf-fast.9999231.xyz
+  server: s0clbq10.zf-fast.9999231.xyz
   port: 2022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3241,7 +4298,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇱 PL-10 | 9PB
-  server: selwe7m3.zf-fast.9999231.xyz
+  server: 8a5360sp.zf-fast.9999231.xyz
   port: 2022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3250,7 +4307,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇫🇷 FR-6 | 9PB
-  server: 1wmqcpvt.zf-fast.9999231.xyz
+  server: dwjdgn7p.zf-fast.9999231.xyz
   port: 1023
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3265,7 +4322,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-7 | 9PB
-  server: g4aevlim.zf-fast.9999231.xyz
+  server: m0lhjfob.zf-fast.9999231.xyz
   port: 1023
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3280,7 +4337,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-8 | 9PB
-  server: d0cp9fjx.zf-fast.9999231.xyz
+  server: qc26hrfj.zf-fast.9999231.xyz
   port: 1023
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3295,7 +4352,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-9 | 9PB
-  server: ird48pi4.zf-fast.9999231.xyz
+  server: bw60qrxw.zf-fast.9999231.xyz
   port: 1023
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3310,7 +4367,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-10 | 9PB
-  server: 96yyxo41.zf-fast.9999231.xyz
+  server: x7zf54t1.zf-fast.9999231.xyz
   port: 1023
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3325,7 +4382,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇫🇷 FR-11 | 9PB
-  server: xyzf563m.zf-fast.9999231.xyz
+  server: x6gqqnvy.zf-fast.9999231.xyz
   port: 2023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3334,7 +4391,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇫🇷 FR-12 | 9PB
-  server: hyj3z60r.zf-fast.9999231.xyz
+  server: cjx4a9co.zf-fast.9999231.xyz
   port: 2023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3343,7 +4400,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇫🇷 FR-13 | 9PB
-  server: gj2g6kjg.zf-fast.9999231.xyz
+  server: btdyhto6.zf-fast.9999231.xyz
   port: 2023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3352,7 +4409,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇫🇷 FR-14 | 9PB
-  server: 4ca4ny21.zf-fast.9999231.xyz
+  server: 7hk6wvkq.zf-fast.9999231.xyz
   port: 2023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3361,7 +4418,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇫🇷 FR-15 | 9PB
-  server: 84ilgyqv.zf-fast.9999231.xyz
+  server: t3p2hpoa.zf-fast.9999231.xyz
   port: 2023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3370,7 +4427,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇪🇬 EG-1 | 9PB
-  server: itdat61g.zf-fast.9999231.xyz
+  server: a42963a4.zf-fast.9999231.xyz
   port: 1024
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3385,7 +4442,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇪🇬 EG-2 | 9PB
-  server: brk75y0o.zf-fast.9999231.xyz
+  server: 5uapoiks.zf-fast.9999231.xyz
   port: 1024
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3400,7 +4457,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇪🇬 EG-3 | 9PB
-  server: 7ddc3jdd.zf-fast.9999231.xyz
+  server: x7q4wssu.zf-fast.9999231.xyz
   port: 1024
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3415,7 +4472,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇪🇬 EG-4 | 9PB
-  server: 2vgu3pjk.zf-fast.9999231.xyz
+  server: 54guomtn.zf-fast.9999231.xyz
   port: 1024
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3430,7 +4487,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇪🇬 EG-5 | 9PB
-  server: 79afyawy.zf-fast.9999231.xyz
+  server: tbocd8pt.zf-fast.9999231.xyz
   port: 1024
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3445,7 +4502,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇪🇬 EG-6 | 9PB
-  server: obm44nyj.zf-fast.9999231.xyz
+  server: d1tbt1y7.zf-fast.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3454,7 +4511,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇪🇬 EG-7 | 9PB
-  server: o6k3zvj2.zf-fast.9999231.xyz
+  server: apxr15um.zf-fast.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3463,7 +4520,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇪🇬 EG-8 | 9PB
-  server: 5mkelkae.zf-fast.9999231.xyz
+  server: v63fop9t.zf-fast.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3472,7 +4529,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇪🇬 EG-9 | 9PB
-  server: v12kt4gc.zf-fast.9999231.xyz
+  server: rlvqbno3.zf-fast.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3481,7 +4538,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇪🇬 EG-10 | 9PB
-  server: zso995s1.zf-fast.9999231.xyz
+  server: u7ao6bzx.zf-fast.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3490,7 +4547,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇰🇿 KZ-1 | 9PB
-  server: kr2p87xi.zf-fast.9999231.xyz
+  server: 52ikhmtj.zf-fast.9999231.xyz
   port: 1025
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3505,7 +4562,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇿 KZ-2 | 9PB
-  server: bfl3g4zh.zf-fast.9999231.xyz
+  server: eoat0kkh.zf-fast.9999231.xyz
   port: 1025
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3520,7 +4577,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇿 KZ-3 | 9PB
-  server: v46blf15.zf-fast.9999231.xyz
+  server: lyyasle6.zf-fast.9999231.xyz
   port: 1025
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3535,7 +4592,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇿 KZ-4 | 9PB
-  server: zzyrbl8z.zf-fast.9999231.xyz
+  server: td3ly3t8.zf-fast.9999231.xyz
   port: 1025
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3550,7 +4607,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇿 KZ-5 | 9PB
-  server: got0kl5d.zf-fast.9999231.xyz
+  server: jsbwi92m.zf-fast.9999231.xyz
   port: 1025
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3565,7 +4622,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇰🇿 KZ-6 | 9PB
-  server: bw6tmnt6.zf-fast.9999231.xyz
+  server: 2l3e384c.zf-fast.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3574,7 +4631,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇿 KZ-7 | 9PB
-  server: qdmf7luw.zf-fast.9999231.xyz
+  server: bf78uwxu.zf-fast.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3583,7 +4640,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇿 KZ-8 | 9PB
-  server: b1596m3w.zf-fast.9999231.xyz
+  server: li8eydoe.zf-fast.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3592,7 +4649,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇿 KZ-9 | 9PB
-  server: 3jo5rcgt.zf-fast.9999231.xyz
+  server: wsmp1blg.zf-fast.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3601,7 +4658,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇿 KZ-10 | 9PB
-  server: 7ygo4gbv.zf-fast.9999231.xyz
+  server: eqm2sm48.zf-fast.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3610,7 +4667,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇹🇬 TG-1 | 9PB
-  server: 7d8drboh.zf-fast.9999231.xyz
+  server: 33p9774j.zf-fast.9999231.xyz
   port: 1026
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3625,7 +4682,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇬 TG-2 | 9PB
-  server: a0hypifp.zf-fast.9999231.xyz
+  server: c50j3zra.zf-fast.9999231.xyz
   port: 1026
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3640,7 +4697,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇬 TG-3 | 9PB
-  server: 4q98xx81.zf-fast.9999231.xyz
+  server: t1hty67y.zf-fast.9999231.xyz
   port: 1026
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3655,7 +4712,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇬 TG-4 | 9PB
-  server: 0m3nb28t.zf-fast.9999231.xyz
+  server: rt4oct2d.zf-fast.9999231.xyz
   port: 1026
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3670,7 +4727,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇬 TG-5 | 9PB
-  server: q6ecv0vg.zf-fast.9999231.xyz
+  server: c3z5xx69.zf-fast.9999231.xyz
   port: 1026
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3685,7 +4742,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇹🇬 TG-6 | 9PB
-  server: wac5txkt.zf-fast.9999231.xyz
+  server: 68z70cvy.zf-fast.9999231.xyz
   port: 2026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3694,7 +4751,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇬 TG-7 | 9PB
-  server: zr2pda14.zf-fast.9999231.xyz
+  server: mzwf3pqr.zf-fast.9999231.xyz
   port: 2026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3703,7 +4760,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇬 TG-8 | 9PB
-  server: pf837unf.zf-fast.9999231.xyz
+  server: w3fung9m.zf-fast.9999231.xyz
   port: 2026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3712,7 +4769,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇬 TG-9 | 9PB
-  server: 8hd2ens3.zf-fast.9999231.xyz
+  server: kp104slx.zf-fast.9999231.xyz
   port: 2026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3721,7 +4778,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇬 TG-10 | 9PB
-  server: ni8l7i12.zf-fast.9999231.xyz
+  server: ue1w3mto.zf-fast.9999231.xyz
   port: 2026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3730,7 +4787,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇹🇷 TR-1 | 9PB
-  server: gjcz244v.zf-fast.9999231.xyz
+  server: dg7dune9.zf-fast.9999231.xyz
   port: 1027
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3745,7 +4802,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇷 TR-2 | 9PB
-  server: dgiuqx4c.zf-fast.9999231.xyz
+  server: 03vz91pk.zf-fast.9999231.xyz
   port: 1027
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3760,7 +4817,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇷 TR-3 | 9PB
-  server: 5ti1ovnn.zf-fast.9999231.xyz
+  server: 27l12vcj.zf-fast.9999231.xyz
   port: 1027
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3775,7 +4832,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇷 TR-4 | 9PB
-  server: l0s6zr90.zf-fast.9999231.xyz
+  server: xwiv8w9z.zf-fast.9999231.xyz
   port: 1027
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3790,7 +4847,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇷 TR-5 | 9PB
-  server: bp9zqyh2.zf-fast.9999231.xyz
+  server: oqt91t59.zf-fast.9999231.xyz
   port: 1027
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3805,7 +4862,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇦 UA-1 | 9PB
-  server: ijhivuc5.zf-fast.9999231.xyz
+  server: u0ruywmy.zf-fast.9999231.xyz
   port: 1028
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3820,7 +4877,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇦 UA-2 | 9PB
-  server: aqgz5k8n.zf-fast.9999231.xyz
+  server: 2vnvmxjk.zf-fast.9999231.xyz
   port: 1028
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3835,7 +4892,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇦 UA-3 | 9PB
-  server: qdvphpl0.zf-fast.9999231.xyz
+  server: m1lzbqlp.zf-fast.9999231.xyz
   port: 1028
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3850,7 +4907,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇦 UA-4 | 9PB
-  server: q0j4rpc1.zf-fast.9999231.xyz
+  server: ddppsxu9.zf-fast.9999231.xyz
   port: 1028
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3865,7 +4922,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇦 UA-5 | 9PB
-  server: nx7te4u4.zf-fast.9999231.xyz
+  server: dbztxhn7.zf-fast.9999231.xyz
   port: 1028
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3880,7 +4937,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇦 UA-6 | 9PB
-  server: 9fy4liq0.zf-fast.9999231.xyz
+  server: ubr1ly4z.zf-fast.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3889,7 +4946,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇺🇦 UA-7 | 9PB
-  server: 8ks3ix1a.zf-fast.9999231.xyz
+  server: nxxjvhj7.zf-fast.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3898,7 +4955,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇺🇦 UA-8 | 9PB
-  server: sgzp0m28.zf-fast.9999231.xyz
+  server: 4vjrltax.zf-fast.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3907,7 +4964,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇺🇦 UA-9 | 9PB
-  server: nedbd6oa.zf-fast.9999231.xyz
+  server: 1zz2eo9c.zf-fast.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3916,7 +4973,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇺🇦 UA-10 | 9PB
-  server: e49afjvi.zf-fast.9999231.xyz
+  server: 64h4alp6.zf-fast.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3925,7 +4982,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇸🇪 SE-1 | 9PB
-  server: v0vbbd3a.zf-fast.9999231.xyz
+  server: aioibk04.zf-fast.9999231.xyz
   port: 1029
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3940,7 +4997,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇪 SE-2 | 9PB
-  server: pgl4k7ng.zf-fast.9999231.xyz
+  server: gf3c76vc.zf-fast.9999231.xyz
   port: 1029
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3955,7 +5012,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇪 SE-3 | 9PB
-  server: ai1o63s8.zf-fast.9999231.xyz
+  server: iog929rf.zf-fast.9999231.xyz
   port: 1029
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3970,7 +5027,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇪 SE-4 | 9PB
-  server: 2d3ryq5f.zf-fast.9999231.xyz
+  server: oxcb7tk8.zf-fast.9999231.xyz
   port: 1029
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3985,7 +5042,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇪 SE-5 | 9PB
-  server: rxy5mei7.zf-fast.9999231.xyz
+  server: orm9hm31.zf-fast.9999231.xyz
   port: 1029
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4000,7 +5057,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇪 SE-6 | 9PB
-  server: 82wkkb5b.zf-fast.9999231.xyz
+  server: 5xf98uav.zf-fast.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4009,7 +5066,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇪 SE-7 | 9PB
-  server: 6sjlpfif.zf-fast.9999231.xyz
+  server: zh9sbszo.zf-fast.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4018,7 +5075,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇪 SE-8 | 9PB
-  server: uyk4kh01.zf-fast.9999231.xyz
+  server: bfbtd2qk.zf-fast.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4027,7 +5084,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇪 SE-9 | 9PB
-  server: cpw86puw.zf-fast.9999231.xyz
+  server: tw5z3dpg.zf-fast.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4036,7 +5093,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇪 SE-10 | 9PB
-  server: sbs9f3oz.zf-fast.9999231.xyz
+  server: 4bu1yero.zf-fast.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4045,7 +5102,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇺 AU-1 | 9PB
-  server: zfqw3qlu.zf-fast.9999231.xyz
+  server: 68fd3uke.zf-fast.9999231.xyz
   port: 2030
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4054,7 +5111,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇺 AU-2 | 9PB
-  server: k9fjkjau.zf-fast.9999231.xyz
+  server: 9offmucq.zf-fast.9999231.xyz
   port: 2030
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4063,7 +5120,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇺 AU-3 | 9PB
-  server: 0cq7vymu.zf-fast.9999231.xyz
+  server: dmlgips8.zf-fast.9999231.xyz
   port: 2030
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4072,7 +5129,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇺 AU-4 | 9PB
-  server: f9r1pcig.zf-fast.9999231.xyz
+  server: zsdw35so.zf-fast.9999231.xyz
   port: 2030
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4081,7 +5138,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇺 AU-5 | 9PB
-  server: u5r8wf3o.zf-fast.9999231.xyz
+  server: xahu2eug.zf-fast.9999231.xyz
   port: 2030
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4090,7 +5147,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇪 BE-1 | 9PB
-  server: n4c5ap54.zf-fast.9999231.xyz
+  server: 6tpl3p96.zf-fast.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4099,7 +5156,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇪 BE-2 | 9PB
-  server: yq0f0zmx.zf-fast.9999231.xyz
+  server: 23qts98q.zf-fast.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4108,7 +5165,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇪 BE-3 | 9PB
-  server: g7vogaxr.zf-fast.9999231.xyz
+  server: qjt22d3z.zf-fast.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4117,7 +5174,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇪 BE-4 | 9PB
-  server: khpzl60u.zf-fast.9999231.xyz
+  server: 70fcku8n.zf-fast.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4126,7 +5183,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇪 BE-5 | 9PB
-  server: ojjcua66.zf-fast.9999231.xyz
+  server: jxcy7gvt.zf-fast.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4135,7 +5192,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇩🇰 DK-1 | 9PB
-  server: 8di8lkh9.zf-fast.9999231.xyz
+  server: w7226mwz.zf-fast.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4144,7 +5201,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇩🇰 DK-2 | 9PB
-  server: ufdn389r.zf-fast.9999231.xyz
+  server: pxne96t5.zf-fast.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4153,7 +5210,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇩🇰 DK-3 | 9PB
-  server: tdymlb09.zf-fast.9999231.xyz
+  server: ottv1uzx.zf-fast.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4162,7 +5219,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇩🇰 DK-4 | 9PB
-  server: nn35h88r.zf-fast.9999231.xyz
+  server: 8z3hkcuw.zf-fast.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4171,7 +5228,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇩🇰 DK-5 | 9PB
-  server: 5k1e53g4.zf-fast.9999231.xyz
+  server: 8ia2a1qi.zf-fast.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4180,7 +5237,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇳🇱 NL-1 | 9PB
-  server: 5i25l9sd.zf-fast.9999231.xyz
+  server: o17zcxyc.zf-fast.9999231.xyz
   port: 1033
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4195,7 +5252,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇱 NL-2 | 9PB
-  server: sgmob456.zf-fast.9999231.xyz
+  server: 9j0eqb30.zf-fast.9999231.xyz
   port: 1033
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4210,7 +5267,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇱 NL-3 | 9PB
-  server: w5cv4yel.zf-fast.9999231.xyz
+  server: zg9k5ld2.zf-fast.9999231.xyz
   port: 1033
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4225,7 +5282,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇱 NL-4 | 9PB
-  server: 9xm81uab.zf-fast.9999231.xyz
+  server: l2xuvmbi.zf-fast.9999231.xyz
   port: 1033
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4240,7 +5297,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇱 NL-5 | 9PB
-  server: aqq2vbk8.zf-fast.9999231.xyz
+  server: dqb3zisf.zf-fast.9999231.xyz
   port: 1033
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4255,7 +5312,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇳🇱 NL-6 | 9PB
-  server: e4aeod5t.zf-fast.9999231.xyz
+  server: wmieyy15.zf-fast.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4264,7 +5321,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇱 NL-7 | 9PB
-  server: uat5llyo.zf-fast.9999231.xyz
+  server: fqka095l.zf-fast.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4273,7 +5330,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇱 NL-8 | 9PB
-  server: jn4omswg.zf-fast.9999231.xyz
+  server: 6ctj2q5c.zf-fast.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4282,7 +5339,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇱 NL-9 | 9PB
-  server: t57wvoxn.zf-fast.9999231.xyz
+  server: mjpch64g.zf-fast.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4291,7 +5348,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇱 NL-10 | 9PB
-  server: vprc8ss1.zf-fast.9999231.xyz
+  server: mr6eixrp.zf-fast.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4300,7 +5357,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇦🇪 AE-1 | 9PB
-  server: aksy60cm.zf-fast.9999231.xyz
+  server: t86cf1tz.zf-fast.9999231.xyz
   port: 1034
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4315,7 +5372,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇪 AE-2 | 9PB
-  server: 82dbkkc9.zf-fast.9999231.xyz
+  server: 9ysa36x6.zf-fast.9999231.xyz
   port: 1034
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4330,7 +5387,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇪 AE-3 | 9PB
-  server: 23fzg64o.zf-fast.9999231.xyz
+  server: g75sdak6.zf-fast.9999231.xyz
   port: 1034
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4345,7 +5402,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇪 AE-4 | 9PB
-  server: 7uh1g137.zf-fast.9999231.xyz
+  server: um2agyye.zf-fast.9999231.xyz
   port: 1034
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4360,7 +5417,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇪 AE-5 | 9PB
-  server: wc7h2pof.zf-fast.9999231.xyz
+  server: fhn1pmqm.zf-fast.9999231.xyz
   port: 1034
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4375,7 +5432,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇦🇪 AE-6 | 9PB
-  server: 6fwgs1tp.zf-fast.9999231.xyz
+  server: r8q6yuee.zf-fast.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4384,7 +5441,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇪 AE-7 | 9PB
-  server: engda8im.zf-fast.9999231.xyz
+  server: s543bqd9.zf-fast.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4393,7 +5450,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇪 AE-8 | 9PB
-  server: 5vecirxx.zf-fast.9999231.xyz
+  server: ku4bijwm.zf-fast.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4402,7 +5459,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇪 AE-9 | 9PB
-  server: 2igat3dd.zf-fast.9999231.xyz
+  server: xffl1kj6.zf-fast.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4411,7 +5468,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇪 AE-10 | 9PB
-  server: vwqoj85l.zf-fast.9999231.xyz
+  server: ee901d06.zf-fast.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4420,7 +5477,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇳 IN-1 | 9PB
-  server: zvqq2a2n.zf-fast.9999231.xyz
+  server: 5jgkrtv8.zf-fast.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4429,7 +5486,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇳 IN-2 | 9PB
-  server: gp81d787.zf-fast.9999231.xyz
+  server: 78kbqpr6.zf-fast.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4438,7 +5495,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇳 IN-3 | 9PB
-  server: gq5uf5sq.zf-fast.9999231.xyz
+  server: efd044y8.zf-fast.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4447,7 +5504,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇳 IN-4 | 9PB
-  server: x7oq8zh9.zf-fast.9999231.xyz
+  server: q4f9yx7u.zf-fast.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4456,7 +5513,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇳 IN-5 | 9PB
-  server: 7ad8luw0.zf-fast.9999231.xyz
+  server: 2ucedcgj.zf-fast.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4465,7 +5522,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇴 NO-1 | 9PB
-  server: 40b2zwjy.zf-fast.9999231.xyz
+  server: 70oyygnf.zf-fast.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4474,7 +5531,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇴 NO-2 | 9PB
-  server: 0nhg8jqp.zf-fast.9999231.xyz
+  server: svq554pk.zf-fast.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4483,7 +5540,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇴 NO-3 | 9PB
-  server: 5myk5vdd.zf-fast.9999231.xyz
+  server: dasct7qe.zf-fast.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4492,7 +5549,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇴 NO-4 | 9PB
-  server: wm661x5w.zf-fast.9999231.xyz
+  server: shf1b1d2.zf-fast.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4501,7 +5558,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇴 NO-5 | 9PB
-  server: 0p5u77oa.zf-fast.9999231.xyz
+  server: ltr102xw.zf-fast.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4510,7 +5567,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇨🇭 CH-1 | 9PB
-  server: i44792at.zf-fast.9999231.xyz
+  server: 49jer7om.zf-fast.9999231.xyz
   port: 2037
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4519,7 +5576,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇨🇭 CH-2 | 9PB
-  server: mwo3hles.zf-fast.9999231.xyz
+  server: b4u9mnpv.zf-fast.9999231.xyz
   port: 2037
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4528,7 +5585,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇨🇭 CH-3 | 9PB
-  server: mai4ixem.zf-fast.9999231.xyz
+  server: kure4ju8.zf-fast.9999231.xyz
   port: 2037
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4537,7 +5594,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇨🇭 CH-4 | 9PB
-  server: 3zawk8pc.zf-fast.9999231.xyz
+  server: u84sqw3q.zf-fast.9999231.xyz
   port: 2037
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4546,7 +5603,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇨🇭 CH-5 | 9PB
-  server: 2g4xh60n.zf-fast.9999231.xyz
+  server: i5ghkxrs.zf-fast.9999231.xyz
   port: 2037
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4555,7 +5612,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇮🇶 IQ-1 | 9PB
-  server: xb5f0hoh.zf-fast.9999231.xyz
+  server: 24hv9k2i.zf-fast.9999231.xyz
   port: 1038
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4570,7 +5627,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇶 IQ-2 | 9PB
-  server: 82pgnhxj.zf-fast.9999231.xyz
+  server: wuuus48i.zf-fast.9999231.xyz
   port: 1038
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4585,7 +5642,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇶 IQ-3 | 9PB
-  server: hyi80uwe.zf-fast.9999231.xyz
+  server: 6pgi84o6.zf-fast.9999231.xyz
   port: 1038
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4600,7 +5657,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇶 IQ-4 | 9PB
-  server: qut7eryz.zf-fast.9999231.xyz
+  server: 55yiojup.zf-fast.9999231.xyz
   port: 1038
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4615,7 +5672,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇶 IQ-5 | 9PB
-  server: yspa2nf4.zf-fast.9999231.xyz
+  server: dq5qk2uz.zf-fast.9999231.xyz
   port: 1038
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4630,7 +5687,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇶 IQ-6 | 9PB
-  server: j22c4jj4.zf-fast.9999231.xyz
+  server: zyivd5oj.zf-fast.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4639,7 +5696,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇶 IQ-7 | 9PB
-  server: 80hpdlic.zf-fast.9999231.xyz
+  server: r7nklv0z.zf-fast.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4648,7 +5705,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇶 IQ-8 | 9PB
-  server: a6292mla.zf-fast.9999231.xyz
+  server: j0o06a08.zf-fast.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4657,7 +5714,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇶 IQ-9 | 9PB
-  server: pksmtnz1.zf-fast.9999231.xyz
+  server: m3js10xq.zf-fast.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4666,7 +5723,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇶 IQ-10 | 9PB
-  server: vv2l4n0x.zf-fast.9999231.xyz
+  server: ils8ros1.zf-fast.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4675,7 +5732,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇵🇪 PE-1 | 9PB
-  server: engoh6nl.zf-fast.9999231.xyz
+  server: 9dmrktq4.zf-fast.9999231.xyz
   port: 1039
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4690,7 +5747,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇪 PE-2 | 9PB
-  server: soyw42kd.zf-fast.9999231.xyz
+  server: kj2rdvbv.zf-fast.9999231.xyz
   port: 1039
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4705,7 +5762,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇪 PE-3 | 9PB
-  server: 81i1tlho.zf-fast.9999231.xyz
+  server: cqz0s3xr.zf-fast.9999231.xyz
   port: 1039
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4720,7 +5777,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇪 PE-4 | 9PB
-  server: recbib89.zf-fast.9999231.xyz
+  server: 4nke3mcb.zf-fast.9999231.xyz
   port: 1039
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4735,7 +5792,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇪 PE-5 | 9PB
-  server: fx3yvz0v.zf-fast.9999231.xyz
+  server: 5eb4y9fx.zf-fast.9999231.xyz
   port: 1039
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4750,7 +5807,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇵🇪 PE-6 | 9PB
-  server: 7cjqf0d2.zf-fast.9999231.xyz
+  server: xfvdst5q.zf-fast.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4759,7 +5816,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇪 PE-7 | 9PB
-  server: ok67frqd.zf-fast.9999231.xyz
+  server: njw0vdhj.zf-fast.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4768,7 +5825,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇪 PE-8 | 9PB
-  server: vb58kayd.zf-fast.9999231.xyz
+  server: gy6bp8ti.zf-fast.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4777,7 +5834,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇪 PE-9 | 9PB
-  server: 73229mm6.zf-fast.9999231.xyz
+  server: 0pkf1xfm.zf-fast.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4786,7 +5843,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇪 PE-10 | 9PB
-  server: f5wsjnwg.zf-fast.9999231.xyz
+  server: hc58v1cd.zf-fast.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4795,7 +5852,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇰🇬 KG-1 | 9PB
-  server: iyppve4s.zf-fast.9999231.xyz
+  server: 0ycckg3q.zf-fast.9999231.xyz
   port: 1040
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4810,7 +5867,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇬 KG-2 | 9PB
-  server: hh1pfg2i.zf-fast.9999231.xyz
+  server: 4als9for.zf-fast.9999231.xyz
   port: 1040
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4825,7 +5882,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇬 KG-3 | 9PB
-  server: rs00gtjz.zf-fast.9999231.xyz
+  server: 1v55xtd4.zf-fast.9999231.xyz
   port: 1040
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4840,7 +5897,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇬 KG-4 | 9PB
-  server: qeoos9lr.zf-fast.9999231.xyz
+  server: axejjs3i.zf-fast.9999231.xyz
   port: 1040
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4855,7 +5912,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇬 KG-5 | 9PB
-  server: i3tlbc1u.zf-fast.9999231.xyz
+  server: 3gcw7wv8.zf-fast.9999231.xyz
   port: 1040
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4870,7 +5927,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇰🇬 KG-6 | 9PB
-  server: 0ay6e951.zf-fast.9999231.xyz
+  server: dn52qd4r.zf-fast.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4879,7 +5936,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇬 KG-7 | 9PB
-  server: i4v9rr5z.zf-fast.9999231.xyz
+  server: qvmc0qr4.zf-fast.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4888,7 +5945,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇬 KG-8 | 9PB
-  server: tsjfifh3.zf-fast.9999231.xyz
+  server: 21wlgvvf.zf-fast.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4897,7 +5954,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇬 KG-9 | 9PB
-  server: c221vikk.zf-fast.9999231.xyz
+  server: at6mb4fs.zf-fast.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4906,7 +5963,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇬 KG-10 | 9PB
-  server: m1n4vys1.zf-fast.9999231.xyz
+  server: kvrd2v33.zf-fast.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4915,7 +5972,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇳🇬 NG-1 | 9PB
-  server: znkilt4a.zf-fast.9999231.xyz
+  server: ux71hj87.zf-fast.9999231.xyz
   port: 1041
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4930,7 +5987,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇬 NG-2 | 9PB
-  server: rm10r1dy.zf-fast.9999231.xyz
+  server: hpiqpyq5.zf-fast.9999231.xyz
   port: 1041
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4945,7 +6002,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇬 NG-3 | 9PB
-  server: k6s0ujz7.zf-fast.9999231.xyz
+  server: cvppvje9.zf-fast.9999231.xyz
   port: 1041
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4960,7 +6017,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇬 NG-4 | 9PB
-  server: xd44v5p8.zf-fast.9999231.xyz
+  server: o3ng5xy5.zf-fast.9999231.xyz
   port: 1041
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4975,7 +6032,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇬 NG-5 | 9PB
-  server: eww3zfgg.zf-fast.9999231.xyz
+  server: th01onks.zf-fast.9999231.xyz
   port: 1041
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4990,7 +6047,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇳🇬 NG-6 | 9PB
-  server: 6ym7bbel.zf-fast.9999231.xyz
+  server: gntfb692.zf-fast.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4999,7 +6056,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇬 NG-7 | 9PB
-  server: 4wy7dmdn.zf-fast.9999231.xyz
+  server: 08s5rn2c.zf-fast.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5008,7 +6065,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇬 NG-8 | 9PB
-  server: 48pvlb4a.zf-fast.9999231.xyz
+  server: gke3ujpt.zf-fast.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5017,7 +6074,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇬 NG-9 | 9PB
-  server: e9qfi0kg.zf-fast.9999231.xyz
+  server: ed7i7ko1.zf-fast.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5026,7 +6083,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇬 NG-10 | 9PB
-  server: 1olk3pnp.zf-fast.9999231.xyz
+  server: xkwzrf3e.zf-fast.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5035,7 +6092,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇷🇴 RO-1 | 9PB
-  server: 5enemfnh.zf-fast.9999231.xyz
+  server: rzcaavw1.zf-fast.9999231.xyz
   port: 1042
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5050,7 +6107,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇷🇴 RO-2 | 9PB
-  server: 8tpje8pe.zf-fast.9999231.xyz
+  server: fr8bb21c.zf-fast.9999231.xyz
   port: 1042
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5065,7 +6122,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇷🇴 RO-3 | 9PB
-  server: miwa3uv3.zf-fast.9999231.xyz
+  server: rp5auwcc.zf-fast.9999231.xyz
   port: 1042
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5080,7 +6137,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇷🇴 RO-4 | 9PB
-  server: w0wxeqt6.zf-fast.9999231.xyz
+  server: axip4uor.zf-fast.9999231.xyz
   port: 1042
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5095,7 +6152,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇷🇴 RO-5 | 9PB
-  server: uqpf1xoh.zf-fast.9999231.xyz
+  server: a9p2f2px.zf-fast.9999231.xyz
   port: 1042
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5110,7 +6167,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇷🇴 RO-6 | 9PB
-  server: y8qfc975.zf-fast.9999231.xyz
+  server: 3vf0bx40.zf-fast.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5119,7 +6176,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇷🇴 RO-7 | 9PB
-  server: axrp1llp.zf-fast.9999231.xyz
+  server: z66q0uhs.zf-fast.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5128,7 +6185,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇷🇴 RO-8 | 9PB
-  server: am9adeor.zf-fast.9999231.xyz
+  server: e5mvmp18.zf-fast.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5137,7 +6194,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇷🇴 RO-9 | 9PB
-  server: 0alfz4p5.zf-fast.9999231.xyz
+  server: yfaijx1o.zf-fast.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5146,7 +6203,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇷🇴 RO-10 | 9PB
-  server: i9g0lbzs.zf-fast.9999231.xyz
+  server: ekib1q68.zf-fast.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5155,7 +6212,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇸🇮 SI-1 | 9PB
-  server: ampjghi4.zf-fast.9999231.xyz
+  server: 7uuhn436.zf-fast.9999231.xyz
   port: 1043
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5170,7 +6227,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇮 SI-2 | 9PB
-  server: 259s1ib0.zf-fast.9999231.xyz
+  server: 56c3twtm.zf-fast.9999231.xyz
   port: 1043
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5185,7 +6242,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇮 SI-3 | 9PB
-  server: 1hn9b1m7.zf-fast.9999231.xyz
+  server: r54pxyx4.zf-fast.9999231.xyz
   port: 1043
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5200,7 +6257,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇮 SI-4 | 9PB
-  server: vf78ugxg.zf-fast.9999231.xyz
+  server: d2u5dy6h.zf-fast.9999231.xyz
   port: 1043
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5215,7 +6272,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇮 SI-5 | 9PB
-  server: 0kjzhkht.zf-fast.9999231.xyz
+  server: 0cavtsds.zf-fast.9999231.xyz
   port: 1043
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5230,7 +6287,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇮 SI-6 | 9PB
-  server: zrby9ics.zf-fast.9999231.xyz
+  server: pd6sh9cf.zf-fast.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5239,7 +6296,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇮 SI-7 | 9PB
-  server: jg83jqag.zf-fast.9999231.xyz
+  server: jpf7s9x7.zf-fast.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5248,7 +6305,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇮 SI-8 | 9PB
-  server: wbec95ur.zf-fast.9999231.xyz
+  server: 3ptz2bqv.zf-fast.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5257,7 +6314,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇮 SI-9 | 9PB
-  server: d1uslyaj.zf-fast.9999231.xyz
+  server: 1kzmwcj5.zf-fast.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5266,7 +6323,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇮 SI-10 | 9PB
-  server: hmfeq3xi.zf-fast.9999231.xyz
+  server: p52i38uy.zf-fast.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5275,7 +6332,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇨🇦 CA-1 | 9PB
-  server: 24wj0i4a.zf-fast.9999231.xyz
+  server: 4ud4st7v.zf-fast.9999231.xyz
   port: 1044
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5290,7 +6347,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇦 CA-2 | 9PB
-  server: 4ys9mwt9.zf-fast.9999231.xyz
+  server: jb8mr36h.zf-fast.9999231.xyz
   port: 1044
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5305,7 +6362,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇦 CA-3 | 9PB
-  server: 24trmf84.zf-fast.9999231.xyz
+  server: o54l385f.zf-fast.9999231.xyz
   port: 1044
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5320,7 +6377,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇦 CA-4 | 9PB
-  server: z2fwww62.zf-fast.9999231.xyz
+  server: jacw5wgf.zf-fast.9999231.xyz
   port: 1044
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5335,7 +6392,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇦 CA-5 | 9PB
-  server: o8szel2q.zf-fast.9999231.xyz
+  server: tmv9zdq8.zf-fast.9999231.xyz
   port: 1044
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5350,7 +6407,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇨🇦 CA-6 | 9PB
-  server: owlsyn2e.zf-fast.9999231.xyz
+  server: lkelf3b2.zf-fast.9999231.xyz
   port: 2044
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5359,7 +6416,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-7 | 9PB
-  server: 7xsaap8g.zf-fast.9999231.xyz
+  server: 1z4i87wv.zf-fast.9999231.xyz
   port: 2044
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5368,7 +6425,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-8 | 9PB
-  server: 9i0rnfte.zf-fast.9999231.xyz
+  server: 4esnd814.zf-fast.9999231.xyz
   port: 2044
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5377,7 +6434,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-9 | 9PB
-  server: aico5487.zf-fast.9999231.xyz
+  server: e8an5dti.zf-fast.9999231.xyz
   port: 2044
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5386,7 +6443,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-10 | 9PB
-  server: mti966ey.zf-fast.9999231.xyz
+  server: 48jifni4.zf-fast.9999231.xyz
   port: 2044
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5395,7 +6452,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇸 ES-1 | 9PB
-  server: y6c7d2fa.zf-fast.9999231.xyz
+  server: 97see9ts.zf-fast.9999231.xyz
   port: 2045
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5404,7 +6461,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇸 ES-2 | 9PB
-  server: k3461208.zf-fast.9999231.xyz
+  server: l80lzujr.zf-fast.9999231.xyz
   port: 2045
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5413,7 +6470,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇸 ES-3 | 9PB
-  server: 0hxvxzpd.zf-fast.9999231.xyz
+  server: 3o8lx71c.zf-fast.9999231.xyz
   port: 2045
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5422,7 +6479,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇸 ES-4 | 9PB
-  server: zp1nnlqo.zf-fast.9999231.xyz
+  server: qv8go540.zf-fast.9999231.xyz
   port: 2045
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5431,7 +6488,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇸 ES-5 | 9PB
-  server: of6mjagr.zf-fast.9999231.xyz
+  server: y7xz2izx.zf-fast.9999231.xyz
   port: 2045
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5440,7 +6497,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: vless
   name: 🇸🇬 SG-11 | 9PB
-  server: olloii2n.20261021-sg1-arm1-node.9999231.xyz
+  server: jovd2wpb.20261021-sg1-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5455,7 +6512,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-12 | 9PB
-  server: 3izaqi0s.20261021-sg1-arm1-node.9999231.xyz
+  server: epgune6g.20261021-sg1-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5470,7 +6527,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-13 | 9PB
-  server: mx3e4fof.20261021-sg1-arm1-node.9999231.xyz
+  server: xkcmp28k.20261021-sg1-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5485,7 +6542,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-14 | 9PB
-  server: xt2fyx95.20261021-sg1-arm1-node.9999231.xyz
+  server: bi3ln123.20261021-sg1-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5500,7 +6557,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-15 | 9PB
-  server: o6om0wlk.20261021-sg1-arm1-node.9999231.xyz
+  server: 9qkcow7d.20261021-sg1-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5515,7 +6572,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇬 SG-16 | 9PB
-  server: xf93wnd1.20261021-sg1-arm1-node.9999231.xyz
+  server: jhft9qyo.20261021-sg1-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5524,7 +6581,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-17 | 9PB
-  server: 2vl2b2x2.20261021-sg1-arm1-node.9999231.xyz
+  server: sv7iyazo.20261021-sg1-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5533,7 +6590,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-18 | 9PB
-  server: fz1an6sz.20261021-sg1-arm1-node.9999231.xyz
+  server: oco10ori.20261021-sg1-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5542,7 +6599,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-19 | 9PB
-  server: ocsx2bma.20261021-sg1-arm1-node.9999231.xyz
+  server: 6r4clz7q.20261021-sg1-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5551,7 +6608,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-20 | 9PB
-  server: o0fte9qv.20261021-sg1-arm1-node.9999231.xyz
+  server: dyvjne79.20261021-sg1-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5560,7 +6617,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: vless
   name: 🇸🇬 SG-21 | 9PB
-  server: ppr63h77.20261021-sg2-arm1-node.9999231.xyz
+  server: nirtcez4.20261021-sg2-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5575,7 +6632,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-22 | 9PB
-  server: 9qsok54x.20261021-sg2-arm1-node.9999231.xyz
+  server: lnxpc2i8.20261021-sg2-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5590,7 +6647,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-23 | 9PB
-  server: wd1asxv7.20261021-sg2-arm1-node.9999231.xyz
+  server: a2geff7u.20261021-sg2-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5605,7 +6662,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-24 | 9PB
-  server: mu2e516j.20261021-sg2-arm1-node.9999231.xyz
+  server: 3gq0iin4.20261021-sg2-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5620,7 +6677,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-25 | 9PB
-  server: b57w5p9l.20261021-sg2-arm1-node.9999231.xyz
+  server: flp86icn.20261021-sg2-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5635,7 +6692,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇬 SG-26 | 9PB
-  server: 3u7fxu5j.20261021-sg2-arm1-node.9999231.xyz
+  server: 7657n42o.20261021-sg2-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5644,7 +6701,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-27 | 9PB
-  server: 5x2c0ycw.20261021-sg2-arm1-node.9999231.xyz
+  server: 6xiefm6l.20261021-sg2-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5653,7 +6710,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-28 | 9PB
-  server: 67gli2bp.20261021-sg2-arm1-node.9999231.xyz
+  server: 7gv5spnt.20261021-sg2-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5662,7 +6719,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-29 | 9PB
-  server: 7mriiaqw.20261021-sg2-arm1-node.9999231.xyz
+  server: eq1ej19e.20261021-sg2-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5671,7 +6728,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-30 | 9PB
-  server: eppse93k.20261021-sg2-arm1-node.9999231.xyz
+  server: 2xhpx4xh.20261021-sg2-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -5771,6 +6828,14 @@ proxies:
   type: trojan
   udp: true
   delay: 1643
+- cipher: aes-256-gcm
+  name: 🇮🇹 IT-2 | Lifetime
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+  udp: true
+  delay: 2978
 - name: 🇨🇳 CN-1 | Lifetime
   server: 120.48.133.162
   type: vmess
@@ -6082,7 +7147,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇩🇪 DE-1 | Filter
-  server: 5emkoj0l.zf-low.9999231.xyz
+  server: jx11p87y.zf-low.9999231.xyz
   port: 1001
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6097,7 +7162,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-1 | Filter
-  server: k7t2ucy8.zf-fast.9999231.xyz
+  server: ntj6xr6k.zf-fast.9999231.xyz
   port: 1001
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6112,7 +7177,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇸 US-2 | Filter
-  server: l7xfqeem.zf-low.9999231.xyz
+  server: 105w7guj.zf-low.9999231.xyz
   port: 2001
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6121,7 +7186,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-3 | Filter
-  server: 4mw8m651.zf-fast.9999231.xyz
+  server: d1u74lvj.zf-fast.9999231.xyz
   port: 2001
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6130,7 +7195,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇭🇰 HK-1 | Filter
-  server: fw9mcx6n.zf-fast.9999231.xyz
+  server: vr5kstla.zf-fast.9999231.xyz
   port: 1002
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6139,7 +7204,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇭🇰 HK-2 | Filter
-  server: 6fa5951y.zf-fast.9999231.xyz
+  server: 83x1c3od.zf-fast.9999231.xyz
   port: 1002
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6148,7 +7213,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇯🇵 JP-1 | Filter
-  server: miv9s726.zf-fast.9999231.xyz
+  server: ik95kxaj.zf-fast.9999231.xyz
   port: 1006
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6163,7 +7228,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-2 | Filter
-  server: xsm7rnpx.zf-fast.9999231.xyz
+  server: ek1cpi10.zf-fast.9999231.xyz
   port: 1006
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6178,7 +7243,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-1 | Filter
-  server: jubf1hn5.zf-fast.9999231.xyz
+  server: g769eyvd.zf-fast.9999231.xyz
   port: 1007
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6193,7 +7258,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-2 | Filter
-  server: kbhua55o.zf-fast.9999231.xyz
+  server: abag97rv.zf-fast.9999231.xyz
   port: 1007
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6208,7 +7273,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-1 | Filter
-  server: dbbyn1nc.zf-low.9999231.xyz
+  server: c2qrtphq.zf-low.9999231.xyz
   port: 1009
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6223,7 +7288,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-2 | Filter
-  server: u3lq1c99.zf-fast.9999231.xyz
+  server: 2y5cux6x.zf-fast.9999231.xyz
   port: 1009
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6238,7 +7303,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇦🇹 AT-1 | Filter
-  server: fj30kbq8.zf-fast.9999231.xyz
+  server: 34q2d7re.zf-fast.9999231.xyz
   port: 2016
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6247,7 +7312,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-2 | Filter
-  server: 059y1vdy.zf-fast.9999231.xyz
+  server: qnjf48b0.zf-fast.9999231.xyz
   port: 2016
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -6256,7 +7321,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-3 | Filter
-  server: gn7jk64n.zf-fast.9999231.xyz
+  server: i9lc8pjt.zf-fast.9999231.xyz
   port: 2016
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
