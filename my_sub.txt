@@ -1,84 +1,12 @@
 proxies:
-- name: 🇷🇸 RS-1 | 8EB
-  type: http
-  server: 146.70.221.18
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇹🇼 TW-1 | 8EB
-  type: anytls
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  udp: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
 - name: 🇳🇱 NL-1 | 8EB
   type: http
-  server: 51.159.225.196
-  port: 23856
-  username: 'null'
-  password: None
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪 DE-1 | 8EB
-  type: http
-  server: 79.127.156.177
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: 🇩🇪 DE-2 | 8EB
-  type: http
-  server: 167.172.172.190
-  port: 443
-  username: testuser1
-  password: e4b72b531a2d10900519
-  tls: true
-  sni: a7acacbe.acsnet.co
-- name: 🇫🇷 FR-1 | 8EB
-  type: http
-  server: 213.139.9.142
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 US-1 | 8EB
-  type: http
-  server: 96.5.129.85
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇯🇵 JP-1 | 8EB
-  type: http
-  server: fan.571589.xyz
+  server: 185.238.168.20
   port: 443
   username: 'null'
   password: 'null'
   tls: true
-  sni: fan.571589.xyz
-- name: 🇮🇪 IE-1 | 8EB
-  type: http
-  server: 149.88.96.1
-  port: 443
-  tls: true
   skip-cert-verify: true
-- name: 🇬🇪 GE-1 | 8EB
-  type: http
-  server: 195.54.178.210
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 US-2 | 8EB
-  type: vless
-  server: 172.64.152.241
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chromefp=chrome
-    headers:
-      Host: ccc.010304.xyz
 - name: 🇦🇹 AT-1 | 8EB
   type: vless
   server: tau1.freerunet.online
@@ -87,61 +15,151 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: tau1.freerunet.online
-  client-fingerprint: chrome
+  skip-cert-verify: true
+  client-fingerprint: ios
   reality-opts:
     public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
     short-id: 4a7b1c8d
-- name: 🇺🇸 US-3 | 8EB
-  type: http
-  server: 38.28.193.188
-  port: 443
-  username: 'null'
-  password: 'null'
-  tls: true
-  sni: 38.28.193.188
-  skip-cert-verify: true
-- name: 🇺🇸 US-4 | 8EB
-  type: http
-  server: 54.190.176.228
-  port: 8443
-  tls: true
-  skip-cert-verify: true
-- name: 🇳🇱 NL-2 | 8EB
-  type: http
-  server: 185.93.106.214
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇺🇸 US-5 | 8EB
-  type: http
-  server: carolinafreigh.fun
-  port: 443
-  tls: true
-  sni: carolinafreigh.fun
-  skip-cert-verify: true
-- name: 🇩🇪 DE-4 | 8EB
-  type: http
-  server: 217.92.132.233
-  port: 443
-  tls: true
-  skip-cert-verify: true
-- name: 🇫🇷 FR-2 | 8EB
-  type: http
-  server: 51.210.167.149
-  port: 443
-  tls: true
-  skip-cert-verify: true
 - name: 🇨🇦 CA-1 | 8EB
   type: http
   server: 142.44.210.129
   port: 443
   tls: true
   skip-cert-verify: true
-- name: 🇮🇪 IE-2 | 8EB
+- name: 🇫🇷 FR-1 | 8EB
   type: http
-  server: 149.88.96.12
+  server: 62.210.27.111
   port: 443
   tls: true
+  skip-cert-verify: true
+- name: 🇯🇵 JP-1 | 8EB
+  type: http
+  server: fan.587475.xyz
+  port: 443
+  tls: true
+  sni: fan.587475.xyz
+  skip-cert-verify: true
+- name: 🇺🇸 US-1 | 8EB
+  type: http
+  server: carolinafreigh.fun
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  sni: carolinafreigh.fun
+- name: 🇮🇹 IT-1 | 8EB
+  type: http
+  server: 94.177.163.156
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 US-2 | 8EB
+  type: http
+  server: 35.84.133.236
+  port: 8443
+  tls: true
+  sni: 35.84.133.236
+  skip-cert-verify: true
+- name: 🇷🇴 RO-1 | 8EB
+  type: http
+  server: 193.176.84.18
+  port: 9002
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸 US-3 | 8EB
+  type: http
+  server: efr-marktplatz.club
+  port: 443
+  username: Ok5vbmU=
+  tls: true
+- name: 🇨🇭 CH-1 | 8EB
+  type: http
+  server: 31.7.62.50
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇦🇹 AT-2 | 8EB
+  type: http
+  server: 146.70.244.18
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇰🇷 KR-1 | 8EB
+  type: socks5
+  server: 121.169.46.116
+  port: 1090
+  username: Og%3D%3D
+- name: 🇺🇸 US-4 | 8EB
+  type: http
+  server: crosscards.site
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+- name: 🇻🇳 VN-1 | 8EB
+  type: anytls
+  server: user01.godvpn.lol
+  port: 12686
+  password: db62309c-486a-4fd5-abc4-4e91ac495d38
+  udp: true
+  sni: user01.godvpn.lol
+  skip-cert-verify: true
+- name: 🇨🇦 CA-2 | 8EB
+  type: http
+  server: 4.172.245.121
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇳🇱 NL-2 | 8EB
+  type: http
+  server: 84.17.47.123
+  port: 9002
+  tls: true
+  skip-cert-verify: true
+- name: 🇳🇱 NL-3 | 8EB
+  type: http
+  server: 82.196.9.7
+  port: 443
+  username: testuser1
+  password: e4b72b531a2d10900519
+  tls: true
+  sni: 52c40907.acsnet.co
+- name: 🇮🇹 IT-2 | 8EB
+  type: http
+  server: 93.42.177.250
+  port: 443
+  tls: true
+  skip-cert-verify: true
+- name: 🇫🇷 FR-2 | 8EB
+  type: http
+  server: 82.65.162.76
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇩🇪 DE-1 | 8EB
+  type: http
+  server: 213.109.163.119
+  port: 443
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰 HK-1 | 8EB
+  type: http
+  server: 119.28.24.235
+  port: 3128
+  tls: true
+  skip-cert-verify: true
+- name: 🇭🇰 HK-2 | 8EB
+  type: http
+  server: fan.240104.xyz
+  port: 443
+  tls: true
+  sni: fan.240104.xyz
   skip-cert-verify: true
 - name: 🇸🇬 SG-1 | 8EB
   type: vless
@@ -155,17 +173,18 @@ proxies:
   reality-opts:
     public-key: I4WlCiks92rMzYTBZ3T_iDHU-kQX1bUW7jVIsjiklUE
     short-id: 4e4d7529
-- name: 🇺🇸 US-6 | 8EB
-  type: http
-  server: 44.248.167.117
-  port: 8443
+- name: 🇸🇬 SG-2 | 8EB
+  type: vless
+  server: sg2-8sb.6121999.dpdns.org
+  port: 19825
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  flow: xtls-rprx-vision
   tls: true
-  skip-cert-verify: true
-- name: 🇰🇷 KR-1 | 8EB
-  type: socks5
-  server: 121.169.46.116
-  port: 1090
-  username: VDJjbE0wUWxNMFE2VDJjbE0wUWxNMFE9Og==
+  servername: sg2-8sb.6121999.dpdns.org
+  client-fingerprint: random
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
 - name: 🇯🇵 JP-2 | 8EB
   type: vless
   server: 45.202.255.92
@@ -182,7 +201,7 @@ proxies:
     short-id: b390142456517acc
 - type: vless
   name: 🇹🇼 TW-1 | 9PB
-  server: hd7rutvi.hinet-tw.9999231.xyz
+  server: u66w4oiv.hinet-tw.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -197,7 +216,7 @@ proxies:
   network: tcp
 - type: anytls
   name: 🇨🇳 CN-1 | 9PB
-  server: iervs4fz.hinet-tw.9999231.xyz
+  server: av9r2igd.hinet-tw.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -206,7 +225,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇨🇳 CN-2 | 9PB
-  server: te2qspa8.hinet-tw.9999231.xyz
+  server: 8aerg0a7.hinet-tw.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -215,7 +234,7 @@ proxies:
   sni: hinet-tw.9999231.xyz
 - type: vless
   name: 🇺🇸 US-1 | 9PB
-  server: 14kc4p6p.zf-low.9999231.xyz
+  server: 703cu4b5.zf-low.9999231.xyz
   port: 1001
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -230,7 +249,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-2 | 9PB
-  server: e5wbwmsd.zf-fast.9999231.xyz
+  server: p3lc0rcp.zf-fast.9999231.xyz
   port: 1001
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -245,7 +264,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-3 | 9PB
-  server: sdlaej5o.zf-fast.9999231.xyz
+  server: zvdy7n7s.zf-fast.9999231.xyz
   port: 1001
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -260,7 +279,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-4 | 9PB
-  server: 48103vet.zf-fast.9999231.xyz
+  server: 4v4ofmi5.zf-fast.9999231.xyz
   port: 1001
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -275,7 +294,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-5 | 9PB
-  server: cz618l3l.zf-fast.9999231.xyz
+  server: 8yn47wrv.zf-fast.9999231.xyz
   port: 1001
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -290,7 +309,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇸 US-6 | 9PB
-  server: nuy4bkmu.zf-low.9999231.xyz
+  server: rgd1owx3.zf-low.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -299,7 +318,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-7 | 9PB
-  server: usb34oto.zf-fast.9999231.xyz
+  server: s99snl3r.zf-fast.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -308,7 +327,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-8 | 9PB
-  server: e8x12u08.zf-fast.9999231.xyz
+  server: 0688gckj.zf-fast.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -317,7 +336,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-9 | 9PB
-  server: me4y3o3l.zf-fast.9999231.xyz
+  server: e7nzx8f8.zf-fast.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -326,7 +345,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-10 | 9PB
-  server: e9gwogan.zf-fast.9999231.xyz
+  server: i9pzn7w6.zf-fast.9999231.xyz
   port: 2001
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -335,7 +354,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇭🇰 HK-1 | 9PB
-  server: 1eygindp.zf-fast.9999231.xyz
+  server: o04cf8n4.zf-fast.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -344,7 +363,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇭🇰 HK-2 | 9PB
-  server: hq6jb7uw.zf-fast.9999231.xyz
+  server: drz8r07q.zf-fast.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -353,7 +372,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇭🇰 HK-3 | 9PB
-  server: 2c3vheci.zf-fast.9999231.xyz
+  server: mayjtp2h.zf-fast.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -362,7 +381,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇭🇰 HK-4 | 9PB
-  server: uspc0m3t.zf-fast.9999231.xyz
+  server: m216t5z3.zf-fast.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -371,7 +390,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇭🇰 HK-5 | 9PB
-  server: f4uphhq1.zf-fast.9999231.xyz
+  server: ieregjn8.zf-fast.9999231.xyz
   port: 1002
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -380,7 +399,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇺🇸 US-11 | 9PB
-  server: pjad7xtz.zf-fast.9999231.xyz
+  server: 1foa51e4.zf-fast.9999231.xyz
   port: 1004
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -395,7 +414,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-12 | 9PB
-  server: ft93fziz.zf-fast.9999231.xyz
+  server: yhmye3ab.zf-fast.9999231.xyz
   port: 1004
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -410,7 +429,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-13 | 9PB
-  server: wy7xwk4v.zf-fast.9999231.xyz
+  server: 1pfm1kpj.zf-fast.9999231.xyz
   port: 1004
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -425,7 +444,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-14 | 9PB
-  server: z93x2z48.zf-fast.9999231.xyz
+  server: 2rb0uy0i.zf-fast.9999231.xyz
   port: 1004
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -440,7 +459,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-15 | 9PB
-  server: gquov928.zf-fast.9999231.xyz
+  server: 0fz4y66o.zf-fast.9999231.xyz
   port: 1004
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -455,7 +474,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-16 | 9PB
-  server: pe03o4nb.zf-fast.9999231.xyz
+  server: 5c2mu823.zf-fast.9999231.xyz
   port: 1005
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -470,7 +489,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-17 | 9PB
-  server: u0b2k9hz.zf-fast.9999231.xyz
+  server: bk2b0npy.zf-fast.9999231.xyz
   port: 1005
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -485,7 +504,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-18 | 9PB
-  server: 13jketep.zf-fast.9999231.xyz
+  server: db5f6p70.zf-fast.9999231.xyz
   port: 1005
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -500,7 +519,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-19 | 9PB
-  server: ymhd2ng7.zf-fast.9999231.xyz
+  server: s2270s4j.zf-fast.9999231.xyz
   port: 1005
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -515,7 +534,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-20 | 9PB
-  server: tz74j5i8.zf-fast.9999231.xyz
+  server: 6bx9ir2l.zf-fast.9999231.xyz
   port: 1005
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -530,7 +549,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-1 | 9PB
-  server: n5ypptnr.zf-fast.9999231.xyz
+  server: lw2abw8s.zf-fast.9999231.xyz
   port: 1006
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -545,7 +564,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-2 | 9PB
-  server: m1ry3si7.zf-fast.9999231.xyz
+  server: 81lse8lf.zf-fast.9999231.xyz
   port: 1006
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -560,7 +579,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-3 | 9PB
-  server: hwgj9uib.zf-fast.9999231.xyz
+  server: uth0t7n3.zf-fast.9999231.xyz
   port: 1006
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -575,7 +594,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-4 | 9PB
-  server: amubx81j.zf-fast.9999231.xyz
+  server: nijubx30.zf-fast.9999231.xyz
   port: 1006
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -590,7 +609,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-5 | 9PB
-  server: 4ckwbfne.zf-fast.9999231.xyz
+  server: 4ucmsglf.zf-fast.9999231.xyz
   port: 1006
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -605,7 +624,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-1 | 9PB
-  server: ndqtag03.zf-fast.9999231.xyz
+  server: 5wvt53cp.zf-fast.9999231.xyz
   port: 1008
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -620,7 +639,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-2 | 9PB
-  server: rmp7a7oc.zf-fast.9999231.xyz
+  server: pq9pn3uw.zf-fast.9999231.xyz
   port: 1008
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -635,7 +654,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-3 | 9PB
-  server: 9uu2fxu0.zf-fast.9999231.xyz
+  server: 3bpruowe.zf-fast.9999231.xyz
   port: 1008
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -650,7 +669,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-4 | 9PB
-  server: ibdi2ev1.zf-fast.9999231.xyz
+  server: lr8a6107.zf-fast.9999231.xyz
   port: 1008
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -665,7 +684,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-5 | 9PB
-  server: b3mag6nq.zf-fast.9999231.xyz
+  server: 6vgk066a.zf-fast.9999231.xyz
   port: 1008
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -680,7 +699,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-1 | 9PB
-  server: 0ikms63a.zf-low.9999231.xyz
+  server: g1zukkeo.zf-low.9999231.xyz
   port: 1009
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -695,7 +714,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-2 | 9PB
-  server: 9kw9w9a5.zf-fast.9999231.xyz
+  server: oorhv1s9.zf-fast.9999231.xyz
   port: 1009
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -710,7 +729,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-3 | 9PB
-  server: jwoap5uc.zf-fast.9999231.xyz
+  server: 6fh7s5m7.zf-fast.9999231.xyz
   port: 1009
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -725,7 +744,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-4 | 9PB
-  server: 12dlorgv.zf-fast.9999231.xyz
+  server: 80x3urws.zf-fast.9999231.xyz
   port: 1009
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -740,7 +759,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-5 | 9PB
-  server: szu7jwkq.zf-fast.9999231.xyz
+  server: ynk1lr5q.zf-fast.9999231.xyz
   port: 1009
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -755,7 +774,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-1 | 9PB
-  server: cs6hukem.zf-fast.9999231.xyz
+  server: yrirsx36.zf-fast.9999231.xyz
   port: 1010
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -770,7 +789,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-2 | 9PB
-  server: y51d0ok2.zf-fast.9999231.xyz
+  server: b62f8mgr.zf-fast.9999231.xyz
   port: 1010
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -785,7 +804,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-3 | 9PB
-  server: 4bggvbz3.zf-fast.9999231.xyz
+  server: 1okmq6ia.zf-fast.9999231.xyz
   port: 1010
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -800,7 +819,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-4 | 9PB
-  server: xxzl62gq.zf-fast.9999231.xyz
+  server: 5xuuk5wu.zf-fast.9999231.xyz
   port: 1010
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -815,7 +834,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-5 | 9PB
-  server: q0kn7fxe.zf-fast.9999231.xyz
+  server: 9x3fkw3t.zf-fast.9999231.xyz
   port: 1010
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -830,7 +849,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇩🇪 DE-1 | 9PB
-  server: fga82t2l.zf-fast.9999231.xyz
+  server: hbu5m12y.zf-fast.9999231.xyz
   port: 1011
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -845,7 +864,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇩🇪 DE-2 | 9PB
-  server: 5isidlgx.zf-fast.9999231.xyz
+  server: rhyxfm0n.zf-fast.9999231.xyz
   port: 1011
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -860,7 +879,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇩🇪 DE-3 | 9PB
-  server: unv96wqv.zf-fast.9999231.xyz
+  server: q7u09ess.zf-fast.9999231.xyz
   port: 1011
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -875,7 +894,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇩🇪 DE-4 | 9PB
-  server: ckl2l76u.zf-fast.9999231.xyz
+  server: ra4yxtn6.zf-fast.9999231.xyz
   port: 1011
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -890,7 +909,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇩🇪 DE-5 | 9PB
-  server: 3d9sxlij.zf-fast.9999231.xyz
+  server: 4vnm9ybq.zf-fast.9999231.xyz
   port: 1011
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -905,7 +924,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇹 IT-1 | 9PB
-  server: 5ep1pa9f.zf-fast.9999231.xyz
+  server: lbz8h8xl.zf-fast.9999231.xyz
   port: 1012
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -920,7 +939,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇹 IT-2 | 9PB
-  server: 95q6muzv.zf-fast.9999231.xyz
+  server: ov96lfth.zf-fast.9999231.xyz
   port: 1012
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -935,7 +954,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇹 IT-3 | 9PB
-  server: jc5fytmm.zf-fast.9999231.xyz
+  server: 898nliil.zf-fast.9999231.xyz
   port: 1012
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -950,7 +969,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇹 IT-4 | 9PB
-  server: 3thihs9g.zf-fast.9999231.xyz
+  server: ik7ceqpt.zf-fast.9999231.xyz
   port: 1012
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -965,7 +984,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇹 IT-5 | 9PB
-  server: 2s73kyn1.zf-fast.9999231.xyz
+  server: y9pqw2lv.zf-fast.9999231.xyz
   port: 1012
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -980,7 +999,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇱 IL-1 | 9PB
-  server: icxy4ue9.zf-fast.9999231.xyz
+  server: h5fdxsu0.zf-fast.9999231.xyz
   port: 1013
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -995,7 +1014,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇱 IL-2 | 9PB
-  server: 9nybhjgm.zf-fast.9999231.xyz
+  server: uqs7imo3.zf-fast.9999231.xyz
   port: 1013
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1010,7 +1029,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇱 IL-3 | 9PB
-  server: 38idxl91.zf-fast.9999231.xyz
+  server: l4fwt9ze.zf-fast.9999231.xyz
   port: 1013
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1025,7 +1044,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇱 IL-4 | 9PB
-  server: 07owrzbg.zf-fast.9999231.xyz
+  server: po5x4o6n.zf-fast.9999231.xyz
   port: 1013
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1040,7 +1059,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇱 IL-5 | 9PB
-  server: j4eiico2.zf-fast.9999231.xyz
+  server: khh9t18h.zf-fast.9999231.xyz
   port: 1013
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1055,7 +1074,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇻🇳 VN-1 | 9PB
-  server: f0rk3gth.zf-fast.9999231.xyz
+  server: w8nk1jky.zf-fast.9999231.xyz
   port: 1014
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1070,7 +1089,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇻🇳 VN-2 | 9PB
-  server: 2l9wkylx.zf-fast.9999231.xyz
+  server: bp5p78ov.zf-fast.9999231.xyz
   port: 1014
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1085,7 +1104,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇻🇳 VN-3 | 9PB
-  server: ff5742p4.zf-fast.9999231.xyz
+  server: g8h73if1.zf-fast.9999231.xyz
   port: 1014
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1100,7 +1119,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇻🇳 VN-4 | 9PB
-  server: 7tws00v8.zf-fast.9999231.xyz
+  server: ym40pz8a.zf-fast.9999231.xyz
   port: 1014
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1115,7 +1134,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇻🇳 VN-5 | 9PB
-  server: 1ugqpk3h.zf-fast.9999231.xyz
+  server: 6mgkl1ns.zf-fast.9999231.xyz
   port: 1014
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1130,7 +1149,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇻🇳 VN-6 | 9PB
-  server: hcq5bqws.zf-fast.9999231.xyz
+  server: u4rxsrff.zf-fast.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1139,7 +1158,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇻🇳 VN-7 | 9PB
-  server: mj7gh7sx.zf-fast.9999231.xyz
+  server: 2oxmkc4p.zf-fast.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1148,7 +1167,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇻🇳 VN-8 | 9PB
-  server: 8q8hsj6u.zf-fast.9999231.xyz
+  server: r4li2lfq.zf-fast.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1157,7 +1176,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇻🇳 VN-9 | 9PB
-  server: 6h9jerit.zf-fast.9999231.xyz
+  server: spj16giy.zf-fast.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1166,7 +1185,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇻🇳 VN-10 | 9PB
-  server: ddowc5jk.zf-fast.9999231.xyz
+  server: 2qhuy8w2.zf-fast.9999231.xyz
   port: 2014
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1175,7 +1194,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇯🇵 JP-6 | 9PB
-  server: zpdurim9.zf-fast.9999231.xyz
+  server: vavhktb7.zf-fast.9999231.xyz
   port: 1015
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1190,7 +1209,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-7 | 9PB
-  server: fj2bdba2.zf-fast.9999231.xyz
+  server: 7x3k68uv.zf-fast.9999231.xyz
   port: 1015
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1205,7 +1224,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-8 | 9PB
-  server: a7784yu8.zf-fast.9999231.xyz
+  server: 5kguji3l.zf-fast.9999231.xyz
   port: 1015
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1220,7 +1239,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-9 | 9PB
-  server: id30u7vz.zf-fast.9999231.xyz
+  server: bqs60tof.zf-fast.9999231.xyz
   port: 1015
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1235,7 +1254,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-10 | 9PB
-  server: nrwoq9bg.zf-fast.9999231.xyz
+  server: ty24h7o9.zf-fast.9999231.xyz
   port: 1015
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1250,7 +1269,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇯🇵 JP-11 | 9PB
-  server: uang4w3g.zf-fast.9999231.xyz
+  server: 55dccfzz.zf-fast.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1259,7 +1278,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇯🇵 JP-12 | 9PB
-  server: nbarsc36.zf-fast.9999231.xyz
+  server: kbpgb90s.zf-fast.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1268,7 +1287,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇯🇵 JP-13 | 9PB
-  server: t531i659.zf-fast.9999231.xyz
+  server: xw8qx8ll.zf-fast.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1277,7 +1296,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇯🇵 JP-14 | 9PB
-  server: tplxtln0.zf-fast.9999231.xyz
+  server: uvz9i7s4.zf-fast.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1286,7 +1305,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇯🇵 JP-15 | 9PB
-  server: mo9wqpri.zf-fast.9999231.xyz
+  server: ids7xm4t.zf-fast.9999231.xyz
   port: 2015
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1295,7 +1314,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-1 | 9PB
-  server: yh6yjq6x.zf-fast.9999231.xyz
+  server: rlj833fv.zf-fast.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1304,7 +1323,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-2 | 9PB
-  server: sqnw8q8x.zf-fast.9999231.xyz
+  server: nicg5sk5.zf-fast.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1313,7 +1332,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-3 | 9PB
-  server: ppm8y4js.zf-fast.9999231.xyz
+  server: j6gguhd5.zf-fast.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1322,7 +1341,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-4 | 9PB
-  server: 2wxq80c6.zf-fast.9999231.xyz
+  server: q21jj278.zf-fast.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1331,7 +1350,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-5 | 9PB
-  server: yqspju10.zf-fast.9999231.xyz
+  server: 6pyhzj05.zf-fast.9999231.xyz
   port: 2016
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1340,7 +1359,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇦🇿 AZ-1 | 9PB
-  server: b7mvordd.zf-fast.9999231.xyz
+  server: rxqbz4dp.zf-fast.9999231.xyz
   port: 1017
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1355,7 +1374,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇿 AZ-2 | 9PB
-  server: n79r5hop.zf-fast.9999231.xyz
+  server: 0rt2jeag.zf-fast.9999231.xyz
   port: 1017
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1370,7 +1389,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇿 AZ-3 | 9PB
-  server: h0l2c2un.zf-fast.9999231.xyz
+  server: 5b2cyzhs.zf-fast.9999231.xyz
   port: 1017
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1385,7 +1404,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇿 AZ-4 | 9PB
-  server: erj92nan.zf-fast.9999231.xyz
+  server: q2a93q68.zf-fast.9999231.xyz
   port: 1017
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1400,7 +1419,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇿 AZ-5 | 9PB
-  server: q4lxwh4q.zf-fast.9999231.xyz
+  server: vpcfre5y.zf-fast.9999231.xyz
   port: 1017
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1415,7 +1434,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇦🇿 AZ-6 | 9PB
-  server: qpc99909.zf-fast.9999231.xyz
+  server: kqyr89sw.zf-fast.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1424,7 +1443,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇿 AZ-7 | 9PB
-  server: intd50on.zf-fast.9999231.xyz
+  server: 41b6hwah.zf-fast.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1433,7 +1452,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇿 AZ-8 | 9PB
-  server: 66hkpq4p.zf-fast.9999231.xyz
+  server: z24m6agj.zf-fast.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1442,7 +1461,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇿 AZ-9 | 9PB
-  server: xsnbh91l.zf-fast.9999231.xyz
+  server: valvh2ao.zf-fast.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1451,7 +1470,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇿 AZ-10 | 9PB
-  server: 48utxwxz.zf-fast.9999231.xyz
+  server: 8t6iaa8t.zf-fast.9999231.xyz
   port: 2017
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1460,7 +1479,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇹🇭 TH-1 | 9PB
-  server: x6omwv11.zf-fast.9999231.xyz
+  server: 1xj94fw8.zf-fast.9999231.xyz
   port: 1018
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1475,7 +1494,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇭 TH-2 | 9PB
-  server: yn2le1d1.zf-fast.9999231.xyz
+  server: o5od7162.zf-fast.9999231.xyz
   port: 1018
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1490,7 +1509,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇭 TH-3 | 9PB
-  server: kxv4s38r.zf-fast.9999231.xyz
+  server: 3t387m3d.zf-fast.9999231.xyz
   port: 1018
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1505,7 +1524,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇭 TH-4 | 9PB
-  server: lp3qival.zf-fast.9999231.xyz
+  server: 920awnox.zf-fast.9999231.xyz
   port: 1018
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1520,7 +1539,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇭 TH-5 | 9PB
-  server: 3xh610n2.zf-fast.9999231.xyz
+  server: xx2fjtyi.zf-fast.9999231.xyz
   port: 1018
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1535,7 +1554,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇹🇭 TH-6 | 9PB
-  server: y0yihuxd.zf-fast.9999231.xyz
+  server: coyh3ui3.zf-fast.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1544,7 +1563,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇭 TH-7 | 9PB
-  server: c2blave8.zf-fast.9999231.xyz
+  server: alz4yum8.zf-fast.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1553,7 +1572,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇭 TH-8 | 9PB
-  server: a0id7qu8.zf-fast.9999231.xyz
+  server: he8pqjov.zf-fast.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1562,7 +1581,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇭 TH-9 | 9PB
-  server: x0uoskte.zf-fast.9999231.xyz
+  server: 9o3jjt91.zf-fast.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1571,7 +1590,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇭 TH-10 | 9PB
-  server: lg9ljji3.zf-fast.9999231.xyz
+  server: lwglc5iw.zf-fast.9999231.xyz
   port: 2018
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1580,7 +1599,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇧🇷 BR-1 | 9PB
-  server: 7greb69j.zf-fast.9999231.xyz
+  server: s37sc16r.zf-fast.9999231.xyz
   port: 1019
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1595,7 +1614,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇧🇷 BR-2 | 9PB
-  server: 4t4hrz2k.zf-fast.9999231.xyz
+  server: qf35hdos.zf-fast.9999231.xyz
   port: 1019
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1610,7 +1629,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇧🇷 BR-3 | 9PB
-  server: 3fael6yc.zf-fast.9999231.xyz
+  server: 72v0k65m.zf-fast.9999231.xyz
   port: 1019
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1625,7 +1644,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇧🇷 BR-4 | 9PB
-  server: 1y2huedb.zf-fast.9999231.xyz
+  server: 3pf4wuci.zf-fast.9999231.xyz
   port: 1019
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1640,7 +1659,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇧🇷 BR-5 | 9PB
-  server: p2bdvovz.zf-fast.9999231.xyz
+  server: q6hcc10h.zf-fast.9999231.xyz
   port: 1019
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1655,7 +1674,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇧🇷 BR-6 | 9PB
-  server: ikw94f97.zf-fast.9999231.xyz
+  server: yt2oxq6o.zf-fast.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1664,7 +1683,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇷 BR-7 | 9PB
-  server: 9ccqigfy.zf-fast.9999231.xyz
+  server: hv5na5st.zf-fast.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1673,7 +1692,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇷 BR-8 | 9PB
-  server: 1f13s7lo.zf-fast.9999231.xyz
+  server: xgyrcmg2.zf-fast.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1682,7 +1701,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇷 BR-9 | 9PB
-  server: ryn02zoy.zf-fast.9999231.xyz
+  server: 6odbq70a.zf-fast.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1691,7 +1710,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇷 BR-10 | 9PB
-  server: jpwlvso3.zf-fast.9999231.xyz
+  server: 6x9jszwx.zf-fast.9999231.xyz
   port: 2019
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1700,7 +1719,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇮🇩 ID-1 | 9PB
-  server: 5wvhbgho.zf-fast.9999231.xyz
+  server: perkf1s9.zf-fast.9999231.xyz
   port: 1020
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1715,7 +1734,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-2 | 9PB
-  server: prk5zdlg.zf-fast.9999231.xyz
+  server: b0ec3iwx.zf-fast.9999231.xyz
   port: 1020
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1730,7 +1749,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-3 | 9PB
-  server: e3bxna7v.zf-fast.9999231.xyz
+  server: iy3onv3z.zf-fast.9999231.xyz
   port: 1020
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1745,7 +1764,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-4 | 9PB
-  server: fcbm7px5.zf-fast.9999231.xyz
+  server: e0salr05.zf-fast.9999231.xyz
   port: 1020
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1760,7 +1779,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-5 | 9PB
-  server: rbuv7rrq.zf-fast.9999231.xyz
+  server: rtrje83l.zf-fast.9999231.xyz
   port: 1020
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1775,7 +1794,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-6 | 9PB
-  server: 3dvq4r8u.zf-fast.9999231.xyz
+  server: 3pfbkn9u.zf-fast.9999231.xyz
   port: 1021
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1790,7 +1809,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-7 | 9PB
-  server: lwb05pjd.zf-fast.9999231.xyz
+  server: ljnzir0w.zf-fast.9999231.xyz
   port: 1021
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1805,7 +1824,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-8 | 9PB
-  server: lc7fe1fv.zf-fast.9999231.xyz
+  server: 7xt5wycs.zf-fast.9999231.xyz
   port: 1021
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1820,7 +1839,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-9 | 9PB
-  server: v95pkg3t.zf-fast.9999231.xyz
+  server: dybcw0ap.zf-fast.9999231.xyz
   port: 1021
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1835,7 +1854,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇩 ID-10 | 9PB
-  server: 6n6tjrci.zf-fast.9999231.xyz
+  server: 648mh053.zf-fast.9999231.xyz
   port: 1021
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1850,7 +1869,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇩 ID-11 | 9PB
-  server: tdprab33.zf-fast.9999231.xyz
+  server: 7igjbx6q.zf-fast.9999231.xyz
   port: 2021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1859,7 +1878,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇩 ID-12 | 9PB
-  server: jsxz6f3a.zf-fast.9999231.xyz
+  server: 6a0zvwfx.zf-fast.9999231.xyz
   port: 2021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1868,7 +1887,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇩 ID-13 | 9PB
-  server: u3kby1ok.zf-fast.9999231.xyz
+  server: o1mstpr9.zf-fast.9999231.xyz
   port: 2021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1877,7 +1896,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇩 ID-14 | 9PB
-  server: sswfcj4u.zf-fast.9999231.xyz
+  server: zy0gfeqy.zf-fast.9999231.xyz
   port: 2021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1886,7 +1905,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇩 ID-15 | 9PB
-  server: 1g1zfx6i.zf-fast.9999231.xyz
+  server: va1yojql.zf-fast.9999231.xyz
   port: 2021
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1895,7 +1914,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇵🇱 PL-1 | 9PB
-  server: u97vpzkb.zf-fast.9999231.xyz
+  server: chmv9da1.zf-fast.9999231.xyz
   port: 1022
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1910,7 +1929,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇱 PL-2 | 9PB
-  server: i9utoya9.zf-fast.9999231.xyz
+  server: sdw4kwsk.zf-fast.9999231.xyz
   port: 1022
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1925,7 +1944,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇱 PL-3 | 9PB
-  server: 25diyxc0.zf-fast.9999231.xyz
+  server: thcw4249.zf-fast.9999231.xyz
   port: 1022
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1940,7 +1959,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇱 PL-4 | 9PB
-  server: 0uzqu9xn.zf-fast.9999231.xyz
+  server: rt8xbch5.zf-fast.9999231.xyz
   port: 1022
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1955,7 +1974,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇱 PL-5 | 9PB
-  server: na9qviov.zf-fast.9999231.xyz
+  server: skk1ywmr.zf-fast.9999231.xyz
   port: 1022
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1970,7 +1989,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇵🇱 PL-6 | 9PB
-  server: h7828o6p.zf-fast.9999231.xyz
+  server: l3ghub6x.zf-fast.9999231.xyz
   port: 2022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1979,7 +1998,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇱 PL-7 | 9PB
-  server: jxs1hgtr.zf-fast.9999231.xyz
+  server: c49ir2gi.zf-fast.9999231.xyz
   port: 2022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1988,7 +2007,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇱 PL-8 | 9PB
-  server: 9lqlxsl6.zf-fast.9999231.xyz
+  server: 8n14um3w.zf-fast.9999231.xyz
   port: 2022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1997,7 +2016,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇱 PL-9 | 9PB
-  server: ogtay9j0.zf-fast.9999231.xyz
+  server: v1u986p4.zf-fast.9999231.xyz
   port: 2022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2006,7 +2025,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇱 PL-10 | 9PB
-  server: b36vuqkc.zf-fast.9999231.xyz
+  server: 19ctodd6.zf-fast.9999231.xyz
   port: 2022
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2015,7 +2034,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇫🇷 FR-6 | 9PB
-  server: vyivizx2.zf-fast.9999231.xyz
+  server: 5iyz93jm.zf-fast.9999231.xyz
   port: 1023
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2030,7 +2049,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-7 | 9PB
-  server: phbogct1.zf-fast.9999231.xyz
+  server: lb74d2ep.zf-fast.9999231.xyz
   port: 1023
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2045,7 +2064,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-8 | 9PB
-  server: 29kk7v04.zf-fast.9999231.xyz
+  server: usihnj2g.zf-fast.9999231.xyz
   port: 1023
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2060,7 +2079,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-9 | 9PB
-  server: qtaaix4q.zf-fast.9999231.xyz
+  server: 6pknv3or.zf-fast.9999231.xyz
   port: 1023
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2075,7 +2094,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇫🇷 FR-10 | 9PB
-  server: e19v42p3.zf-fast.9999231.xyz
+  server: 765ymjxo.zf-fast.9999231.xyz
   port: 1023
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2090,7 +2109,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇫🇷 FR-11 | 9PB
-  server: m27yt15e.zf-fast.9999231.xyz
+  server: nvkj8j8c.zf-fast.9999231.xyz
   port: 2023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2099,7 +2118,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇫🇷 FR-12 | 9PB
-  server: wtbbmi9e.zf-fast.9999231.xyz
+  server: 112o3wns.zf-fast.9999231.xyz
   port: 2023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2108,7 +2127,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇫🇷 FR-13 | 9PB
-  server: q3c3qfhl.zf-fast.9999231.xyz
+  server: 02t93vxq.zf-fast.9999231.xyz
   port: 2023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2117,7 +2136,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇫🇷 FR-14 | 9PB
-  server: qmdj0ckc.zf-fast.9999231.xyz
+  server: mqnfds7w.zf-fast.9999231.xyz
   port: 2023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2126,7 +2145,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇫🇷 FR-15 | 9PB
-  server: nidahma6.zf-fast.9999231.xyz
+  server: z7v7iae2.zf-fast.9999231.xyz
   port: 2023
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2135,7 +2154,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇪🇬 EG-1 | 9PB
-  server: 29bnrt5t.zf-fast.9999231.xyz
+  server: d2dr30ed.zf-fast.9999231.xyz
   port: 1024
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2150,7 +2169,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇪🇬 EG-2 | 9PB
-  server: 2a3gcrw1.zf-fast.9999231.xyz
+  server: ddlc7t10.zf-fast.9999231.xyz
   port: 1024
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2165,7 +2184,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇪🇬 EG-3 | 9PB
-  server: 6eze0cpe.zf-fast.9999231.xyz
+  server: cqj44j8a.zf-fast.9999231.xyz
   port: 1024
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2180,7 +2199,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇪🇬 EG-4 | 9PB
-  server: a1pyra6e.zf-fast.9999231.xyz
+  server: g7nk02oo.zf-fast.9999231.xyz
   port: 1024
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2195,7 +2214,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇪🇬 EG-5 | 9PB
-  server: c9bbg6lw.zf-fast.9999231.xyz
+  server: 48p6wbh5.zf-fast.9999231.xyz
   port: 1024
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2210,7 +2229,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇪🇬 EG-6 | 9PB
-  server: dol3p1ii.zf-fast.9999231.xyz
+  server: km25nmwj.zf-fast.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2219,7 +2238,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇪🇬 EG-7 | 9PB
-  server: m75jofx5.zf-fast.9999231.xyz
+  server: v1wadv3q.zf-fast.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2228,7 +2247,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇪🇬 EG-8 | 9PB
-  server: hy78zumb.zf-fast.9999231.xyz
+  server: cdyos2td.zf-fast.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2237,7 +2256,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇪🇬 EG-9 | 9PB
-  server: fgpq50lt.zf-fast.9999231.xyz
+  server: vvevmv2j.zf-fast.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2246,7 +2265,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇪🇬 EG-10 | 9PB
-  server: 4bh1mo8r.zf-fast.9999231.xyz
+  server: ltho5epk.zf-fast.9999231.xyz
   port: 2024
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2255,7 +2274,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇰🇿 KZ-1 | 9PB
-  server: t2225086.zf-fast.9999231.xyz
+  server: 80t8fenk.zf-fast.9999231.xyz
   port: 1025
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2270,7 +2289,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇿 KZ-2 | 9PB
-  server: u4s131b0.zf-fast.9999231.xyz
+  server: 0qkfevtq.zf-fast.9999231.xyz
   port: 1025
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2285,7 +2304,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇿 KZ-3 | 9PB
-  server: cv64slk5.zf-fast.9999231.xyz
+  server: x534zn26.zf-fast.9999231.xyz
   port: 1025
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2300,7 +2319,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇿 KZ-4 | 9PB
-  server: yitj32wf.zf-fast.9999231.xyz
+  server: 09mnm7q2.zf-fast.9999231.xyz
   port: 1025
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2315,7 +2334,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇿 KZ-5 | 9PB
-  server: rszhc1me.zf-fast.9999231.xyz
+  server: fq0jhm9a.zf-fast.9999231.xyz
   port: 1025
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2330,7 +2349,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇰🇿 KZ-6 | 9PB
-  server: xkn5cizd.zf-fast.9999231.xyz
+  server: x4bacc1g.zf-fast.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2339,7 +2358,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇿 KZ-7 | 9PB
-  server: 88sc4pig.zf-fast.9999231.xyz
+  server: 91d8k4w8.zf-fast.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2348,7 +2367,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇿 KZ-8 | 9PB
-  server: p4n709k4.zf-fast.9999231.xyz
+  server: 3l6rppc9.zf-fast.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2357,7 +2376,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇿 KZ-9 | 9PB
-  server: 0njpt1h4.zf-fast.9999231.xyz
+  server: 2ze3twbx.zf-fast.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2366,7 +2385,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇿 KZ-10 | 9PB
-  server: fm6oy09w.zf-fast.9999231.xyz
+  server: qer7efmq.zf-fast.9999231.xyz
   port: 2025
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2375,7 +2394,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇹🇬 TG-1 | 9PB
-  server: 1nrj8hea.zf-fast.9999231.xyz
+  server: xe8ec8bd.zf-fast.9999231.xyz
   port: 1026
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2390,7 +2409,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇬 TG-2 | 9PB
-  server: wryk0f6g.zf-fast.9999231.xyz
+  server: zb4ajbu9.zf-fast.9999231.xyz
   port: 1026
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2405,7 +2424,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇬 TG-3 | 9PB
-  server: 4ldy9zcg.zf-fast.9999231.xyz
+  server: f7syu9p7.zf-fast.9999231.xyz
   port: 1026
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2420,7 +2439,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇬 TG-4 | 9PB
-  server: egfeu0as.zf-fast.9999231.xyz
+  server: rcxc0wop.zf-fast.9999231.xyz
   port: 1026
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2435,7 +2454,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇬 TG-5 | 9PB
-  server: 5vme7g8p.zf-fast.9999231.xyz
+  server: tm89ja5v.zf-fast.9999231.xyz
   port: 1026
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2450,7 +2469,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇹🇬 TG-6 | 9PB
-  server: 4iab409l.zf-fast.9999231.xyz
+  server: ytg6bkte.zf-fast.9999231.xyz
   port: 2026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2459,7 +2478,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇬 TG-7 | 9PB
-  server: fb5w4diu.zf-fast.9999231.xyz
+  server: mw4r3bwi.zf-fast.9999231.xyz
   port: 2026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2468,7 +2487,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇬 TG-8 | 9PB
-  server: zsp2lim9.zf-fast.9999231.xyz
+  server: rkj4beqh.zf-fast.9999231.xyz
   port: 2026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2477,7 +2496,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇬 TG-9 | 9PB
-  server: aq8fl01v.zf-fast.9999231.xyz
+  server: w47sf2wz.zf-fast.9999231.xyz
   port: 2026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2486,7 +2505,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇹🇬 TG-10 | 9PB
-  server: zd7g5dmn.zf-fast.9999231.xyz
+  server: 9r6hycff.zf-fast.9999231.xyz
   port: 2026
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2495,7 +2514,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇹🇷 TR-1 | 9PB
-  server: oa4lc2ly.zf-fast.9999231.xyz
+  server: tfkmgfo9.zf-fast.9999231.xyz
   port: 1027
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2510,7 +2529,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇷 TR-2 | 9PB
-  server: 5iev6ifb.zf-fast.9999231.xyz
+  server: 8eim9li6.zf-fast.9999231.xyz
   port: 1027
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2525,7 +2544,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇷 TR-3 | 9PB
-  server: wih8zo37.zf-fast.9999231.xyz
+  server: 625j6u34.zf-fast.9999231.xyz
   port: 1027
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2540,7 +2559,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇷 TR-4 | 9PB
-  server: oyvwsrf8.zf-fast.9999231.xyz
+  server: cr5eu89n.zf-fast.9999231.xyz
   port: 1027
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2555,7 +2574,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇹🇷 TR-5 | 9PB
-  server: 8jw45et3.zf-fast.9999231.xyz
+  server: 8f8d95uh.zf-fast.9999231.xyz
   port: 1027
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2570,7 +2589,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇦 UA-1 | 9PB
-  server: n8gpyam3.zf-fast.9999231.xyz
+  server: j04108tp.zf-fast.9999231.xyz
   port: 1028
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2585,7 +2604,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇦 UA-2 | 9PB
-  server: 2941ifpu.zf-fast.9999231.xyz
+  server: dklb7rr0.zf-fast.9999231.xyz
   port: 1028
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2600,7 +2619,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇦 UA-3 | 9PB
-  server: nzulvs1c.zf-fast.9999231.xyz
+  server: c8j24437.zf-fast.9999231.xyz
   port: 1028
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2615,7 +2634,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇦 UA-4 | 9PB
-  server: dijka36w.zf-fast.9999231.xyz
+  server: 6thvy6h7.zf-fast.9999231.xyz
   port: 1028
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2630,7 +2649,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇦 UA-5 | 9PB
-  server: 6sdo0fzr.zf-fast.9999231.xyz
+  server: qd7szzt0.zf-fast.9999231.xyz
   port: 1028
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2645,7 +2664,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇦 UA-6 | 9PB
-  server: b354jfkl.zf-fast.9999231.xyz
+  server: e72a0ts2.zf-fast.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2654,7 +2673,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇺🇦 UA-7 | 9PB
-  server: o8wq329d.zf-fast.9999231.xyz
+  server: u71hsymt.zf-fast.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2663,7 +2682,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇺🇦 UA-8 | 9PB
-  server: ho6t0bgp.zf-fast.9999231.xyz
+  server: u4ynuh4c.zf-fast.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2672,7 +2691,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇺🇦 UA-9 | 9PB
-  server: wus6qctb.zf-fast.9999231.xyz
+  server: ktug5v4j.zf-fast.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2681,7 +2700,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇺🇦 UA-10 | 9PB
-  server: ry4lc5ob.zf-fast.9999231.xyz
+  server: m2a5ajyj.zf-fast.9999231.xyz
   port: 2028
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2690,7 +2709,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇸🇪 SE-1 | 9PB
-  server: hhu8vuv3.zf-fast.9999231.xyz
+  server: rrdg4hbp.zf-fast.9999231.xyz
   port: 1029
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2705,7 +2724,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇪 SE-2 | 9PB
-  server: u1el3ai4.zf-fast.9999231.xyz
+  server: 2eoc6dq9.zf-fast.9999231.xyz
   port: 1029
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2720,7 +2739,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇪 SE-3 | 9PB
-  server: bxni5qzz.zf-fast.9999231.xyz
+  server: rnjdv3gl.zf-fast.9999231.xyz
   port: 1029
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2735,7 +2754,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇪 SE-4 | 9PB
-  server: 8jdu38qo.zf-fast.9999231.xyz
+  server: 20lcw0tf.zf-fast.9999231.xyz
   port: 1029
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2750,7 +2769,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇪 SE-5 | 9PB
-  server: ht91g9gy.zf-fast.9999231.xyz
+  server: 3bj1iohq.zf-fast.9999231.xyz
   port: 1029
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2765,7 +2784,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇪 SE-6 | 9PB
-  server: 6vqo2k66.zf-fast.9999231.xyz
+  server: 0quyxje0.zf-fast.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2774,7 +2793,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇪 SE-7 | 9PB
-  server: pom44l6e.zf-fast.9999231.xyz
+  server: 5lxwq5qe.zf-fast.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2783,7 +2802,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇪 SE-8 | 9PB
-  server: gqol5qwm.zf-fast.9999231.xyz
+  server: 221i0nzr.zf-fast.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2792,7 +2811,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇪 SE-9 | 9PB
-  server: lje6yzq4.zf-fast.9999231.xyz
+  server: fr7b3gmh.zf-fast.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2801,7 +2820,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇪 SE-10 | 9PB
-  server: 7d2wj5s0.zf-fast.9999231.xyz
+  server: 0rxcohbq.zf-fast.9999231.xyz
   port: 2029
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2810,7 +2829,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇺 AU-1 | 9PB
-  server: fzo8gaaz.zf-fast.9999231.xyz
+  server: 5xzh2io6.zf-fast.9999231.xyz
   port: 2030
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2819,7 +2838,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇺 AU-2 | 9PB
-  server: 1nhzivlq.zf-fast.9999231.xyz
+  server: 0mgi9g9b.zf-fast.9999231.xyz
   port: 2030
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2828,7 +2847,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇺 AU-3 | 9PB
-  server: xdvx9d9t.zf-fast.9999231.xyz
+  server: v2jvextk.zf-fast.9999231.xyz
   port: 2030
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2837,7 +2856,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇺 AU-4 | 9PB
-  server: i0zwa5hf.zf-fast.9999231.xyz
+  server: 05pe0ezh.zf-fast.9999231.xyz
   port: 2030
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2846,7 +2865,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇺 AU-5 | 9PB
-  server: retb12xg.zf-fast.9999231.xyz
+  server: q5ohd7ay.zf-fast.9999231.xyz
   port: 2030
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2855,7 +2874,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇪 BE-1 | 9PB
-  server: w7h5nnwr.zf-fast.9999231.xyz
+  server: x6rd7x2h.zf-fast.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2864,7 +2883,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇪 BE-2 | 9PB
-  server: kgihp2pw.zf-fast.9999231.xyz
+  server: pmdpa5zi.zf-fast.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2873,7 +2892,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇪 BE-3 | 9PB
-  server: lmk5bgy8.zf-fast.9999231.xyz
+  server: 4l630rfl.zf-fast.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2882,7 +2901,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇪 BE-4 | 9PB
-  server: zlvjvyb0.zf-fast.9999231.xyz
+  server: kpafwb1l.zf-fast.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2891,7 +2910,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇧🇪 BE-5 | 9PB
-  server: 9tvid3ll.zf-fast.9999231.xyz
+  server: 9263v5u0.zf-fast.9999231.xyz
   port: 2031
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2900,7 +2919,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇩🇰 DK-1 | 9PB
-  server: d7p15igr.zf-fast.9999231.xyz
+  server: iz7blajz.zf-fast.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2909,7 +2928,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇩🇰 DK-2 | 9PB
-  server: d5quvw5f.zf-fast.9999231.xyz
+  server: oryh0zip.zf-fast.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2918,7 +2937,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇩🇰 DK-3 | 9PB
-  server: 0bba28ni.zf-fast.9999231.xyz
+  server: vzm7h97f.zf-fast.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2927,7 +2946,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇩🇰 DK-4 | 9PB
-  server: djy2kszl.zf-fast.9999231.xyz
+  server: h0ec2jn7.zf-fast.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2936,7 +2955,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇩🇰 DK-5 | 9PB
-  server: m64vxmek.zf-fast.9999231.xyz
+  server: zxe4pv15.zf-fast.9999231.xyz
   port: 2032
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2945,7 +2964,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇳🇱 NL-1 | 9PB
-  server: 6y0a7qhs.zf-fast.9999231.xyz
+  server: mmyov1l9.zf-fast.9999231.xyz
   port: 1033
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2960,7 +2979,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇱 NL-2 | 9PB
-  server: 724od0ee.zf-fast.9999231.xyz
+  server: r5xoyrre.zf-fast.9999231.xyz
   port: 1033
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2975,7 +2994,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇱 NL-3 | 9PB
-  server: 9u3ev852.zf-fast.9999231.xyz
+  server: vbhmol9k.zf-fast.9999231.xyz
   port: 1033
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2990,7 +3009,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇱 NL-4 | 9PB
-  server: hl6kjemd.zf-fast.9999231.xyz
+  server: dpkffvq4.zf-fast.9999231.xyz
   port: 1033
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3005,7 +3024,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇱 NL-5 | 9PB
-  server: n2qch9sd.zf-fast.9999231.xyz
+  server: 25p4e97l.zf-fast.9999231.xyz
   port: 1033
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3020,7 +3039,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇳🇱 NL-6 | 9PB
-  server: s60ckovq.zf-fast.9999231.xyz
+  server: t3v46c6x.zf-fast.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3029,7 +3048,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇱 NL-7 | 9PB
-  server: vhicjpe3.zf-fast.9999231.xyz
+  server: g21m9elz.zf-fast.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3038,7 +3057,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇱 NL-8 | 9PB
-  server: shcwkc15.zf-fast.9999231.xyz
+  server: i3icuflr.zf-fast.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3047,7 +3066,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇱 NL-9 | 9PB
-  server: s054vp9v.zf-fast.9999231.xyz
+  server: r5gm5t2c.zf-fast.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3056,7 +3075,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇱 NL-10 | 9PB
-  server: qs4yfvap.zf-fast.9999231.xyz
+  server: 6m654xri.zf-fast.9999231.xyz
   port: 2033
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3065,7 +3084,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇦🇪 AE-1 | 9PB
-  server: 5eu00z3y.zf-fast.9999231.xyz
+  server: 7ug190aj.zf-fast.9999231.xyz
   port: 1034
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3080,7 +3099,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇪 AE-2 | 9PB
-  server: lupohv64.zf-fast.9999231.xyz
+  server: bta75rut.zf-fast.9999231.xyz
   port: 1034
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3095,7 +3114,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇪 AE-3 | 9PB
-  server: 07nrc43v.zf-fast.9999231.xyz
+  server: v0popdkv.zf-fast.9999231.xyz
   port: 1034
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3110,7 +3129,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇪 AE-4 | 9PB
-  server: upbor1yp.zf-fast.9999231.xyz
+  server: 76v0osr0.zf-fast.9999231.xyz
   port: 1034
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3125,7 +3144,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇦🇪 AE-5 | 9PB
-  server: har6ma7u.zf-fast.9999231.xyz
+  server: uphlmv0x.zf-fast.9999231.xyz
   port: 1034
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3140,7 +3159,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇦🇪 AE-6 | 9PB
-  server: bbz7f3cl.zf-fast.9999231.xyz
+  server: zt1qdchm.zf-fast.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3149,7 +3168,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇪 AE-7 | 9PB
-  server: 7ikfk7x9.zf-fast.9999231.xyz
+  server: f851lqeq.zf-fast.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3158,7 +3177,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇪 AE-8 | 9PB
-  server: a631geci.zf-fast.9999231.xyz
+  server: xnx8co6i.zf-fast.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3167,7 +3186,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇪 AE-9 | 9PB
-  server: u9ywvnnt.zf-fast.9999231.xyz
+  server: fyn08m7q.zf-fast.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3176,7 +3195,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇪 AE-10 | 9PB
-  server: 3nz1wynz.zf-fast.9999231.xyz
+  server: 685gm8br.zf-fast.9999231.xyz
   port: 2034
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3185,7 +3204,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇳 IN-1 | 9PB
-  server: xo21799w.zf-fast.9999231.xyz
+  server: j1zv5qaj.zf-fast.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3194,7 +3213,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇳 IN-2 | 9PB
-  server: b9i6e5fj.zf-fast.9999231.xyz
+  server: esjancf8.zf-fast.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3203,7 +3222,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇳 IN-3 | 9PB
-  server: zzdqu2av.zf-fast.9999231.xyz
+  server: tclyqq37.zf-fast.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3212,7 +3231,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇳 IN-4 | 9PB
-  server: d8660731.zf-fast.9999231.xyz
+  server: xcwktv2n.zf-fast.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3221,7 +3240,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇳 IN-5 | 9PB
-  server: 77yi14bc.zf-fast.9999231.xyz
+  server: 1o3fny35.zf-fast.9999231.xyz
   port: 2035
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3230,7 +3249,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇴 NO-1 | 9PB
-  server: 0yruruni.zf-fast.9999231.xyz
+  server: uw4ku9f3.zf-fast.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3239,7 +3258,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇴 NO-2 | 9PB
-  server: hgcmz3is.zf-fast.9999231.xyz
+  server: tjfiwlb6.zf-fast.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3248,7 +3267,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇴 NO-3 | 9PB
-  server: plm4t9g4.zf-fast.9999231.xyz
+  server: 6hpi6os6.zf-fast.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3257,7 +3276,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇴 NO-4 | 9PB
-  server: ew3otf27.zf-fast.9999231.xyz
+  server: nz25f0bt.zf-fast.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3266,7 +3285,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇴 NO-5 | 9PB
-  server: 91w4g6hv.zf-fast.9999231.xyz
+  server: e0aqvcdx.zf-fast.9999231.xyz
   port: 2036
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3275,7 +3294,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇨🇭 CH-1 | 9PB
-  server: krhinjb6.zf-fast.9999231.xyz
+  server: h82ytj49.zf-fast.9999231.xyz
   port: 2037
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3284,7 +3303,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇨🇭 CH-2 | 9PB
-  server: rb3jparm.zf-fast.9999231.xyz
+  server: au4k6xjd.zf-fast.9999231.xyz
   port: 2037
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3293,7 +3312,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇨🇭 CH-3 | 9PB
-  server: g8ism1be.zf-fast.9999231.xyz
+  server: yaa4nnww.zf-fast.9999231.xyz
   port: 2037
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3302,7 +3321,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇨🇭 CH-4 | 9PB
-  server: dk6pdyyr.zf-fast.9999231.xyz
+  server: dxq6riiy.zf-fast.9999231.xyz
   port: 2037
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3311,7 +3330,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇨🇭 CH-5 | 9PB
-  server: oi3muefm.zf-fast.9999231.xyz
+  server: 28p5vq9t.zf-fast.9999231.xyz
   port: 2037
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3320,7 +3339,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇮🇶 IQ-1 | 9PB
-  server: 5cq5p83o.zf-fast.9999231.xyz
+  server: kxb0prro.zf-fast.9999231.xyz
   port: 1038
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3335,7 +3354,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇶 IQ-2 | 9PB
-  server: r8bj6cyf.zf-fast.9999231.xyz
+  server: wbrhle7r.zf-fast.9999231.xyz
   port: 1038
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3350,7 +3369,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇶 IQ-3 | 9PB
-  server: i8i8ky0w.zf-fast.9999231.xyz
+  server: qbmv5oyj.zf-fast.9999231.xyz
   port: 1038
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3365,7 +3384,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇶 IQ-4 | 9PB
-  server: 4inxyomg.zf-fast.9999231.xyz
+  server: d33zf7qd.zf-fast.9999231.xyz
   port: 1038
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3380,7 +3399,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇶 IQ-5 | 9PB
-  server: 3164zdlk.zf-fast.9999231.xyz
+  server: 5lolt3vh.zf-fast.9999231.xyz
   port: 1038
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3395,7 +3414,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇶 IQ-6 | 9PB
-  server: i73n9qxy.zf-fast.9999231.xyz
+  server: nc36w8ay.zf-fast.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3404,7 +3423,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇶 IQ-7 | 9PB
-  server: 5nl1micu.zf-fast.9999231.xyz
+  server: wy74cx27.zf-fast.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3413,7 +3432,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇶 IQ-8 | 9PB
-  server: ge8v43y4.zf-fast.9999231.xyz
+  server: um2o0qvq.zf-fast.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3422,7 +3441,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇶 IQ-9 | 9PB
-  server: pbhygm1y.zf-fast.9999231.xyz
+  server: ukvtl6hs.zf-fast.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3431,7 +3450,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇮🇶 IQ-10 | 9PB
-  server: jift5vib.zf-fast.9999231.xyz
+  server: gwzqh7w1.zf-fast.9999231.xyz
   port: 2038
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3440,7 +3459,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇵🇪 PE-1 | 9PB
-  server: utwyt3wp.zf-fast.9999231.xyz
+  server: u1l6xuqy.zf-fast.9999231.xyz
   port: 1039
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3455,7 +3474,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇪 PE-2 | 9PB
-  server: e585v0bx.zf-fast.9999231.xyz
+  server: bhalxaz9.zf-fast.9999231.xyz
   port: 1039
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3470,7 +3489,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇪 PE-3 | 9PB
-  server: s7x6u7kw.zf-fast.9999231.xyz
+  server: ziqnyj5k.zf-fast.9999231.xyz
   port: 1039
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3485,7 +3504,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇪 PE-4 | 9PB
-  server: gotw6ioz.zf-fast.9999231.xyz
+  server: 8rq57oux.zf-fast.9999231.xyz
   port: 1039
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3500,7 +3519,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇵🇪 PE-5 | 9PB
-  server: 6ucp0rvu.zf-fast.9999231.xyz
+  server: aiik2rl0.zf-fast.9999231.xyz
   port: 1039
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3515,7 +3534,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇵🇪 PE-6 | 9PB
-  server: a4hj6zuo.zf-fast.9999231.xyz
+  server: xguv1rv8.zf-fast.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3524,7 +3543,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇪 PE-7 | 9PB
-  server: jv06lzv0.zf-fast.9999231.xyz
+  server: 59hlf7gv.zf-fast.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3533,7 +3552,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇪 PE-8 | 9PB
-  server: fu8yczmn.zf-fast.9999231.xyz
+  server: f4xpp39u.zf-fast.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3542,7 +3561,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇪 PE-9 | 9PB
-  server: xu64g42f.zf-fast.9999231.xyz
+  server: kr4ae2ui.zf-fast.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3551,7 +3570,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇵🇪 PE-10 | 9PB
-  server: 5mcjvw9z.zf-fast.9999231.xyz
+  server: 61ms7jw0.zf-fast.9999231.xyz
   port: 2039
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3560,7 +3579,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇰🇬 KG-1 | 9PB
-  server: jcxfl5ok.zf-fast.9999231.xyz
+  server: duxki234.zf-fast.9999231.xyz
   port: 1040
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3575,7 +3594,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇬 KG-2 | 9PB
-  server: g04qq037.zf-fast.9999231.xyz
+  server: ecg0dh9u.zf-fast.9999231.xyz
   port: 1040
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3590,7 +3609,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇬 KG-3 | 9PB
-  server: ensfm4j2.zf-fast.9999231.xyz
+  server: q2ijb394.zf-fast.9999231.xyz
   port: 1040
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3605,7 +3624,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇬 KG-4 | 9PB
-  server: d5c2bv4p.zf-fast.9999231.xyz
+  server: egu6kvcq.zf-fast.9999231.xyz
   port: 1040
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3620,7 +3639,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇰🇬 KG-5 | 9PB
-  server: at5b6stl.zf-fast.9999231.xyz
+  server: 0c2xjnhq.zf-fast.9999231.xyz
   port: 1040
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3635,7 +3654,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇰🇬 KG-6 | 9PB
-  server: ukkltq7i.zf-fast.9999231.xyz
+  server: ybf21qkd.zf-fast.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3644,7 +3663,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇬 KG-7 | 9PB
-  server: wkhq9c1o.zf-fast.9999231.xyz
+  server: 1dba6gb1.zf-fast.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3653,7 +3672,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇬 KG-8 | 9PB
-  server: g67pqc2a.zf-fast.9999231.xyz
+  server: yfj7wrko.zf-fast.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3662,7 +3681,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇬 KG-9 | 9PB
-  server: ht8wl2ku.zf-fast.9999231.xyz
+  server: ui0xn8l1.zf-fast.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3671,7 +3690,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇰🇬 KG-10 | 9PB
-  server: wjqkckn4.zf-fast.9999231.xyz
+  server: dnp73y0p.zf-fast.9999231.xyz
   port: 2040
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3680,7 +3699,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇳🇬 NG-1 | 9PB
-  server: hkc31ezv.zf-fast.9999231.xyz
+  server: hn5ht1j9.zf-fast.9999231.xyz
   port: 1041
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3695,7 +3714,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇬 NG-2 | 9PB
-  server: r5px1993.zf-fast.9999231.xyz
+  server: glwwx82x.zf-fast.9999231.xyz
   port: 1041
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3710,7 +3729,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇬 NG-3 | 9PB
-  server: nxrbsq2l.zf-fast.9999231.xyz
+  server: ouaka75y.zf-fast.9999231.xyz
   port: 1041
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3725,7 +3744,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇬 NG-4 | 9PB
-  server: 1grxsvwy.zf-fast.9999231.xyz
+  server: u03b7zqs.zf-fast.9999231.xyz
   port: 1041
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3740,7 +3759,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇳🇬 NG-5 | 9PB
-  server: dqxh4cy6.zf-fast.9999231.xyz
+  server: sc16xro0.zf-fast.9999231.xyz
   port: 1041
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3755,7 +3774,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇳🇬 NG-6 | 9PB
-  server: gx5el2pj.zf-fast.9999231.xyz
+  server: rdj8gzbh.zf-fast.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3764,7 +3783,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇬 NG-7 | 9PB
-  server: g2ml1u42.zf-fast.9999231.xyz
+  server: pp8sofzj.zf-fast.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3773,7 +3792,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇬 NG-8 | 9PB
-  server: baku63u8.zf-fast.9999231.xyz
+  server: n3umlm7b.zf-fast.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3782,7 +3801,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇬 NG-9 | 9PB
-  server: zbhqi0qw.zf-fast.9999231.xyz
+  server: xkcm7asb.zf-fast.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3791,7 +3810,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇳🇬 NG-10 | 9PB
-  server: 2oce61t5.zf-fast.9999231.xyz
+  server: ok2clxqb.zf-fast.9999231.xyz
   port: 2041
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3800,7 +3819,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇷🇴 RO-1 | 9PB
-  server: sbsae980.zf-fast.9999231.xyz
+  server: p9hxhokj.zf-fast.9999231.xyz
   port: 1042
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3815,7 +3834,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇷🇴 RO-2 | 9PB
-  server: rbbu7z38.zf-fast.9999231.xyz
+  server: gr0ixclu.zf-fast.9999231.xyz
   port: 1042
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3830,7 +3849,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇷🇴 RO-3 | 9PB
-  server: lr0lb4lx.zf-fast.9999231.xyz
+  server: wprosz1u.zf-fast.9999231.xyz
   port: 1042
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3845,7 +3864,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇷🇴 RO-4 | 9PB
-  server: c4dlnon6.zf-fast.9999231.xyz
+  server: kwgvgap3.zf-fast.9999231.xyz
   port: 1042
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3860,7 +3879,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇷🇴 RO-5 | 9PB
-  server: gvdeu25m.zf-fast.9999231.xyz
+  server: 3r0x83vy.zf-fast.9999231.xyz
   port: 1042
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3875,7 +3894,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇷🇴 RO-6 | 9PB
-  server: 7m3yxo5g.zf-fast.9999231.xyz
+  server: 03fvnhpj.zf-fast.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3884,7 +3903,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇷🇴 RO-7 | 9PB
-  server: vp84yrlj.zf-fast.9999231.xyz
+  server: nvwlvbh7.zf-fast.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3893,7 +3912,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇷🇴 RO-8 | 9PB
-  server: vin3xgh5.zf-fast.9999231.xyz
+  server: xz27t0pm.zf-fast.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3902,7 +3921,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇷🇴 RO-9 | 9PB
-  server: 4upet7nk.zf-fast.9999231.xyz
+  server: 109eiv66.zf-fast.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3911,7 +3930,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇷🇴 RO-10 | 9PB
-  server: da2e04rs.zf-fast.9999231.xyz
+  server: 2u0og0g7.zf-fast.9999231.xyz
   port: 2042
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3920,7 +3939,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇸🇮 SI-1 | 9PB
-  server: stivoae6.zf-fast.9999231.xyz
+  server: 9clwcccq.zf-fast.9999231.xyz
   port: 1043
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3935,7 +3954,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇮 SI-2 | 9PB
-  server: g1vb9r3g.zf-fast.9999231.xyz
+  server: al49cfis.zf-fast.9999231.xyz
   port: 1043
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3950,7 +3969,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇮 SI-3 | 9PB
-  server: 17ovoq2a.zf-fast.9999231.xyz
+  server: dtmhr2aw.zf-fast.9999231.xyz
   port: 1043
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3965,7 +3984,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇮 SI-4 | 9PB
-  server: 886e1a2g.zf-fast.9999231.xyz
+  server: atl0bi4e.zf-fast.9999231.xyz
   port: 1043
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3980,7 +3999,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇮 SI-5 | 9PB
-  server: 5zzrrngo.zf-fast.9999231.xyz
+  server: q7fop52t.zf-fast.9999231.xyz
   port: 1043
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -3995,7 +4014,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇮 SI-6 | 9PB
-  server: rmluymv7.zf-fast.9999231.xyz
+  server: zjltyx07.zf-fast.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4004,7 +4023,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇮 SI-7 | 9PB
-  server: 2vb2ooyj.zf-fast.9999231.xyz
+  server: q87avwsw.zf-fast.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4013,7 +4032,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇮 SI-8 | 9PB
-  server: ugpfed00.zf-fast.9999231.xyz
+  server: m1balshd.zf-fast.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4022,7 +4041,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇮 SI-9 | 9PB
-  server: jsag4d6i.zf-fast.9999231.xyz
+  server: vzayaa20.zf-fast.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4031,7 +4050,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇸🇮 SI-10 | 9PB
-  server: hw2bfjk7.zf-fast.9999231.xyz
+  server: ecu3vc53.zf-fast.9999231.xyz
   port: 2043
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4040,7 +4059,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: vless
   name: 🇨🇦 CA-1 | 9PB
-  server: wyh60gl6.zf-fast.9999231.xyz
+  server: sj1eh36u.zf-fast.9999231.xyz
   port: 1044
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4055,7 +4074,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇦 CA-2 | 9PB
-  server: hb8kumpe.zf-fast.9999231.xyz
+  server: 33cf1wlh.zf-fast.9999231.xyz
   port: 1044
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4070,7 +4089,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇦 CA-3 | 9PB
-  server: uoui8x09.zf-fast.9999231.xyz
+  server: kcz7h8xd.zf-fast.9999231.xyz
   port: 1044
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4085,7 +4104,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇦 CA-4 | 9PB
-  server: mx391uin.zf-fast.9999231.xyz
+  server: v08oorqe.zf-fast.9999231.xyz
   port: 1044
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4100,7 +4119,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇨🇦 CA-5 | 9PB
-  server: 2fcejo0m.zf-fast.9999231.xyz
+  server: llku02gf.zf-fast.9999231.xyz
   port: 1044
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4115,7 +4134,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇨🇦 CA-6 | 9PB
-  server: sn9a8gv0.zf-fast.9999231.xyz
+  server: 5rj56qdv.zf-fast.9999231.xyz
   port: 2044
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4124,7 +4143,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-7 | 9PB
-  server: lbxor367.zf-fast.9999231.xyz
+  server: 4t4v5lzb.zf-fast.9999231.xyz
   port: 2044
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4133,7 +4152,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-8 | 9PB
-  server: c23vkokq.zf-fast.9999231.xyz
+  server: cjaso6ko.zf-fast.9999231.xyz
   port: 2044
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4142,7 +4161,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-9 | 9PB
-  server: 1akynvf0.zf-fast.9999231.xyz
+  server: n2k6aoa7.zf-fast.9999231.xyz
   port: 2044
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4151,7 +4170,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇨🇦 CA-10 | 9PB
-  server: h25sbvc9.zf-fast.9999231.xyz
+  server: u63zzp4e.zf-fast.9999231.xyz
   port: 2044
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4160,7 +4179,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇸 ES-1 | 9PB
-  server: c7br1qcu.zf-fast.9999231.xyz
+  server: za3i7omv.zf-fast.9999231.xyz
   port: 2045
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4169,7 +4188,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇸 ES-2 | 9PB
-  server: awkn7qgj.zf-fast.9999231.xyz
+  server: e9214y3u.zf-fast.9999231.xyz
   port: 2045
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4178,7 +4197,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇸 ES-3 | 9PB
-  server: 6y5eg8tw.zf-fast.9999231.xyz
+  server: 0kqpqzw2.zf-fast.9999231.xyz
   port: 2045
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4187,7 +4206,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇸 ES-4 | 9PB
-  server: uwcjx54s.zf-fast.9999231.xyz
+  server: 5bhlq5g2.zf-fast.9999231.xyz
   port: 2045
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4196,7 +4215,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇪🇸 ES-5 | 9PB
-  server: 7bxkrtzf.zf-fast.9999231.xyz
+  server: zlq8br3b.zf-fast.9999231.xyz
   port: 2045
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4205,7 +4224,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: vless
   name: 🇸🇬 SG-6 | 9PB
-  server: 4p9dy1nz.20261021-sg1-arm1-node.9999231.xyz
+  server: 3c6fu91c.20261021-sg1-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4220,7 +4239,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-7 | 9PB
-  server: f6qke8pd.20261021-sg1-arm1-node.9999231.xyz
+  server: p9hf2ncr.20261021-sg1-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4235,7 +4254,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-8 | 9PB
-  server: 99mtmufp.20261021-sg1-arm1-node.9999231.xyz
+  server: pp79c4hk.20261021-sg1-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4250,7 +4269,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-9 | 9PB
-  server: ko193qp6.20261021-sg1-arm1-node.9999231.xyz
+  server: stgs9h5n.20261021-sg1-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4265,7 +4284,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-10 | 9PB
-  server: xco6rja8.20261021-sg1-arm1-node.9999231.xyz
+  server: xw871pkw.20261021-sg1-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4280,7 +4299,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇬 SG-11 | 9PB
-  server: 8oqrex2g.20261021-sg1-arm1-node.9999231.xyz
+  server: bol69n8n.20261021-sg1-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4289,7 +4308,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-12 | 9PB
-  server: ev4z3dau.20261021-sg1-arm1-node.9999231.xyz
+  server: sncm70dl.20261021-sg1-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4298,7 +4317,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-13 | 9PB
-  server: bxd947ep.20261021-sg1-arm1-node.9999231.xyz
+  server: m191aqvt.20261021-sg1-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4307,7 +4326,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-14 | 9PB
-  server: lpwsnk07.20261021-sg1-arm1-node.9999231.xyz
+  server: g9qjge86.20261021-sg1-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4316,7 +4335,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-15 | 9PB
-  server: 0qs9xqwc.20261021-sg1-arm1-node.9999231.xyz
+  server: lmmu6wru.20261021-sg1-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4325,7 +4344,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: vless
   name: 🇸🇬 SG-16 | 9PB
-  server: 8kf0xtpg.20261021-sg2-arm1-node.9999231.xyz
+  server: plz8rrs2.20261021-sg2-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4340,7 +4359,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-17 | 9PB
-  server: 7ijatq3p.20261021-sg2-arm1-node.9999231.xyz
+  server: rngdqh3y.20261021-sg2-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4355,7 +4374,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-18 | 9PB
-  server: mdce1dqp.20261021-sg2-arm1-node.9999231.xyz
+  server: xkac4atf.20261021-sg2-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4370,7 +4389,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-19 | 9PB
-  server: dtdo0srg.20261021-sg2-arm1-node.9999231.xyz
+  server: zy2ozkk8.20261021-sg2-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4385,7 +4404,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇸🇬 SG-20 | 9PB
-  server: a1ahbxup.20261021-sg2-arm1-node.9999231.xyz
+  server: 8hn6nht3.20261021-sg2-arm1-node.9999231.xyz
   port: 500
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4400,7 +4419,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇬 SG-21 | 9PB
-  server: e8z5ipt9.20261021-sg2-arm1-node.9999231.xyz
+  server: e1pu6krf.20261021-sg2-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4409,7 +4428,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-22 | 9PB
-  server: zv9fhe5y.20261021-sg2-arm1-node.9999231.xyz
+  server: 2g5rsk24.20261021-sg2-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4418,7 +4437,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-23 | 9PB
-  server: 4omu7955.20261021-sg2-arm1-node.9999231.xyz
+  server: czjgrru5.20261021-sg2-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4427,7 +4446,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-24 | 9PB
-  server: gs8tt3l6.20261021-sg2-arm1-node.9999231.xyz
+  server: batwlpf0.20261021-sg2-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4436,7 +4455,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇸🇬 SG-25 | 9PB
-  server: lh1lwcsd.20261021-sg2-arm1-node.9999231.xyz
+  server: xrr1cz81.20261021-sg2-arm1-node.9999231.xyz
   port: 501
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -4862,7 +4881,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇮🇱 IL-1 | Filter
-  server: g7np65gj.zf-low.9999231.xyz
+  server: yzbw6n00.zf-low.9999231.xyz
   port: 1001
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4877,7 +4896,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇺🇸 US-1 | Filter
-  server: i5xty7ti.zf-fast.9999231.xyz
+  server: 3szhxuqt.zf-fast.9999231.xyz
   port: 1001
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4892,7 +4911,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇸 US-2 | Filter
-  server: tbbf1bft.zf-low.9999231.xyz
+  server: d2xvpk9b.zf-low.9999231.xyz
   port: 2001
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4901,7 +4920,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: hysteria2
   name: 🇺🇸 US-3 | Filter
-  server: nre9u983.zf-fast.9999231.xyz
+  server: n3vvnwij.zf-fast.9999231.xyz
   port: 2001
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4910,7 +4929,7 @@ proxies:
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
 - type: anytls
   name: 🇭🇰 HK-1 | Filter
-  server: 7y1wh0y7.zf-fast.9999231.xyz
+  server: 9oc7j074.zf-fast.9999231.xyz
   port: 1002
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4919,7 +4938,7 @@ proxies:
   client-fingerprint: chrome
 - type: anytls
   name: 🇭🇰 HK-2 | Filter
-  server: 9ktetiap.zf-fast.9999231.xyz
+  server: 9fogn7p3.zf-fast.9999231.xyz
   port: 1002
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4928,7 +4947,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇯🇵 JP-1 | Filter
-  server: l8p4ddsu.zf-fast.9999231.xyz
+  server: zyf1pzjn.zf-fast.9999231.xyz
   port: 1006
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4943,7 +4962,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇯🇵 JP-2 | Filter
-  server: 11h7uecj.zf-fast.9999231.xyz
+  server: 700rv8ax.zf-fast.9999231.xyz
   port: 1006
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4958,7 +4977,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-1 | Filter
-  server: a5fe4yn2.zf-low.9999231.xyz
+  server: fphdzz9u.zf-low.9999231.xyz
   port: 1009
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4973,7 +4992,7 @@ proxies:
   network: tcp
 - type: vless
   name: 🇬🇧 GB-2 | Filter
-  server: ri4zaowh.zf-fast.9999231.xyz
+  server: 01wivgnk.zf-fast.9999231.xyz
   port: 1009
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4988,7 +5007,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇦🇹 AT-1 | Filter
-  server: j5hr7dnj.zf-fast.9999231.xyz
+  server: 31ve52u8.zf-fast.9999231.xyz
   port: 2016
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -4997,7 +5016,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-2 | Filter
-  server: j20gqf9c.zf-fast.9999231.xyz
+  server: g313bdv7.zf-fast.9999231.xyz
   port: 2016
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -5006,7 +5025,7 @@ proxies:
   obfs-password: ZWRjZDliZGZkMjA5NmU2OQ==
 - type: hysteria2
   name: 🇦🇹 AT-3 | Filter
-  server: lzibx3bk.zf-fast.9999231.xyz
+  server: gi8ontcl.zf-fast.9999231.xyz
   port: 2016
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
