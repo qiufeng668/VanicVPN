@@ -1,7 +1,21 @@
 proxies:
+- type: ss
+  name: 🇺🇸 US-1 | 8EB
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: ss
+  name: 🇮🇹 IT-1 | 8EB
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 - type: vless
-  name: 🇯🇵 JP-1 | 8EB
-  server: 45.66.129.128
+  name: 🇨🇦 CA-1 | 8EB
+  server: 172.64.152.19
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -15,22 +29,134 @@ proxies:
     headers:
       Host: jp3.yohototo.top
   fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
-- type: vless
+- type: hysteria2
   name: 🇳🇱 NL-1 | 8EB
-  server: 212.34.128.120
-  port: 2083
-  uuid: 6da2c981-8c77-4340-bda3-93399b7aea26
+  server: 9.247.54.68
+  port: 443
+  password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
+  udp: true
+  sni: nl1.obxodvpn.us
+  skip-cert-verify: true
+- type: ss
+  name: 🇮🇹 IT-2 | 8EB
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: vless
+  name: 🇺🇸 US-2 | 8EB
+  server: 151.101.67.6
+  port: 443
+  uuid: bdf38176-48e9-40f1-9d1c-d501c333b464
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: podcasts.blog-forme.ru
-  reality-opts:
-    public-key: nalACuCZjV1sZx7QOH6yAIDio8mFI0FgVKYQvQHBKS4
-    short-id: fb3a5f2d4ca346ed
+  servername: amp-api-edge.apps.apple.com
+  client-fingerprint: chrome
   network: xhttp
+  alpn:
+  - h3
   mode: auto
+- type: ss
+  name: 🇮🇹 IT-3 | 8EB
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: trojan
+  name: 🇨🇦 CA-2 | 8EB
+  server: 188.114.97.6
+  port: 443
+  password: humanity
+  skip-cert-verify: false
+  security: tls
+  sni: www.pleadcourt.org
+  servername: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+  fm: '{"tcp":[{"settings":{"packets":"tlshello","lengths":["0","104"]},"type":"fragment"}]}'
 - type: vless
-  name: 🇨🇦 CA-1 | 8EB
+  name: 🇰🇿 KZ-1 | 8EB
+  server: 95.56.251.12
+  port: 47443
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: kz1.waspnest.space
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
+    short-id: ae97223a8f799877
+  network: tcp
+- type: ss
+  name: 🇺🇸 US-3 | 8EB
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: vmess
+  name: 🇯🇵 JP-1 | 8EB
+  server: JP032008.ssgreen.org
+  port: 443
+  uuid: 9ddbe6b7-8ad5-43d5-b30a-35e35b633103
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: JP032008.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032008.ssgreen.org
+- type: ss
+  name: 🇮🇹 IT-4 | 8EB
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: ss
+  name: 🇮🇹 IT-5 | 8EB
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: trojan
+  name: 🇺🇸 US-4 | 8EB
+  server: 104.18.33.97
+  port: 443
+  password: humanity
+  skip-cert-verify: false
+  security: tls
+  sni: www.calmlunch.com
+  servername: www.calmlunch.com
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: //assignment
+    headers:
+      Host: www.calmlunch.com
+  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
+- type: ss
+  name: 🇫🇷 FR-1 | 8EB
+  server: 77.216.2.178
+  port: 30
+  cipher: chacha20-ietf-poly1305
+  password: BHxDn8Z67zuaoQsjHqSAMQQs8Dz1CGqJ
+  udp: true
+- type: vless
+  name: 🇨🇦 CA-3 | 8EB
   server: 104.17.44.17
   port: 443
   uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
@@ -46,7 +172,67 @@ proxies:
       Host: top-e4s.pages.dev
   fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
 - type: vless
-  name: 🇨🇦 CA-2 | 8EB
+  name: 🇩🇪 DE-1 | 8EB
+  server: vivozim.vyvoz-musora.cc
+  port: 443
+  uuid: a0052f4f-4c63-485a-a16f-ab2d5d718cd3
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: vivozim.vyvoz-musora.cc
+  client-fingerprint: ios
+  network: ws
+  ws-opts:
+    path: /e8ws
+    headers:
+      Host: vivozim.vyvoz-musora.cc
+- type: vless
+  name: 🇳🇱 NL-2 | 8EB
+  server: 212.34.128.120
+  port: 2083
+  uuid: 6da2c981-8c77-4340-bda3-93399b7aea26
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: podcasts.blog-forme.ru
+  reality-opts:
+    public-key: nalACuCZjV1sZx7QOH6yAIDio8mFI0FgVKYQvQHBKS4
+    short-id: fb3a5f2d4ca346ed
+  network: xhttp
+  mode: auto
+- type: trojan
+  name: 🇨🇦 CA-4 | 8EB
+  server: www.speedtest.net
+  port: 443
+  password: humanity
+  skip-cert-verify: false
+  security: tls
+  sni: www.calmlunch.com
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment?TELEGRAM--CONFIG7X--CONFIG7X
+    headers:
+      Host: www.calmlunch.com
+  ech: ip.gs+udp://8.8.8.8
+- type: vless
+  name: 🇺🇸 US-5 | 8EB
+  server: 146.75.59.186
+  port: 443
+  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: firefox.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+  pcs: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+- type: vless
+  name: 🇨🇦 CA-5 | 8EB
   server: 172.64.149.88
   port: 443
   uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
@@ -61,203 +247,24 @@ proxies:
     headers:
       Host: top-e4s.pages.dev
   fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
-- type: vless
-  name: 🇨🇦 CA-3 | 8EB
-  server: 104.20.17.210
+- type: vmess
+  name: 🇯🇵 JP-2 | 8EB
+  server: JP032005.ssgreen.org
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
+  uuid: 86eb788d-6955-489d-a100-c3147bdaf1fe
+  alterId: 0
+  cipher: auto
   network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: JP032005.ssgreen.org
   ws-opts:
-    path: /
+    path: /wes
     headers:
-      Host: ccc.010304.xyz
-- type: vless
-  name: 🇷🇺 RU-1 | 8EB
-  server: 194.87.143.165
-  port: 8443
-  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: wsru1.wba-pn.ru
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 194.87.143.165
-- type: vless
-  name: 🇨🇦 CA-4 | 8EB
-  server: 172.64.152.19
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: jp3.yohototo.top
-  client-fingerprint: unsafe
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
-- type: vless
-  name: 🇰🇷 KR-1 | 8EB
-  server: 144.24.71.172
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: jp3.yohototo.top
-  client-fingerprint: unsafe
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  fm: '{"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104","1"],"delays":["0"],"maxSplit":"0"}},{"type":"fragment","settings":{"packets":"1-1","lengths":["114","1"],"delays":["1"],"maxSplit":"11"}}]}'
-- type: anytls
-  name: 🇹🇼 TW-1 | 8EB
-  server: louise.akibalon.online
-  port: 21142
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
-- type: anytls
-  name: 🇹🇼 TW-2 | 8EB
-  server: louise.akibalon.online
-  port: 21143
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
+      Host: JP032005.ssgreen.org
 - type: anytls
   name: 🇭🇰 HK-1 | 8EB
-  server: louise.akibalon.online
-  port: 21550
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
-- type: anytls
-  name: 🇭🇰 HK-2 | 8EB
-  server: louise.akibalon.online
-  port: 21551
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
-- type: anytls
-  name: 🇭🇰 HK-3 | 8EB
-  server: louise.akibalon.online
-  port: 21524
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
-- type: anytls
-  name: 🇭🇰 HK-4 | 8EB
-  server: louise.akibalon.online
-  port: 21515
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
-- type: anytls
-  name: 🇭🇰 HK-5 | 8EB
-  server: louise.akibalon.online
-  port: 21518
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
-- type: anytls
-  name: 🇭🇰 HK-6 | 8EB
-  server: louise.akibalon.online
-  port: 21519
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
-- type: anytls
-  name: 🇭🇰 HK-7 | 8EB
-  server: louise.akibalon.online
-  port: 21521
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
-- type: anytls
-  name: 🇺🇸 US-1 | 8EB
-  server: louise.akibalon.online
-  port: 21310
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
-- type: anytls
-  name: 🇯🇵 JP-2 | 8EB
-  server: louise.akibalon.online
-  port: 21249
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
-- type: anytls
-  name: 🇯🇵 JP-3 | 8EB
-  server: louise.akibalon.online
-  port: 21251
-  password: 0E748196-7CEF-4340-B5A6-9CBB354232AA
-  udp: true
-  sni: whyet-1412505754.cos.ap-guangzhou.myqcloud.com
-  skip-cert-verify: true
-- type: ss
-  name: 🇪🇸 ES-1 | 8EB
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: vless
-  name: 🇺🇸 US-2 | 8EB
-  server: 104.18.39.123
-  port: 443
-  uuid: 0ad8f7d9-85a2-45f3-9948-27903a20ec29
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: us7.mcdonaldshamburgergoodgoodgood.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us7.mcdonaldshamburgergoodgoodgood.xyz
-- type: vless
-  name: 🇺🇸 US-3 | 8EB
-  server: 43.153.121.144
-  port: 443
-  uuid: df63ee5d-9530-464d-bb1c-ca1fa00e8b98
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: -6_eN_0VKwqVaYN_jU9WdQ9yEpiLGvJQffhGThYLqGQ
-    short-id: c2f1c482d8d339a5
-  network: tcp
-- type: anytls
-  name: 🇭🇰 HK-8 | 8EB
   server: 56481.df6h451rh.xin
   port: 443
   password: 0324fbc29561
@@ -267,1304 +274,74 @@ proxies:
   alpn:
   - http/1.1
   client-fingerprint: chrome
-- type: trojan
-  name: 🇫🇷 FR-1 | 8EB
-  server: 153.56.171.216
+- type: vless
+  name: 🇳🇱 NL-3 | 8EB
+  server: 186.246.9.29
   port: 443
-  password: humanity
+  uuid: b2847c3b-5278-4b06-9c66-bc919d2dfec7
+  udp: true
+  tls: true
   skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇪 SE-1 | 8EB
-  server: 41.216.182.98
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇩🇴 DO-1 | 8EB
-  server: 181.36.229.212
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇮🇪 IE-1 | 8EB
-  server: 23.94.67.209
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇪🇸 ES-2 | 8EB
-  server: 185.114.72.31
-  port: 8443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇪🇸 ES-3 | 8EB
-  server: 141.253.194.63
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇩🇪 DE-1 | 8EB
-  server: 72.4.69.134
-  port: 8443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇩🇪 DE-2 | 8EB
-  server: 178.104.197.49
-  port: 2053
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇧🇪 BE-1 | 8EB
-  server: 194.71.227.213
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.calmlunch.com
-  servername: www.calmlunch.com
-  client-fingerprint: unsafe
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- type: trojan
-  name: 🇹🇷 TR-1 | 8EB
-  server: 82.26.198.25
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇹🇷 TR-2 | 8EB
-  server: 89.36.137.173
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇮🇹 IT-1 | 8EB
-  server: 213.109.192.6
-  port: 8443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇫🇮 FI-1 | 8EB
-  server: 138.124.17.154
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇱🇻 LV-1 | 8EB
-  server: 217.60.6.74
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇰 SK-1 | 8EB
-  server: 91.242.163.179
-  port: 8443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇪🇪 EE-1 | 8EB
-  server: 87.121.86.19
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇱🇹 LT-1 | 8EB
-  server: 88.119.161.15
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇮🇸 IS-1 | 8EB
-  server: 89.127.232.228
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇷🇸 RS-1 | 8EB
-  server: 38.180.17.33
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇧🇬 BG-1 | 8EB
-  server: 148.253.214.241
-  port: 8443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇧🇬 BG-2 | 8EB
-  server: 94.72.140.210
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇦 UA-1 | 8EB
-  server: 173.242.51.189
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇦 UA-2 | 8EB
-  server: 91.239.65.102
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇷🇺 RU-2 | 8EB
-  server: 45.90.46.160
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇦🇲 AM-1 | 8EB
-  server: 88.218.92.205
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇰🇿 KZ-1 | 8EB
-  server: 5.180.20.134
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇰🇿 KZ-2 | 8EB
-  server: 206.223.244.33
-  port: 8443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇲🇾 MY-1 | 8EB
-  server: 76.13.188.13
-  port: 8443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇮🇩 ID-1 | 8EB
-  server: 43.229.254.182
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇹🇭 TH-1 | 8EB
-  server: 103.224.84.7
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇭🇰 HK-9 | 8EB
-  server: 43.161.233.40
-  port: 8443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-4 | 8EB
-  server: 154.19.187.151
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-4 | 8EB
-  server: 188.255.156.209
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-5 | 8EB
-  server: 179.253.235.190
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-5 | 8EB
-  server: 45.66.129.196
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-6 | 8EB
-  server: 179.253.255.64
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-7 | 8EB
-  server: 179.253.255.92
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-8 | 8EB
-  server: 179.253.231.116
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-9 | 8EB
-  server: 179.255.132.69
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-10 | 8EB
-  server: 179.255.140.28
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-11 | 8EB
-  server: 208.68.180.204
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-12 | 8EB
-  server: 131.143.180.175
-  port: 8443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-13 | 8EB
-  server: 179.255.119.111
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-14 | 8EB
-  server: 179.255.132.15
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-15 | 8EB
-  server: 131.143.180.91
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-16 | 8EB
-  server: 179.255.99.7
-  port: 8443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-17 | 8EB
-  server: 179.255.127.209
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-6 | 8EB
-  server: 45.8.115.202
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇬 SG-1 | 8EB
-  server: 194.114.138.162
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-18 | 8EB
-  server: 179.255.119.203
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-7 | 8EB
-  server: 167.179.103.224
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-8 | 8EB
-  server: 103.238.129.130
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-19 | 8EB
-  server: 179.255.115.60
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-9 | 8EB
-  server: 138.2.41.26
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-10 | 8EB
-  server: 161.33.215.154
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇬 SG-2 | 8EB
-  server: 168.107.42.158
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-11 | 8EB
-  server: 152.70.86.199
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-20 | 8EB
-  server: 179.253.241.115
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇬 SG-3 | 8EB
-  server: 161.118.220.240
-  port: 8443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-21 | 8EB
-  server: 179.255.127.92
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-12 | 8EB
-  server: 154.19.187.141
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-13 | 8EB
-  server: 198.13.59.163
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-22 | 8EB
-  server: 69.8.129.140
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇨🇦 CA-5 | 8EB
-  server: 162.159.197.1
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
+  servername: wordpress.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA
+    short-id: 50ad5564
+  network: tcp
+- type: vless
   name: 🇨🇦 CA-6 | 8EB
-  server: 104.17.145.145
+  server: minimize-evenness.cdn-content.com
   port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
+  uuid: 5334ebd8-9419-4847-9fc0-72ccf271a62e
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: minimize-evenness.cdn-content.com
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /assignment
+    path: /ws
     headers:
-      Host: www.cordweave.com
-- type: trojan
+      Host: minimize-evenness.cdn-content.com
+  alpn:
+  - http/1.1
+- type: vless
   name: 🇨🇦 CA-7 | 8EB
-  server: 104.26.14.111
+  server: adheres-scruple.quick-cdn.net
   port: 443
-  password: humanity
+  uuid: 5334ebd8-9419-4847-9fc0-72ccf271a62e
+  udp: true
+  tls: true
   skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
+  servername: adheres-scruple.quick-cdn.net
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /assignment
+    path: /ws
     headers:
-      Host: www.cordweave.com
-- type: trojan
+      Host: adheres-scruple.quick-cdn.net
+  alpn:
+  - http/1.1
+- type: vless
   name: 🇨🇦 CA-8 | 8EB
-  server: 172.67.74.177
+  server: piracy-android.video-streams.org
   port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
+  uuid: 5334ebd8-9419-4847-9fc0-72ccf271a62e
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: piracy-android.video-streams.org
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /assignment
+    path: /ws
     headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇨🇦 CA-9 | 8EB
-  server: 104.16.240.177
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇨🇦 CA-10 | 8EB
-  server: 104.17.145.43
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇨🇦 CA-11 | 8EB
-  server: 104.18.33.121
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-14 | 8EB
-  server: 138.2.41.8
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-15 | 8EB
-  server: 138.2.44.32
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-16 | 8EB
-  server: 167.179.77.74
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇯🇵 JP-17 | 8EB
-  server: 160.251.210.41
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇲🇾 MY-2 | 8EB
-  server: 72.60.236.128
-  port: 8443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇬 SG-4 | 8EB
-  server: 138.2.83.57
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇬 SG-5 | 8EB
-  server: 139.180.212.225
-  port: 8443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇬 SG-6 | 8EB
-  server: 159.65.8.14
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇬 SG-7 | 8EB
-  server: 138.2.66.236
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇬 SG-8 | 8EB
-  server: 209.97.165.213
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇬 SG-9 | 8EB
-  server: 152.42.163.208
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇬 SG-10 | 8EB
-  server: 172.104.166.253
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇸🇬 SG-11 | 8EB
-  server: 157.230.254.79
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇭🇰 HK-10 | 8EB
-  server: 45.136.14.240
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-23 | 8EB
-  server: 23.246.154.144
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-24 | 8EB
-  server: 198.46.175.206
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇺🇸 US-25 | 8EB
-  server: 65.75.201.83
-  port: 8443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇰🇷 KR-2 | 8EB
-  server: 123.111.169.70
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇩🇪 DE-3 | 8EB
-  server: 91.196.32.217
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇩🇪 DE-4 | 8EB
-  server: 148.253.208.19
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: trojan
-  name: 🇩🇪 DE-5 | 8EB
-  server: 193.23.219.137
-  port: 2087
-  password: humanity
-  skip-cert-verify: false
-  security: tls
-  sni: www.cordweave.com
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
+      Host: piracy-android.video-streams.org
+  alpn:
+  - http/1.1
 - type: anytls
   name: 🇹🇼 TW-1 | 9PB
-  server: jgl21x04.hinet-tw.9999231.xyz
+  server: bck17wh0.hinet-tw.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1573,7 +350,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇨🇳 CN-1 | 9PB
-  server: wwqo3lxs.hinet-tw.9999231.xyz
+  server: j4z0quwe.hinet-tw.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1588,7 +365,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇨🇳 CN-2 | 9PB
-  server: begqbiz8.hinet-tw.9999231.xyz
+  server: n74w49na.hinet-tw.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1597,7 +374,7 @@ proxies:
   sni: hinet-tw.9999231.xyz
 - type: anytls
   name: 🇺🇸 US-1 | 9PB
-  server: e73vn0wr.20260927-usp-amd1-low-node.9999231.xyz
+  server: 3iwg1cna.20260927-usp-amd1-low-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1606,7 +383,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇺🇸 US-2 | 9PB
-  server: 06mixdwe.20260927-usp-amd1-low-node.9999231.xyz
+  server: a1kw362s.20260927-usp-amd1-low-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1621,7 +398,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇸 US-3 | 9PB
-  server: 77j85rm9.20260927-usp-amd1-low-node.9999231.xyz
+  server: 8cs2cvvb.20260927-usp-amd1-low-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1630,7 +407,7 @@ proxies:
   sni: 20260927-usp-amd1-low-node.9999231.xyz
 - type: anytls
   name: 🇺🇸 US-4 | 9PB
-  server: hs8aoqvj.20260927-usp-arm1-fast-node.9999231.xyz
+  server: yen14q1r.20260927-usp-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1639,7 +416,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇺🇸 US-5 | 9PB
-  server: j3v44jn5.20260927-usp-arm1-fast-node.9999231.xyz
+  server: l232i7oi.20260927-usp-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1654,7 +431,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇸 US-6 | 9PB
-  server: leevdgx4.20260927-usp-arm1-fast-node.9999231.xyz
+  server: m2wf084x.20260927-usp-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1663,7 +440,7 @@ proxies:
   sni: 20260927-usp-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇸🇬 SG-1 | 9PB
-  server: o9lfoxii.20260927-sg-arm1-fast-node.9999231.xyz
+  server: qu22yqay.20260927-sg-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1672,7 +449,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇸🇬 SG-2 | 9PB
-  server: a539d8lc.20260927-sg-arm1-fast-node.9999231.xyz
+  server: 64yy94e9.20260927-sg-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1687,7 +464,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇬 SG-3 | 9PB
-  server: ph8gs3jc.20260927-sg-arm1-fast-node.9999231.xyz
+  server: bgblodt5.20260927-sg-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1696,7 +473,7 @@ proxies:
   sni: 20260927-sg-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇬🇧 GB-1 | 9PB
-  server: 5nyn8xut.20261015-uk-arm1-fast-node.9999231.xyz
+  server: 6wgnuouw.20261015-uk-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1705,7 +482,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇬🇧 GB-2 | 9PB
-  server: po3528xn.20261015-uk-arm1-fast-node.9999231.xyz
+  server: eb7vcmj4.20261015-uk-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1720,7 +497,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇬🇧 GB-3 | 9PB
-  server: 68pf5v91.20261015-uk-arm1-fast-node.9999231.xyz
+  server: 68oqw18f.20261015-uk-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1729,7 +506,7 @@ proxies:
   sni: 20261015-uk-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇫🇷 FR-1 | 9PB
-  server: a91eyngi.20261015-fr-arm1-fast-node.9999231.xyz
+  server: f0c6p8tx.20261015-fr-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1738,7 +515,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇫🇷 FR-2 | 9PB
-  server: v75dqdnm.20261015-fr-arm1-fast-node.9999231.xyz
+  server: fv3y9ifj.20261015-fr-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1753,7 +530,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇫🇷 FR-3 | 9PB
-  server: 6hor49ql.20261015-fr-arm1-fast-node.9999231.xyz
+  server: yx1uyf80.20261015-fr-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1762,7 +539,7 @@ proxies:
   sni: 20261015-fr-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇩🇪 DE-1 | 9PB
-  server: jerqpw2p.20261015-de-arm1-fast-node.9999231.xyz
+  server: 64om7aml.20261015-de-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1771,7 +548,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇩🇪 DE-2 | 9PB
-  server: g3sivuy0.20261015-de-arm1-fast-node.9999231.xyz
+  server: 38v2gxrk.20261015-de-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1786,7 +563,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇩🇪 DE-3 | 9PB
-  server: t5s603g5.20261015-de-arm1-fast-node.9999231.xyz
+  server: uvrl9n0t.20261015-de-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1795,7 +572,7 @@ proxies:
   sni: 20261015-de-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇮🇹 IT-1 | 9PB
-  server: cx0t4p3s.20261015-it-arm1-fast-node.9999231.xyz
+  server: 2pmhvug0.20261015-it-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1804,7 +581,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇮🇹 IT-2 | 9PB
-  server: rtukhg3e.20261015-it-arm1-fast-node.9999231.xyz
+  server: 0bh5i0ru.20261015-it-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1819,7 +596,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇹 IT-3 | 9PB
-  server: bum8iow1.20261015-it-arm1-fast-node.9999231.xyz
+  server: xzvp3lef.20261015-it-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1828,7 +605,7 @@ proxies:
   sni: 20261015-it-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇮🇱 IL-1 | 9PB
-  server: xg1gx1eh.20261015-il-arm1-fast-node.9999231.xyz
+  server: rmvukr7t.20261015-il-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1837,7 +614,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇮🇱 IL-2 | 9PB
-  server: n39lpta5.20261015-il-arm1-fast-node.9999231.xyz
+  server: o6e7ubwe.20261015-il-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1852,7 +629,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇱 IL-3 | 9PB
-  server: aj0o8769.20261015-il-arm1-fast-node.9999231.xyz
+  server: xmv0gttw.20261015-il-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1861,7 +638,7 @@ proxies:
   sni: 20261015-il-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇯🇵 JP-1 | 9PB
-  server: qyd54z5i.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
+  server: hoachq5r.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1870,7 +647,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇯🇵 JP-2 | 9PB
-  server: 6vznjnsd.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
+  server: kvp4wd9l.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1885,7 +662,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇯🇵 JP-3 | 9PB
-  server: t5xgln0g.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
+  server: xm6s0t04.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1894,7 +671,7 @@ proxies:
   sni: 20261016-jp-arm1-fast-node-jp-house.9999231.xyz
 - type: anytls
   name: 🇧🇷 BR-1 | 9PB
-  server: ofzw05b3.20261016-usp-arm1-fast-node-br-house.9999231.xyz
+  server: on03gldv.20261016-usp-arm1-fast-node-br-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1903,7 +680,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇧🇷 BR-2 | 9PB
-  server: 47ktiev4.20261016-usp-arm1-fast-node-br-house.9999231.xyz
+  server: vdzdmpo1.20261016-usp-arm1-fast-node-br-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1918,7 +695,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇧🇷 BR-3 | 9PB
-  server: t4wdbu74.20261016-usp-arm1-fast-node-br-house.9999231.xyz
+  server: dmcg06bu.20261016-usp-arm1-fast-node-br-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1927,7 +704,7 @@ proxies:
   sni: 20261016-usp-arm1-fast-node-br-house.9999231.xyz
 - type: anytls
   name: 🇮🇩 ID-1 | 9PB
-  server: vym5g1it.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
+  server: 5bg0l3sg.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1936,7 +713,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇮🇩 ID-2 | 9PB
-  server: w7mx6241.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
+  server: 1j11ky6c.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1951,7 +728,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇩 ID-3 | 9PB
-  server: 0tk3mcli.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
+  server: su0v19jm.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1960,7 +737,7 @@ proxies:
   sni: 20261021-sg1-arm1-fast-node-id-house.9999231.xyz
 - type: anytls
   name: 🇹🇭 TH-1 | 9PB
-  server: th2374hr.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
+  server: vhxq2316.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1969,7 +746,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇹🇭 TH-2 | 9PB
-  server: h1utmend.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
+  server: rj5kq3ry.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1984,7 +761,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇹🇭 TH-3 | 9PB
-  server: ozed12ol.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
+  server: ihpb6wmo.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1993,7 +770,7 @@ proxies:
   sni: 20261021-sg2-arm1-fast-node-th-house.9999231.xyz
 - type: anytls
   name: 🇦🇪 AE-1 | 9PB
-  server: 2r4ijdjp.20261031-ae-arm1-fast-node.9999231.xyz
+  server: 0uxyn6g4.20261031-ae-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2002,7 +779,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇦🇪 AE-2 | 9PB
-  server: diut8nkk.20261031-ae-arm1-fast-node.9999231.xyz
+  server: lt35kdhw.20261031-ae-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2017,7 +794,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇦🇪 AE-3 | 9PB
-  server: gd7w8qyq.20261031-ae-arm1-fast-node.9999231.xyz
+  server: ku93e9a8.20261031-ae-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2026,7 +803,7 @@ proxies:
   sni: 20261031-ae-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇭🇰 HK-1 | 9PB
-  server: 39kuc41d.20261031-sg-arm1-fast-node-hk.9999231.xyz
+  server: 4a1vl9xk.20261031-sg-arm1-fast-node-hk.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2035,7 +812,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇭🇰 HK-2 | 9PB
-  server: m1wdfvkr.20261031-sg-arm1-fast-node-hk.9999231.xyz
+  server: ewxf6yl3.20261031-sg-arm1-fast-node-hk.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2050,7 +827,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇭🇰 HK-3 | 9PB
-  server: 9j8hxt9g.20261031-sg-arm1-fast-node-hk.9999231.xyz
+  server: 2yye16r0.20261031-sg-arm1-fast-node-hk.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2059,7 +836,7 @@ proxies:
   sni: 20261031-sg-arm1-fast-node-hk.9999231.xyz
 - type: anytls
   name: 🇵🇱 PL-1 | 9PB
-  server: 135yuu25.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
+  server: 17htersd.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2068,7 +845,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇵🇱 PL-2 | 9PB
-  server: hsl1lmr4.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
+  server: 43i89a2j.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2083,7 +860,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇵🇱 PL-3 | 9PB
-  server: sghp01wx.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
+  server: s80wpahy.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2092,7 +869,7 @@ proxies:
   sni: 20261031-usp-arm1-fast-node-pl-house.9999231.xyz
 - type: anytls
   name: 🇫🇷 FR-4 | 9PB
-  server: irh542hg.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
+  server: qcg8zeja.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2101,7 +878,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇫🇷 FR-5 | 9PB
-  server: ii2zagfm.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
+  server: piwq2le9.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2116,7 +893,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇫🇷 FR-6 | 9PB
-  server: h8dbdwky.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
+  server: 6ombth2a.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2125,7 +902,7 @@ proxies:
   sni: 20261031-usc-arm1-fast-node-fr-house.9999231.xyz
 - type: anytls
   name: 🇬🇧 GB-4 | 9PB
-  server: l2w0es86.20261015-uk-amd1-low-node.9999231.xyz
+  server: nv9moir6.20261015-uk-amd1-low-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2134,7 +911,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇬🇧 GB-5 | 9PB
-  server: 9d8kfven.20261015-uk-amd1-low-node.9999231.xyz
+  server: rh77vzq2.20261015-uk-amd1-low-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2149,7 +926,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇬🇧 GB-6 | 9PB
-  server: snq060x1.20261015-uk-amd1-low-node.9999231.xyz
+  server: 3rwhfg4i.20261015-uk-amd1-low-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2158,7 +935,7 @@ proxies:
   sni: 20261015-uk-amd1-low-node.9999231.xyz
 - type: anytls
   name: 🇫🇷 FR-7 | 9PB
-  server: 5obr47pg.20261015-fr-amd1-low-node.9999231.xyz
+  server: nhysxc0x.20261015-fr-amd1-low-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2167,7 +944,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇫🇷 FR-8 | 9PB
-  server: tudtan9n.20261015-fr-amd1-low-node.9999231.xyz
+  server: t00y7koi.20261015-fr-amd1-low-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2182,7 +959,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇫🇷 FR-9 | 9PB
-  server: m5myw092.20261015-fr-amd1-low-node.9999231.xyz
+  server: 703mthy4.20261015-fr-amd1-low-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2191,7 +968,7 @@ proxies:
   sni: 20261015-fr-amd1-low-node.9999231.xyz
 - type: anytls
   name: 🇹🇷 TR-1 | 9PB
-  server: wrh8z2m1.20261031-usp-amd1-low-node-tr-house.9999231.xyz
+  server: 1aa3l60d.20261031-usp-amd1-low-node-tr-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2200,7 +977,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇹🇷 TR-2 | 9PB
-  server: es7uy17r.20261031-usp-amd1-low-node-tr-house.9999231.xyz
+  server: 0d2lzp8a.20261031-usp-amd1-low-node-tr-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2215,7 +992,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇹🇷 TR-3 | 9PB
-  server: t93zqggx.20261031-usp-amd1-low-node-tr-house.9999231.xyz
+  server: qrxdwwn3.20261031-usp-amd1-low-node-tr-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2224,7 +1001,7 @@ proxies:
   sni: 20261031-usp-amd1-low-node-tr-house.9999231.xyz
 - type: anytls
   name: 🇰🇿 KZ-1 | 9PB
-  server: 5n9ypxrf.20261031-usp-amd2-low-node-kz-house.9999231.xyz
+  server: mp5ksr0c.20261031-usp-amd2-low-node-kz-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2233,7 +1010,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇰🇿 KZ-2 | 9PB
-  server: jw5iy1v7.20261031-usp-amd2-low-node-kz-house.9999231.xyz
+  server: k49j6obi.20261031-usp-amd2-low-node-kz-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2248,7 +1025,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇰🇿 KZ-3 | 9PB
-  server: g5inc9r4.20261031-usp-amd2-low-node-kz-house.9999231.xyz
+  server: pnjz2g17.20261031-usp-amd2-low-node-kz-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2257,7 +1034,7 @@ proxies:
   sni: 20261031-usp-amd2-low-node-kz-house.9999231.xyz
 - type: anytls
   name: 🇲🇰 MK-1 | 9PB
-  server: r3pj84g0.20261031-ae-amd1-low-node-mk-house.9999231.xyz
+  server: tg7ym41n.20261031-ae-amd1-low-node-mk-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2266,7 +1043,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇲🇰 MK-2 | 9PB
-  server: 823in24k.20261031-ae-amd1-low-node-mk-house.9999231.xyz
+  server: z78062ej.20261031-ae-amd1-low-node-mk-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2281,7 +1058,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇲🇰 MK-3 | 9PB
-  server: v7yxlt6a.20261031-ae-amd1-low-node-mk-house.9999231.xyz
+  server: p7ts9vsm.20261031-ae-amd1-low-node-mk-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2290,7 +1067,7 @@ proxies:
   sni: 20261031-ae-amd1-low-node-mk-house.9999231.xyz
 - type: anytls
   name: 🇸🇪 SE-1 | 9PB
-  server: ddmudis1.20261031-ae-amd2-low-node-se-house.9999231.xyz
+  server: 2i1au709.20261031-ae-amd2-low-node-se-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2299,7 +1076,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇸🇪 SE-2 | 9PB
-  server: 0f6ep9hp.20261031-ae-amd2-low-node-se-house.9999231.xyz
+  server: 2zinvgbd.20261031-ae-amd2-low-node-se-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2314,7 +1091,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇪 SE-3 | 9PB
-  server: rs9qrfgd.20261031-ae-amd2-low-node-se-house.9999231.xyz
+  server: xvz659ji.20261031-ae-amd2-low-node-se-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2323,7 +1100,7 @@ proxies:
   sni: 20261031-ae-amd2-low-node-se-house.9999231.xyz
 - type: anytls
   name: 🇺🇦 UA-1 | 9PB
-  server: pjwiui5b.20260927-usp-amd2-low-node-ua-house.9999231.xyz
+  server: ssz8wclo.20260927-usp-amd2-low-node-ua-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2332,7 +1109,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇺🇦 UA-2 | 9PB
-  server: t9a5b24r.20260927-usp-amd2-low-node-ua-house.9999231.xyz
+  server: 39nedqzn.20260927-usp-amd2-low-node-ua-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2347,7 +1124,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇦 UA-3 | 9PB
-  server: j84txbr8.20260927-usp-amd2-low-node-ua-house.9999231.xyz
+  server: zxelga78.20260927-usp-amd2-low-node-ua-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2356,7 +1133,7 @@ proxies:
   sni: 20260927-usp-amd2-low-node-ua-house.9999231.xyz
 - type: anytls
   name: 🇦🇿 AZ-1 | 9PB
-  server: 8nl9rkw0.20261015-il-amd1-low-node-az.9999231.xyz
+  server: dh6363jw.20261015-il-amd1-low-node-az.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2365,7 +1142,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇦🇿 AZ-2 | 9PB
-  server: kesy839z.20261015-il-amd1-low-node-az.9999231.xyz
+  server: e7ad4emn.20261015-il-amd1-low-node-az.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2380,7 +1157,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇦🇿 AZ-3 | 9PB
-  server: pxks0sr3.20261015-il-amd1-low-node-az.9999231.xyz
+  server: 0bx467zq.20261015-il-amd1-low-node-az.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2389,7 +1166,7 @@ proxies:
   sni: 20261015-il-amd1-low-node-az.9999231.xyz
 - type: anytls
   name: 🇮🇶 IQ-1 | 9PB
-  server: 8892a6xe.20261015-de-amd1-low-node-iq.9999231.xyz
+  server: 1wey5gka.20261015-de-amd1-low-node-iq.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2398,7 +1175,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇮🇶 IQ-2 | 9PB
-  server: 26tmmhw5.20261015-de-amd1-low-node-iq.9999231.xyz
+  server: 4pldteug.20261015-de-amd1-low-node-iq.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2413,7 +1190,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇶 IQ-3 | 9PB
-  server: gidl124b.20261015-de-amd1-low-node-iq.9999231.xyz
+  server: w28wgt5v.20261015-de-amd1-low-node-iq.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2422,7 +1199,7 @@ proxies:
   sni: 20261015-de-amd1-low-node-iq.9999231.xyz
 - type: anytls
   name: 🇰🇬 KG-1 | 9PB
-  server: cosmt01e.20261015-it-amd1-low-node-kg.9999231.xyz
+  server: f3o6t01n.20261015-it-amd1-low-node-kg.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2431,7 +1208,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇰🇬 KG-2 | 9PB
-  server: taoq5cek.20261015-it-amd1-low-node-kg.9999231.xyz
+  server: cvjl47j5.20261015-it-amd1-low-node-kg.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2446,7 +1223,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇰🇬 KG-3 | 9PB
-  server: 8sc61ew8.20261015-it-amd1-low-node-kg.9999231.xyz
+  server: bai622ea.20261015-it-amd1-low-node-kg.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2455,7 +1232,7 @@ proxies:
   sni: 20261015-it-amd1-low-node-kg.9999231.xyz
 - type: anytls
   name: 🇳🇬 NG-1 | 9PB
-  server: obe5pm0l.20261015-it-amd2-low-node-ng.9999231.xyz
+  server: 2st3p7kw.20261015-it-amd2-low-node-ng.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2464,7 +1241,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇳🇬 NG-2 | 9PB
-  server: tdqvgm0i.20261015-it-amd2-low-node-ng.9999231.xyz
+  server: 1pnk6o4a.20261015-it-amd2-low-node-ng.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2479,7 +1256,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇳🇬 NG-3 | 9PB
-  server: 80b5ikmm.20261015-it-amd2-low-node-ng.9999231.xyz
+  server: gy9x17fl.20261015-it-amd2-low-node-ng.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2488,7 +1265,7 @@ proxies:
   sni: 20261015-it-amd2-low-node-ng.9999231.xyz
 - type: anytls
   name: 🇳🇱 NL-1 | 9PB
-  server: fg15aes3.20261015-ae-amd1-low-node-nl.9999231.xyz
+  server: vihchr1a.20261015-ae-amd1-low-node-nl.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2497,7 +1274,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇳🇱 NL-2 | 9PB
-  server: qfv1or6f.20261015-ae-amd1-low-node-nl.9999231.xyz
+  server: 2fmo61on.20261015-ae-amd1-low-node-nl.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2512,7 +1289,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇳🇱 NL-3 | 9PB
-  server: 2syq1uz0.20261015-ae-amd1-low-node-nl.9999231.xyz
+  server: 5g5v81wp.20261015-ae-amd1-low-node-nl.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2521,7 +1298,7 @@ proxies:
   sni: 20261015-ae-amd1-low-node-nl.9999231.xyz
 - type: anytls
   name: 🇵🇪 PE-1 | 9PB
-  server: stmc2gq1.20261015-ae-amd2-low-node-pe.9999231.xyz
+  server: wtvmmpr5.20261015-ae-amd2-low-node-pe.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2530,7 +1307,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇵🇪 PE-2 | 9PB
-  server: 1sefqdcj.20261015-ae-amd2-low-node-pe.9999231.xyz
+  server: 6hidz9pb.20261015-ae-amd2-low-node-pe.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2545,7 +1322,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇵🇪 PE-3 | 9PB
-  server: cx0gjyvs.20261015-ae-amd2-low-node-pe.9999231.xyz
+  server: k08bzmid.20261015-ae-amd2-low-node-pe.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2554,7 +1331,7 @@ proxies:
   sni: 20261015-ae-amd2-low-node-pe.9999231.xyz
 - type: anytls
   name: 🇷🇴 RO-1 | 9PB
-  server: 4v8tsyct.20261016-usp-amd1-low-node-ro.9999231.xyz
+  server: l5mbelf9.20261016-usp-amd1-low-node-ro.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2563,7 +1340,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇷🇴 RO-2 | 9PB
-  server: ncb8cqti.20261016-usp-amd1-low-node-ro.9999231.xyz
+  server: bp7cvnn5.20261016-usp-amd1-low-node-ro.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2578,7 +1355,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇷🇴 RO-3 | 9PB
-  server: oc6hrf6b.20261016-usp-amd1-low-node-ro.9999231.xyz
+  server: gxpk7eou.20261016-usp-amd1-low-node-ro.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2587,7 +1364,7 @@ proxies:
   sni: 20261016-usp-amd1-low-node-ro.9999231.xyz
 - type: anytls
   name: 🇸🇮 SI-1 | 9PB
-  server: wgwyr461.20261016-usp-amd2-low-node-si.9999231.xyz
+  server: sh7nl9sj.20261016-usp-amd2-low-node-si.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2596,7 +1373,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇸🇮 SI-2 | 9PB
-  server: r5z350bw.20261016-usp-amd2-low-node-si.9999231.xyz
+  server: rnec36o8.20261016-usp-amd2-low-node-si.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2611,7 +1388,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇮 SI-3 | 9PB
-  server: 7sk9tp0c.20261016-usp-amd2-low-node-si.9999231.xyz
+  server: s4t61rl4.20261016-usp-amd2-low-node-si.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2620,7 +1397,7 @@ proxies:
   sni: 20261016-usp-amd2-low-node-si.9999231.xyz
 - type: anytls
   name: 🇯🇵 JP-4 | 9PB
-  server: 5qr0erbm.20261016-jp-amd1-low-node.9999231.xyz
+  server: ja55bgs3.20261016-jp-amd1-low-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2629,7 +1406,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇯🇵 JP-5 | 9PB
-  server: wumjc4nh.20261016-jp-amd1-low-node.9999231.xyz
+  server: v4j4my7r.20261016-jp-amd1-low-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2644,7 +1421,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇯🇵 JP-6 | 9PB
-  server: 9809h5a7.20261016-jp-amd1-low-node.9999231.xyz
+  server: b0z785t1.20261016-jp-amd1-low-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2653,7 +1430,7 @@ proxies:
   sni: 20261016-jp-amd1-low-node.9999231.xyz
 - type: anytls
   name: 🇮🇳 IN-1 | 9PB
-  server: l8sp11ii.20261015-il-amd2-low-node-in-psiphon.9999231.xyz
+  server: yas4f0tc.20261015-il-amd2-low-node-in-psiphon.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2662,7 +1439,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇮🇳 IN-2 | 9PB
-  server: 0l4h6qoo.20261015-il-amd2-low-node-in-psiphon.9999231.xyz
+  server: hmf2pw8j.20261015-il-amd2-low-node-in-psiphon.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2671,7 +1448,7 @@ proxies:
   sni: 20261015-il-amd2-low-node-in-psiphon.9999231.xyz
 - type: anytls
   name: 🇩🇰 DK-1 | 9PB
-  server: sb84bi7d.20261015-uk-amd2-low-node-dk-psiphon.9999231.xyz
+  server: mpreskg5.20261015-uk-amd2-low-node-dk-psiphon.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2680,7 +1457,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇩🇰 DK-2 | 9PB
-  server: 2yv0k96g.20261015-uk-amd2-low-node-dk-psiphon.9999231.xyz
+  server: jlmh72h2.20261015-uk-amd2-low-node-dk-psiphon.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2689,7 +1466,7 @@ proxies:
   sni: 20261015-uk-amd2-low-node-dk-psiphon.9999231.xyz
 - type: anytls
   name: 🇧🇪 BE-1 | 9PB
-  server: fo9luf4n.20261015-fr-amd2-low-node-be-psiphon.9999231.xyz
+  server: 0o6i53q6.20261015-fr-amd2-low-node-be-psiphon.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2698,7 +1475,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇧🇪 BE-2 | 9PB
-  server: 0z4jm309.20261015-fr-amd2-low-node-be-psiphon.9999231.xyz
+  server: waobx55q.20261015-fr-amd2-low-node-be-psiphon.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2707,7 +1484,7 @@ proxies:
   sni: 20261015-fr-amd2-low-node-be-psiphon.9999231.xyz
 - type: anytls
   name: 🇦🇹 AT-1 | 9PB
-  server: xpiv2u55.20261015-de-amd2-low-node-at-psiphon.9999231.xyz
+  server: dvgpetr8.20261015-de-amd2-low-node-at-psiphon.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2716,7 +1493,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇦🇹 AT-2 | 9PB
-  server: ed3rkw3u.20261015-de-amd2-low-node-at-psiphon.9999231.xyz
+  server: a0xg08d1.20261015-de-amd2-low-node-at-psiphon.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2725,7 +1502,7 @@ proxies:
   sni: 20261015-de-amd2-low-node-at-psiphon.9999231.xyz
 - type: anytls
   name: 🇦🇺 AU-1 | 9PB
-  server: nnu9p3m6.20261016-jp-amd2-low-node-au-psiphon.9999231.xyz
+  server: tnrcut4f.20261016-jp-amd2-low-node-au-psiphon.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2734,7 +1511,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇦🇺 AU-2 | 9PB
-  server: 08r6e8eb.20261016-jp-amd2-low-node-au-psiphon.9999231.xyz
+  server: s6xd5f7b.20261016-jp-amd2-low-node-au-psiphon.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2743,7 +1520,7 @@ proxies:
   sni: 20261016-jp-amd2-low-node-au-psiphon.9999231.xyz
 - type: vless
   name: 🇨🇦 CA-1 | 9PB
-  server: ex5clv9p.zf-cdn-01.9966690.xyz
+  server: xaf4lhxx.zf-cdn-01.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2759,7 +1536,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-2 | 9PB
-  server: iu5c8zmq.zf-cdn-02.9966690.xyz
+  server: t6nm8r0g.zf-cdn-02.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2775,7 +1552,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-3 | 9PB
-  server: 5zr1mr1b.zf-cdn-03.9966690.xyz
+  server: 6gbkicgb.zf-cdn-03.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2791,7 +1568,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-4 | 9PB
-  server: mwe0ms6c.zf-cdn-04.9966690.xyz
+  server: irmbwp8u.zf-cdn-04.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2807,7 +1584,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-5 | 9PB
-  server: 19z9zta3.zf-cdn-05.9966690.xyz
+  server: 5s2wv3in.zf-cdn-05.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2823,7 +1600,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-6 | 9PB
-  server: 45cpfmbs.zf-cdn-06.9966690.xyz
+  server: foj4eanj.zf-cdn-06.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2839,7 +1616,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-7 | 9PB
-  server: v12jwcw7.zf-cdn-07.9966690.xyz
+  server: 8zbg965j.zf-cdn-07.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2855,7 +1632,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-8 | 9PB
-  server: q0y5od4w.zf-cdn-08.9966690.xyz
+  server: 0maawia0.zf-cdn-08.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2871,7 +1648,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-9 | 9PB
-  server: bvpk8yoj.zf-cdn-09.9966690.xyz
+  server: nahd8i2d.zf-cdn-09.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2887,7 +1664,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-10 | 9PB
-  server: 52n81ied.zf-cdn-10.9966690.xyz
+  server: jyjep13e.zf-cdn-10.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -2911,14 +1688,6 @@ proxies:
   udp: true
   delay: 1326
 - cipher: aes-256-gcm
-  name: 🇮🇹 IT-1 | Lifetime
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-  udp: true
-  delay: 1654
-- cipher: aes-256-gcm
   name: 🇮🇹 IT-2 | Lifetime
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
@@ -2926,22 +1695,6 @@ proxies:
   type: ss
   udp: true
   delay: 1422
-- cipher: aes-256-gcm
-  name: 🇮🇹 IT-3 | Lifetime
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-  udp: true
-  delay: 1398
-- cipher: aes-256-gcm
-  name: 🇮🇹 IT-5 | Lifetime
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-  delay: 612
 - name: 🇮🇳 IN-1 | Lifetime
   server: in.tronsg.com
   type: trojan
@@ -3312,7 +2065,7 @@ proxies:
   network: tcp
 - type: anytls
   name: 🇺🇸 US-1 | Filter
-  server: rjpg6cjm.20260927-usp-amd1-low-node.9999231.xyz
+  server: l1z8ttwg.20260927-usp-amd1-low-node.9999231.xyz
   port: 10000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3321,7 +2074,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇺🇸 US-2 | Filter
-  server: k9chvg8g.20260927-usp-amd1-low-node.9999231.xyz
+  server: 9iy686z6.20260927-usp-amd1-low-node.9999231.xyz
   port: 20000
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3336,7 +2089,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇸 US-3 | Filter
-  server: 3h1ergb4.20260927-usp-amd1-low-node.9999231.xyz
+  server: 6r6xe2nj.20260927-usp-amd1-low-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3345,7 +2098,7 @@ proxies:
   sni: 20260927-usp-amd1-low-node.9999231.xyz
 - type: anytls
   name: 🇺🇸 US-4 | Filter
-  server: 4gauqna2.20260927-usp-arm1-fast-node.9999231.xyz
+  server: qyo8k5o2.20260927-usp-arm1-fast-node.9999231.xyz
   port: 10000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3354,7 +2107,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇺🇸 US-5 | Filter
-  server: zir4jwao.20260927-usp-arm1-fast-node.9999231.xyz
+  server: 7k2do4h0.20260927-usp-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3369,7 +2122,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇸 US-6 | Filter
-  server: jwo6h5py.20260927-usp-arm1-fast-node.9999231.xyz
+  server: wy62wu9b.20260927-usp-arm1-fast-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3378,7 +2131,7 @@ proxies:
   sni: 20260927-usp-arm1-fast-node.9999231.xyz
 - type: hysteria2
   name: 🇸🇬 SG-1 | Filter
-  server: fyp61le7.20260927-sg-arm1-fast-node.9999231.xyz
+  server: 1nxpte1l.20260927-sg-arm1-fast-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3387,7 +2140,7 @@ proxies:
   sni: 20260927-sg-arm1-fast-node.9999231.xyz
 - type: hysteria2
   name: 🇬🇧 GB-1 | Filter
-  server: 8x55r887.20261015-uk-arm1-fast-node.9999231.xyz
+  server: 3lfg68hr.20261015-uk-arm1-fast-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3396,7 +2149,7 @@ proxies:
   sni: 20261015-uk-arm1-fast-node.9999231.xyz
 - type: hysteria2
   name: 🇬🇧 GB-2 | Filter
-  server: zsiq5rqw.20261015-uk-amd1-low-node.9999231.xyz
+  server: a8zrum80.20261015-uk-amd1-low-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3405,7 +2158,7 @@ proxies:
   sni: 20261015-uk-amd1-low-node.9999231.xyz
 - type: hysteria2
   name: 🇫🇷 FR-1 | Filter
-  server: 5twidjtu.20261015-fr-amd1-low-node.9999231.xyz
+  server: qpfzko01.20261015-fr-amd1-low-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3414,7 +2167,7 @@ proxies:
   sni: 20261015-fr-amd1-low-node.9999231.xyz
 - type: vless
   name: 🇨🇦 CA-1 | Filter
-  server: noggnca3.zf-cdn-01.9966690.xyz
+  server: 3bi8gpnq.zf-cdn-01.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3430,7 +2183,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-2 | Filter
-  server: lbndnm04.zf-cdn-02.9966690.xyz
+  server: 75tf7nkv.zf-cdn-02.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3446,7 +2199,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-3 | Filter
-  server: t11x86b0.zf-cdn-03.9966690.xyz
+  server: p7xffvfm.zf-cdn-03.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3462,7 +2215,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-4 | Filter
-  server: lanf852y.zf-cdn-04.9966690.xyz
+  server: s0me3wbr.zf-cdn-04.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3478,7 +2231,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-5 | Filter
-  server: z226lt04.zf-cdn-05.9966690.xyz
+  server: 4ehvt5p3.zf-cdn-05.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3494,7 +2247,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-6 | Filter
-  server: 0nw8rvha.zf-cdn-06.9966690.xyz
+  server: tt3icdv2.zf-cdn-06.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3510,7 +2263,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-7 | Filter
-  server: vbyf2vev.zf-cdn-07.9966690.xyz
+  server: iag2f2yq.zf-cdn-07.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3526,7 +2279,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-8 | Filter
-  server: vnkcf18m.zf-cdn-08.9966690.xyz
+  server: hnd3fpvn.zf-cdn-08.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3542,7 +2295,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-9 | Filter
-  server: ly36h4hw.zf-cdn-09.9966690.xyz
+  server: k0imnh50.zf-cdn-09.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -3558,7 +2311,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-10 | Filter
-  server: 5oegf2c9.zf-cdn-10.9966690.xyz
+  server: 9av5dteh.zf-cdn-10.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
