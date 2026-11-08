@@ -1,139 +1,6 @@
 proxies:
-- type: ss
-  name: 🇪🇸 ES-1 | 8EB
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: ss
-  name: 🇪🇸 ES-2 | 8EB
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: ss
-  name: 🇺🇸 US-1 | 8EB
-  server: 88.216.254.18
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
-  udp: true
-- type: ss
-  name: 🇪🇸 ES-3 | 8EB
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: ss
-  name: 🇪🇸 ES-4 | 8EB
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: ss
-  name: 🇪🇸 ES-5 | 8EB
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- type: ss
-  name: 🇪🇸 ES-6 | 8EB
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - type: vless
-  name: 🇨🇭 CH-1 | 8EB
-  server: prvtch.titun.su
-  port: 443
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: perevodchiki.su
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-  network: tcp
-- type: vless
-  name: 🇹🇷 TR-1 | 8EB
-  server: 5.104.74.27
-  port: 8443
-  uuid: 857e5668-88b9-45cd-a600-79e55c04d8a8
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: uk-room07.filesnap.tech
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
-    short-id: dbef98744832b751
-  network: tcp
-- type: vless
-  name: 🇹🇷 TR-2 | 8EB
-  server: 5.104.74.26
-  port: 8443
-  uuid: e1b32562-91ba-404f-946e-d4c41293a67b
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: uk-room07.filesnap.tech
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
-    short-id: dbef98744832b751
-  network: tcp
-- type: vless
-  name: 🇵🇱 PL-1 | 8EB
-  server: hk010.zestapp778.com
-  port: 31884
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: hk010.zestapp778.com
-  client-fingerprint: safari
-  network: tcp
-- type: vless
-  name: 🇳🇱 NL-1 | 8EB
-  server: 213.165.39.134
-  port: 443
-  uuid: 6a251a93-8eee-43b5-92ed-ecadedcfd0a8
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: platform-api.max.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Gtz3xOdQdWSocdx4NNie6s-bsa9VDiG6thqanJ4h31s
-    short-id: 6f3332a09b0ab6d1
-  network: tcp
-- type: vmess
-  name: 🇯🇵 JP-1 | 8EB
-  server: JP032012.ssgreen.org
-  port: 443
-  uuid: 5c8fe5dc-df1d-4439-8a57-0acf346bbb29
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  tls:
-    enabled: true
-  ws-opts:
-    path: /wes
-- type: vless
-  name: 🇺🇸 US-2 | 8EB
+  name: 🇸🇪 SE-1 | 8EB
   server: swo2.nexfile.net
   port: 4443
   uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
@@ -145,68 +12,41 @@ proxies:
   network: xhttp
   mode: auto
 - type: vless
-  name: 🇺🇸 US-3 | 8EB
-  server: 212.69.135.29
-  port: 8443
-  uuid: 952150a2-4fd5-4e20-a6d5-eaaae6b575f8
+  name: 🇳🇱 NL-1 | 8EB
+  server: 31.57.185.67
+  port: 8080
+  uuid: 055f9334-9a42-49b6-8c78-4006c9b93fa9
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: uk-room05.filesnap.tech
-  client-fingerprint: firefox
+  servername: zoomit.ir
+  client-fingerprint: chrome
   reality-opts:
-    public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
-    short-id: 7da3ba09a037e956
-  network: tcp
+    public-key: hQST9Txi5xZBGXrx-JnMyju-miKD2mMF8xevm1lgI2c
+    short-id: de51cc13
+  network: xhttp
+  spx: /1acecc6ae87badf
+  pqv: kd-lBLWAn9W_c1NRbCJz8afIRtG0RobLoT7hSGwLbKpvS-PgOX-QOS2TRZkuoIv4qmlhUmN-pgb1CjMsYPF59oiJxq0iRDHfhmCOuj9j7Ykp9AHlzN-WugCeS-04lGZrTJSaHvAu8ZBPQfG-3_EmE61VR6wfzSuisU3UrxsS2kw-2nf2seB_23c1SRo317HbpJ4WKL-6D91LgrNkEmw8AGFPidZpYuk67zQ8t_RqdSETF8IOHTqgtxI9oBjzH26O_v1rk4mUwq10zvQLVrmhQkr8djTTND9yHs4uYQKSTPIQTNHJYJZhWO-y9LiZLYhWQQx9VnFw3nUWyvK3W8jMwY9Chl5WnBzZjCuNyB5bCDXnnn7T_DEedbFC8BSmulF7BJVfutJX6x0p0QQF39y4uPCtTMLXFRsXxkR5l_jJV0WardxRbM-Wuvbo7x_tJjWd9-MeSYWlX2RWBX0qja7Wv_qrkEwb0KtKl6OzgEHZjoAFZ-Qp5AD077EWzoCd0SnrCqeOAEs6wyDJW4Dxmtv8hB04qrxq7D_hx7-Nh2Ok7sQAuW2tppHP2G2OvKebNmg63CF7811eW382vhvdMptw2ZKJCYHxXy5t3MN1QUIbeDYLtVEWE7-yj5te1e6dA8b-71WVJRR7-5JWFGp13zP7lL1pygKiS83nBqCft7kVmoKKYWiLBnd3bSpKFLwCyqzh7HBdWJtHpXAeWQj1H9maGZXUfhGWOo-EhDZupuNFI0EQfm9QGTgHSP4sOH-Nyt6AWqZmRAnmJAECjXaFGc0_gd3E898RpaqSKx2HhAediXQ3cNZvdHOWLJy4W7ArvkQ10C7ZHNucC9cql14LwREG3j1Gfxh8csxSZ8ASBOy7YHOd4v1-xYYxU-lvNJwx59Z0iyHbxqgm-OjmqAlrhqmHZHh-k5N8GxJoQQZ3QMBjMpccfo7IcDSQ9dtl78qjyOYJSY17ZBN9E5yMtEj33Ql5NZ5TcMfaMFV-VeBNZ1QpSysU9trqMmHi6eQOVfBcGlX9tN8GZmgTl1JgBv9NrCwzxOzLvTKkcgCqcN8kZEvyhdTWqBAGCSYPAkom1qh39TggKECdLC-8VA1zyojuhH7rQ3x7jTGX_4VWQxwvnA6h5nHd1X96sUHNYXkDWxqEG8PPG6VlMWqmzOTjmXDqxK5nxUEctj3nawap5JrI1UT0BZ7CfPSASxUpWbOFGu0owuLStAXbUVO9ZVhDbX2h0vOmg4NHzxwy8KtNnYpB4I_huxUBWZCpuGegGZB_5Z1QA4mOgs96a4vjQOFb-X02ecz8HI4k1IqCHKqwe2TeH0XIt6kZaWKc1UP2VGJrKNm8F307cfwbsOM3I8k_-_LOH2F9CpE1l67UhZO2qTJWxFuI0865ntu61CwOUYVK36ixZKiJqWcOqc4hVlFPJ0ujriK7hk-p0uqg2s7Q3NxiIfnM9Um6ZlZ3Kg02l3y15qLT465niRhcguVefjsM2O5FQ5XZdNxlPPR3vdfzN-vEdpglpLLOt61GInKc04iU8tLCxRr_W5wW46Y1E2xAlsmMkRL_q2gSSH0UivZcwRK75Oo2o6cUyrhnhl1PPOCHUKDBNzO9T8R2U7E-_j9mStqMIWeSFwaV31U4_n9hrOR0Amp5cHwouaavcD25kAUXWIObaqk714xtxHNVFGpxcuwxZY9eXdu-r0xVf_J-aBZNw_15DIGs9J7BTn33v1srxFCxVAP4N6bw0MCGcHcQ60oRjCuSmzpYBZkXY22f0o3UocTwK_o5NlOEtjTm5xK71cWqf5KsCZnDd-cfnxyZ9GrLIjcYbQv1FmdYGyhzGSO6Bgue8kz-3M0CnzKoqSH4PyDh2sh54WHx9LJEFiAohrVTtY8ccKwkHog8MPCcE6JsN7Im7W-ZviTQhZ3sZFRM8fr5u-4Ba0B03-IZp7SE0gICf0Gw-hAvb_cIbre_PA0UIPSLw1xDNMcSXsMDueNZobIUBV1nq9lO4tFAna5qVKAp_ygy6xfqckcpVagRHBlnS9_QRRYQO9EC5LtoPAbEDdVLJ5fetJl1F5D09DM_EN6IvueNn--9GJlhgaOaRklgPL07zJzQUbxcnoV2TixwpvLrJud24blbR6pXe3BtvexUBIp1g1KeSQtm7hVoX4ICbLEr-YXUmW2JBt4RVZILSgKsYAo9eLmLEfGJH3vp2CtXPlLKzyu6iNX-1ENpovumYbCRCTe-t-WrnRacXpdQmQ_FQ7CBy1IENZ5VUvaInpsn_n1w873rtiB_lxn13gk7HGAr7y85-fgJG4_lgMaYvDOvNBQHUsjS5QDlf9izwfMuM01cdYmDhh4W-_xkfKQdkwMk6Nc6m5h4onZszmShBuRMsJDA5ANs6vSbvWsVCmbGumFTLIyQm_cJHiXGVcRG0V3GT1zjwaoIZYyVOnt3WfcCXJvAyQlTBoHPxBNDm2ZV4_0gxDCP-2k93bI9THoFDLbzxL2Kes2IVLZCXh_SPDpCgwaivtndHA11GTUvGQ_9if1k2NWn5vYVqcymhrOwrDDY6rPHgtO7Bwt1KePeIO0AaJCCslf3pfrF7Kby-IwRxXLlPrhW6haIYcccG4VYO0y7yFE
+  mode: auto
+  extra: '{"mode":"auto","xPaddingBytes":"100-1000"}'
 - type: vless
-  name: 🇩🇪 DE-1 | 8EB
-  server: 2.26.251.236
+  name: 🇳🇱 NL-2 | 8EB
+  server: 94.241.172.107
   port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
   udp: true
-  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: mental-deprivation.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: 4ff31b18d1bd8227
-  network: tcp
-  spx: /5f73ebfc9ef9c37
+  servername: 94.241.172.107
+  client-fingerprint: chrome
+  network: xhttp
+  alpn:
+  - h2
+  - http/1.1
+  pcs: 67fa1e374feaeb232157317d6ace682475cb1a826e0cf8657151a254681aed62
+  mode: packet-up
 - type: vless
-  name: 🇹🇷 TR-3 | 8EB
-  server: 5.104.74.22
-  port: 8443
-  uuid: 72dd8678-1ac5-4357-9f7e-97e367e2a835
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: uk-room06.filesnap.tech
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: D9IxnCLtXuDLR1yBNZwWdxxbNDfsZgN3C9IsqKgG8Ec
-    short-id: 17a35165f9d25923
-  network: tcp
-- type: vless
-  name: 🇹🇷 TR-4 | 8EB
-  server: 5.104.74.70
-  port: 8443
-  uuid: a3d15e40-fa6b-4d11-af0b-24815c4b82fb
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  servername: uk-room07.filesnap.tech
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
-    short-id: dbef98744832b751
-  network: tcp
-- type: vless
-  name: 🇺🇸 US-4 | 8EB
+  name: 🇺🇸 US-1 | 8EB
   server: 212.69.135.27
   port: 8443
   uuid: 1b8a6692-d057-41f8-a108-7a02daefcfd6
@@ -221,7 +61,7 @@ proxies:
     short-id: 7da3ba09a037e956
   network: tcp
 - type: vless
-  name: 🇹🇷 TR-5 | 8EB
+  name: 🇹🇷 TR-1 | 8EB
   server: 5.104.74.69
   port: 8443
   uuid: 16cd1338-ecb9-44f3-8f0c-919242370ef2
@@ -235,42 +75,479 @@ proxies:
     public-key: D9IxnCLtXuDLR1yBNZwWdxxbNDfsZgN3C9IsqKgG8Ec
     short-id: 17a35165f9d25923
   network: tcp
-- type: anytls
-  name: 🇹🇼 TW-1 | 9PB
-  server: lmrmel7n.hinet-tw.9999231.xyz
-  port: 10000
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  udp: true
-  sni: hinet-tw.9999231.xyz
-  skip-cert-verify: true
-  client-fingerprint: chrome
 - type: vless
-  name: 🇨🇳 CN-1 | 9PB
-  server: 8cz7ayxz.hinet-tw.9999231.xyz
-  port: 20000
-  uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  name: 🇬🇧 GB-1 | 8EB
+  server: 5.104.74.22
+  port: 8443
+  uuid: 72dd8678-1ac5-4357-9f7e-97e367e2a835
   udp: true
   flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: www.junzelaser.com
+  servername: uk-room06.filesnap.tech
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: D9IxnCLtXuDLR1yBNZwWdxxbNDfsZgN3C9IsqKgG8Ec
+    short-id: 17a35165f9d25923
+  network: tcp
+- type: vless
+  name: 🇬🇧 GB-2 | 8EB
+  server: 5.104.74.70
+  port: 8443
+  uuid: 6e10d4e1-1f93-461b-b1c6-90e56c053a11
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: uk-room07.filesnap.tech
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: dbef98744832b751
+  network: tcp
+- type: vless
+  name: 🇬🇧 GB-3 | 8EB
+  server: 5.104.74.121
+  port: 8443
+  uuid: a2e6a96e-395f-4125-917c-77c52c059339
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: uk-room05.filesnap.tech
   client-fingerprint: chrome
   reality-opts:
-    public-key: B5eeoAJ1JK_QhMX_lWHoZPIP-53_J2BPjvYmimXLryM
-    short-id: e1eaa29a
+    public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
+    short-id: 7da3ba09a037e956
   network: tcp
-- type: hysteria2
-  name: 🇨🇳 CN-2 | 9PB
-  server: tpqzhiq1.hinet-tw.9999231.xyz
-  port: 30000
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+- type: vless
+  name: 🇬🇧 GB-4 | 8EB
+  server: 212.69.135.29
+  port: 8443
+  uuid: 952150a2-4fd5-4e20-a6d5-eaaae6b575f8
   udp: true
-  ports: 30000-40000
-  mport: 30000-40000
-  sni: hinet-tw.9999231.xyz
-- type: anytls
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: uk-room05.filesnap.tech
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
+    short-id: 7da3ba09a037e956
+  network: tcp
+- type: vless
+  name: 🇬🇧 GB-5 | 8EB
+  server: 5.104.74.27
+  port: 8443
+  uuid: 688ece4d-84ee-4db7-bc61-85776df0a3b4
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: uk-room07.filesnap.tech
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: dbef98744832b751
+  network: tcp
+- type: vless
+  name: 🇬🇧 GB-7 | 8EB
+  server: 5.104.74.124
+  port: 8443
+  uuid: a2e6a96e-395f-4125-917c-77c52c059339
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: uk-room07.filesnap.tech
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: dbef98744832b751
+  network: tcp
+- type: vless
+  name: 🇬🇧 GB-9 | 8EB
+  server: 5.104.74.21
+  port: 8443
+  uuid: b700e2ad-8f06-4f64-b655-349e1440b311
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: uk-room05.filesnap.tech
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
+    short-id: 7da3ba09a037e956
+  network: tcp
+- type: vless
+  name: 🇬🇧 GB-10 | 8EB
+  server: 5.104.74.25
+  port: 8443
+  uuid: c1f87d4d-3ea2-4378-925a-b4942e930a7d
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: uk-room07.filesnap.tech
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: dbef98744832b751
+  network: tcp
+- type: vless
+  name: 🇬🇧 GB-15 | 8EB
+  server: 5.104.74.26
+  port: 8443
+  uuid: b7063bfc-d4a4-4816-a132-6a2b4e3c8a5d
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: uk-room07.filesnap.tech
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: dbef98744832b751
+  network: tcp
+- type: vless
+  name: 🇩🇪 DE-1 | 8EB
+  server: 94.156.170.64
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: gemsubbgem.world
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg
+  network: tcp
+- type: vless
+  name: 🇬🇧 GB-19 | 8EB
+  server: 5.104.74.128
+  port: 8443
+  uuid: 62864307-d1a7-4d77-bee8-996ffae8e614
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: uk-room07.filesnap.tech
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM
+    short-id: dbef98744832b751
+  network: tcp
+- type: vless
+  name: 🇩🇪 DE-2 | 8EB
+  server: 200.96.106.2
+  port: 9889
+  uuid: 0dcefe19-a42a-4d57-96be-83dcbffd425f
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: tiktok2.transitbp2systems.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: GPwEGfRBoztNbcAvfX4ojY9FJ1vaMD3v21tnIrN2xyE
+  network: tcp
+  spx: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+- type: ss
+  name: 🇪🇸 ES-1 | 8EB
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: socks
+  name: 🇺🇸 US-2 | 8EB
+  server: 69.55.49.177
+  port: 38182
+  username: Og
+- type: ss
+  name: 🇮🇹 IT-1 | 8EB
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: vless
+  name: 🇨🇭 CH-1 | 8EB
+  server: prvtch.titun.su
+  port: 443
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: perevodchiki.su
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  network: tcp
+- type: vless
+  name: 🇹🇷 TR-2 | 8EB
+  server: 5.104.74.117
+  port: 8443
+  uuid: 6d477a1e-40ec-4e27-940a-d398092e63af
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: uk-room05.filesnap.tech
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
+    short-id: 7da3ba09a037e956
+  network: tcp
+- type: vless
+  name: 🇨🇭 CH-3 | 8EB
+  server: 179.43.166.190
+  port: 443
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: perevodchiki.su
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  network: tcp
+- type: vless
+  name: 🇪🇪 EE-1 | 8EB
+  server: 132.243.74.104
+  port: 2087
+  uuid: 92b79c22-f68b-4713-8b21-52f264cb92f5
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: ee.song69.fun
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww
+  network: tcp
+- type: vmess
+  name: 🇺🇸 US-6 | 8EB
+  server: 162.159.128.17
+  port: 443
+  uuid: c8b455ad-fff1-43e9-9af9-d97585c4534a
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: ny-v2ray.ryin.vip
+  ws-opts:
+    path: /ryinsocksv2board
+    headers:
+      Host: ny-v2ray.ryin.vip
+- type: vless
+  name: 🇺🇸 US-7 | 8EB
+  server: hollandlanzerotte.xyz
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: hollandlanzerotte.xyz
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc
+  network: tcp
+- type: vmess
+  name: 🇺🇸 US-8 | 8EB
+  server: US032024.ssgreen.org
+  port: 443
+  uuid: 9c58fb04-355f-4998-8f14-644239a31bcb
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032024.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032024.ssgreen.org
+- type: vless
+  name: 🇩🇪 DE-4 | 8EB
+  server: 64.188.66.181
+  port: 443
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: ge-s-1.pythonmakemigreat.wiki
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
+    short-id: 2c9a2790ad5900b2
+  network: tcp
+- type: ss
+  name: 🇪🇸 ES-2 | 8EB
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: ss
+  name: 🇺🇸 US-9 | 8EB
+  server: 88.216.254.18
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
+  udp: true
+- type: ss
+  name: 🇪🇸 ES-3 | 8EB
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: ss
+  name: 🇪🇸 ES-4 | 8EB
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: ss
+  name: 🇪🇸 ES-5 | 8EB
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: vless
+  name: 🇺🇸 US-10 | 8EB
+  server: abc.ilovezhenjiu.top
+  port: 443
+  uuid: 9cd907f7-0807-4f6b-a6ee-b89b340fd102
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: abc.ilovezhenjiu.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pxhrws
+    headers:
+      Host: abc.ilovezhenjiu.top
+- type: vmess
+  name: 🇺🇸 US-11 | 8EB
+  server: US032012.westmgreen.com
+  port: 443
+  uuid: 53f733f6-e292-48af-b6d7-629d6c613c79
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  tls:
+    enabled: true
+    server_name: US032012.westmgreen.com
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032012.westmgreen.com
+- type: vless
+  name: 🇷🇺 RU-1 | 8EB
+  server: 46.19.138.214
+  port: 443
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: perevodchiki.su
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  network: tcp
+- type: vless
+  name: 🇷🇺 RU-2 | 8EB
+  server: 193.233.253.180
+  port: 8444
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: github.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+  network: grpc
+  grpc-opts:
+    grpc-service-name: GunService
+  serviceName: GunService
+  mode: gun
+- type: ss
+  name: 🇪🇸 ES-6 | 8EB
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: vless
   name: 🇺🇸 US-1 | 9PB
-  server: fv9ayslm.20260927-usp-amd1-low-node.9999231.xyz
+  server: pqpwl697.zf-cdn-01.9966690.xyz
+  port: 443
+  uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: hk.283400.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video-old-skylumo
+    headers:
+      Host: hk.283400.xyz
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+- type: vless
+  name: 🇭🇰 HK-1 | 9PB
+  server: rc1pdtx6.zf-cdn-02.9966690.xyz
+  port: 443
+  uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: hk.283400.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video-old-skylumo
+    headers:
+      Host: hk.283400.xyz
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+- type: vless
+  name: 🇭🇰 HK-2 | 9PB
+  server: 6z5sepup.zf-cdn-03.9966690.xyz
+  port: 443
+  uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: hk.283400.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video-old-skylumo
+    headers:
+      Host: hk.283400.xyz
+  ech: cloudflare-ech.com+https://doh.pub/dns-query
+- type: anytls
+  name: 🇺🇸 US-2 | 9PB
+  server: m1gzekvh.20260927-usp-amd1-low-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -278,8 +555,8 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
 - type: vless
-  name: 🇺🇸 US-2 | 9PB
-  server: 5eumigmc.20260927-usp-amd1-low-node.9999231.xyz
+  name: 🇺🇸 US-3 | 9PB
+  server: qngrxv35.20260927-usp-amd1-low-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -293,8 +570,8 @@ proxies:
     short-id: e1eaa29a
   network: tcp
 - type: hysteria2
-  name: 🇺🇸 US-3 | 9PB
-  server: 0rz62j9s.20260927-usp-amd1-low-node.9999231.xyz
+  name: 🇺🇸 US-4 | 9PB
+  server: o6th177q.20260927-usp-amd1-low-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -302,8 +579,8 @@ proxies:
   mport: 30000-40000
   sni: 20260927-usp-amd1-low-node.9999231.xyz
 - type: anytls
-  name: 🇺🇸 US-4 | 9PB
-  server: xns6nepk.20260927-usp-arm1-fast-node.9999231.xyz
+  name: 🇺🇸 US-5 | 9PB
+  server: yfo7153a.20260927-usp-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -311,8 +588,8 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
 - type: vless
-  name: 🇺🇸 US-5 | 9PB
-  server: kh87orji.20260927-usp-arm1-fast-node.9999231.xyz
+  name: 🇺🇸 US-6 | 9PB
+  server: 7dkba9j4.20260927-usp-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -326,8 +603,8 @@ proxies:
     short-id: e1eaa29a
   network: tcp
 - type: hysteria2
-  name: 🇺🇸 US-6 | 9PB
-  server: 5ys771pm.20260927-usp-arm1-fast-node.9999231.xyz
+  name: 🇺🇸 US-7 | 9PB
+  server: xazt07rq.20260927-usp-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -336,7 +613,7 @@ proxies:
   sni: 20260927-usp-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇸🇬 SG-1 | 9PB
-  server: eoxfcuf1.20260927-sg-arm1-fast-node.9999231.xyz
+  server: chah68mk.20260927-sg-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -345,7 +622,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇸🇬 SG-2 | 9PB
-  server: 11iihlo0.20260927-sg-arm1-fast-node.9999231.xyz
+  server: vypmqs01.20260927-sg-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -360,7 +637,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇬 SG-3 | 9PB
-  server: yofjh95x.20260927-sg-arm1-fast-node.9999231.xyz
+  server: xlxr5hj5.20260927-sg-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -369,7 +646,7 @@ proxies:
   sni: 20260927-sg-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇬🇧 GB-1 | 9PB
-  server: y6vlmw9z.20261015-uk-arm1-fast-node.9999231.xyz
+  server: pyoukoi2.20261015-uk-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -378,7 +655,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇬🇧 GB-2 | 9PB
-  server: 3tgaxiex.20261015-uk-arm1-fast-node.9999231.xyz
+  server: sxvd0jk0.20261015-uk-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -393,7 +670,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇬🇧 GB-3 | 9PB
-  server: k9z9sd76.20261015-uk-arm1-fast-node.9999231.xyz
+  server: nrj7lmzd.20261015-uk-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -402,7 +679,7 @@ proxies:
   sni: 20261015-uk-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇫🇷 FR-1 | 9PB
-  server: hlmhg3ak.20261015-fr-arm1-fast-node.9999231.xyz
+  server: aw0kwzho.20261015-fr-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -411,7 +688,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇫🇷 FR-2 | 9PB
-  server: 08joeq55.20261015-fr-arm1-fast-node.9999231.xyz
+  server: e4kkehzn.20261015-fr-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -426,7 +703,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇫🇷 FR-3 | 9PB
-  server: dgtr031j.20261015-fr-arm1-fast-node.9999231.xyz
+  server: ysy7qviq.20261015-fr-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -435,7 +712,7 @@ proxies:
   sni: 20261015-fr-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇩🇪 DE-1 | 9PB
-  server: 35rhlg6l.20261015-de-arm1-fast-node.9999231.xyz
+  server: ljhe7qkd.20261015-de-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -444,7 +721,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇩🇪 DE-2 | 9PB
-  server: 9kd0ylj1.20261015-de-arm1-fast-node.9999231.xyz
+  server: gxqed2zl.20261015-de-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -459,7 +736,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇩🇪 DE-3 | 9PB
-  server: 5ul5hi6h.20261015-de-arm1-fast-node.9999231.xyz
+  server: n0dat6ds.20261015-de-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -468,7 +745,7 @@ proxies:
   sni: 20261015-de-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇮🇹 IT-1 | 9PB
-  server: vex0sxgp.20261015-it-arm1-fast-node.9999231.xyz
+  server: im6flwfd.20261015-it-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -477,7 +754,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇮🇹 IT-2 | 9PB
-  server: 8yzjgqx0.20261015-it-arm1-fast-node.9999231.xyz
+  server: xc3pc0af.20261015-it-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -492,7 +769,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇹 IT-3 | 9PB
-  server: 7xcjac4f.20261015-it-arm1-fast-node.9999231.xyz
+  server: ireemb0w.20261015-it-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -501,7 +778,7 @@ proxies:
   sni: 20261015-it-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇮🇱 IL-1 | 9PB
-  server: i5ci1swy.20261015-il-arm1-fast-node.9999231.xyz
+  server: j1hks9re.20261015-il-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -510,7 +787,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇮🇱 IL-2 | 9PB
-  server: 3cw1apcp.20261015-il-arm1-fast-node.9999231.xyz
+  server: lioqp8q8.20261015-il-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -525,7 +802,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇱 IL-3 | 9PB
-  server: 3omxwvre.20261015-il-arm1-fast-node.9999231.xyz
+  server: xhbtr6jw.20261015-il-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -534,7 +811,7 @@ proxies:
   sni: 20261015-il-arm1-fast-node.9999231.xyz
 - type: anytls
   name: 🇯🇵 JP-1 | 9PB
-  server: dc5ecirt.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
+  server: 2ya4gdy1.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -543,7 +820,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇯🇵 JP-2 | 9PB
-  server: ra60c97h.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
+  server: 41md5wpb.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -558,7 +835,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇯🇵 JP-3 | 9PB
-  server: xw93ypnu.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
+  server: xvx3rxb0.20261016-jp-arm1-fast-node-jp-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -567,7 +844,7 @@ proxies:
   sni: 20261016-jp-arm1-fast-node-jp-house.9999231.xyz
 - type: anytls
   name: 🇧🇷 BR-1 | 9PB
-  server: krpaka2x.20261016-usp-arm1-fast-node-br-house.9999231.xyz
+  server: 7ewlpyk6.20261016-usp-arm1-fast-node-br-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -576,7 +853,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇧🇷 BR-2 | 9PB
-  server: a8fy0bqh.20261016-usp-arm1-fast-node-br-house.9999231.xyz
+  server: mzpxis61.20261016-usp-arm1-fast-node-br-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -591,7 +868,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇧🇷 BR-3 | 9PB
-  server: 7e4qrcc4.20261016-usp-arm1-fast-node-br-house.9999231.xyz
+  server: izp2erd9.20261016-usp-arm1-fast-node-br-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -600,7 +877,7 @@ proxies:
   sni: 20261016-usp-arm1-fast-node-br-house.9999231.xyz
 - type: anytls
   name: 🇮🇩 ID-1 | 9PB
-  server: 7xz5p04r.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
+  server: l9ddgtns.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -609,7 +886,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇮🇩 ID-2 | 9PB
-  server: 7vzku1nq.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
+  server: 9orctzb7.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -624,7 +901,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇩 ID-3 | 9PB
-  server: qtskfk81.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
+  server: i5c67725.20261021-sg1-arm1-fast-node-id-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -633,7 +910,7 @@ proxies:
   sni: 20261021-sg1-arm1-fast-node-id-house.9999231.xyz
 - type: anytls
   name: 🇹🇭 TH-1 | 9PB
-  server: 73nj982v.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
+  server: 4kxui5yb.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -642,7 +919,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇹🇭 TH-2 | 9PB
-  server: v80tleqn.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
+  server: md1l1ulz.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -657,7 +934,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇹🇭 TH-3 | 9PB
-  server: jszfa4oy.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
+  server: uznw72er.20261021-sg2-arm1-fast-node-th-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -666,7 +943,7 @@ proxies:
   sni: 20261021-sg2-arm1-fast-node-th-house.9999231.xyz
 - type: anytls
   name: 🇦🇪 AE-1 | 9PB
-  server: 7svwynz5.20261031-ae-arm1-fast-node.9999231.xyz
+  server: i7f9skeu.20261031-ae-arm1-fast-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -675,7 +952,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇦🇪 AE-2 | 9PB
-  server: 36xrge0g.20261031-ae-arm1-fast-node.9999231.xyz
+  server: 1gol9vgx.20261031-ae-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -690,7 +967,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇦🇪 AE-3 | 9PB
-  server: gxg68wis.20261031-ae-arm1-fast-node.9999231.xyz
+  server: x9phyd6y.20261031-ae-arm1-fast-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -698,8 +975,8 @@ proxies:
   mport: 30000-40000
   sni: 20261031-ae-arm1-fast-node.9999231.xyz
 - type: anytls
-  name: 🇭🇰 HK-1 | 9PB
-  server: srmetvk0.20261031-sg-arm1-fast-node-hk.9999231.xyz
+  name: 🇭🇰 HK-3 | 9PB
+  server: pnw7v74p.20261031-sg-arm1-fast-node-hk.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -707,8 +984,8 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
 - type: vless
-  name: 🇭🇰 HK-2 | 9PB
-  server: g92ddc7h.20261031-sg-arm1-fast-node-hk.9999231.xyz
+  name: 🇭🇰 HK-4 | 9PB
+  server: 1uy9rm8o.20261031-sg-arm1-fast-node-hk.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -722,8 +999,8 @@ proxies:
     short-id: e1eaa29a
   network: tcp
 - type: hysteria2
-  name: 🇭🇰 HK-3 | 9PB
-  server: bvb1i4i1.20261031-sg-arm1-fast-node-hk.9999231.xyz
+  name: 🇭🇰 HK-5 | 9PB
+  server: nvyuu8gv.20261031-sg-arm1-fast-node-hk.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -732,7 +1009,7 @@ proxies:
   sni: 20261031-sg-arm1-fast-node-hk.9999231.xyz
 - type: anytls
   name: 🇵🇱 PL-1 | 9PB
-  server: 793yxp3y.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
+  server: tukwg6sn.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -741,7 +1018,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇵🇱 PL-2 | 9PB
-  server: vr4f9w51.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
+  server: wkw78md6.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -756,7 +1033,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇵🇱 PL-3 | 9PB
-  server: xa2rojiq.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
+  server: 4bz9jmk9.20261031-usp-arm1-fast-node-pl-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -765,7 +1042,7 @@ proxies:
   sni: 20261031-usp-arm1-fast-node-pl-house.9999231.xyz
 - type: anytls
   name: 🇫🇷 FR-4 | 9PB
-  server: 57zvb31h.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
+  server: 9zp5grvf.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -774,7 +1051,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇫🇷 FR-5 | 9PB
-  server: 4d8ew4ah.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
+  server: nw8j3cg9.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -789,7 +1066,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇫🇷 FR-6 | 9PB
-  server: rhnc14ic.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
+  server: 6h9ln1b7.20261031-usc-arm1-fast-node-fr-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -798,7 +1075,7 @@ proxies:
   sni: 20261031-usc-arm1-fast-node-fr-house.9999231.xyz
 - type: anytls
   name: 🇬🇧 GB-4 | 9PB
-  server: 4p67jyf1.20261015-uk-amd1-low-node.9999231.xyz
+  server: hgbnyp6s.20261015-uk-amd1-low-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -807,7 +1084,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇬🇧 GB-5 | 9PB
-  server: t9y7gnb2.20261015-uk-amd1-low-node.9999231.xyz
+  server: rlcry86c.20261015-uk-amd1-low-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -822,7 +1099,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇬🇧 GB-6 | 9PB
-  server: mj45nso1.20261015-uk-amd1-low-node.9999231.xyz
+  server: qur84vk3.20261015-uk-amd1-low-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -831,7 +1108,7 @@ proxies:
   sni: 20261015-uk-amd1-low-node.9999231.xyz
 - type: anytls
   name: 🇫🇷 FR-7 | 9PB
-  server: kzadvsb6.20261015-fr-amd1-low-node.9999231.xyz
+  server: uzsq4she.20261015-fr-amd1-low-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -840,7 +1117,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇫🇷 FR-8 | 9PB
-  server: dkggtrr2.20261015-fr-amd1-low-node.9999231.xyz
+  server: nokfr50g.20261015-fr-amd1-low-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -855,7 +1132,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇫🇷 FR-9 | 9PB
-  server: b4bobpnm.20261015-fr-amd1-low-node.9999231.xyz
+  server: 1ie40m0y.20261015-fr-amd1-low-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -864,7 +1141,7 @@ proxies:
   sni: 20261015-fr-amd1-low-node.9999231.xyz
 - type: anytls
   name: 🇹🇷 TR-1 | 9PB
-  server: 1rec4fgp.20261031-usp-amd1-low-node-tr-house.9999231.xyz
+  server: kpf6v6zj.20261031-usp-amd1-low-node-tr-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -873,7 +1150,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇹🇷 TR-2 | 9PB
-  server: p88nsv17.20261031-usp-amd1-low-node-tr-house.9999231.xyz
+  server: ezfz9w4y.20261031-usp-amd1-low-node-tr-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -888,7 +1165,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇹🇷 TR-3 | 9PB
-  server: h02cuhae.20261031-usp-amd1-low-node-tr-house.9999231.xyz
+  server: 82e1la38.20261031-usp-amd1-low-node-tr-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -897,7 +1174,7 @@ proxies:
   sni: 20261031-usp-amd1-low-node-tr-house.9999231.xyz
 - type: anytls
   name: 🇰🇿 KZ-1 | 9PB
-  server: u4wogpou.20261031-usp-amd2-low-node-kz-house.9999231.xyz
+  server: d2fk67do.20261031-usp-amd2-low-node-kz-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -906,7 +1183,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇰🇿 KZ-2 | 9PB
-  server: q3x63ekn.20261031-usp-amd2-low-node-kz-house.9999231.xyz
+  server: u441q73h.20261031-usp-amd2-low-node-kz-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -921,7 +1198,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇰🇿 KZ-3 | 9PB
-  server: jzdtko7q.20261031-usp-amd2-low-node-kz-house.9999231.xyz
+  server: oun5q8f1.20261031-usp-amd2-low-node-kz-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -930,7 +1207,7 @@ proxies:
   sni: 20261031-usp-amd2-low-node-kz-house.9999231.xyz
 - type: anytls
   name: 🇲🇰 MK-1 | 9PB
-  server: loau85ok.20261031-ae-amd1-low-node-mk-house.9999231.xyz
+  server: ydp5sblx.20261031-ae-amd1-low-node-mk-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -939,7 +1216,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇲🇰 MK-2 | 9PB
-  server: 951jdkr2.20261031-ae-amd1-low-node-mk-house.9999231.xyz
+  server: truukxx1.20261031-ae-amd1-low-node-mk-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -954,7 +1231,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇲🇰 MK-3 | 9PB
-  server: fkrybs7i.20261031-ae-amd1-low-node-mk-house.9999231.xyz
+  server: n0jktg3n.20261031-ae-amd1-low-node-mk-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -963,7 +1240,7 @@ proxies:
   sni: 20261031-ae-amd1-low-node-mk-house.9999231.xyz
 - type: anytls
   name: 🇸🇪 SE-1 | 9PB
-  server: 2fidi3ki.20261031-ae-amd2-low-node-se-house.9999231.xyz
+  server: 3r6k0oyi.20261031-ae-amd2-low-node-se-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -972,7 +1249,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇸🇪 SE-2 | 9PB
-  server: zwp0p29l.20261031-ae-amd2-low-node-se-house.9999231.xyz
+  server: qidc5z10.20261031-ae-amd2-low-node-se-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -987,7 +1264,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇪 SE-3 | 9PB
-  server: dksfw2xt.20261031-ae-amd2-low-node-se-house.9999231.xyz
+  server: e1898f7b.20261031-ae-amd2-low-node-se-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -996,7 +1273,7 @@ proxies:
   sni: 20261031-ae-amd2-low-node-se-house.9999231.xyz
 - type: anytls
   name: 🇺🇦 UA-1 | 9PB
-  server: nrnew7rf.20260927-usp-amd2-low-node-ua-house.9999231.xyz
+  server: 5ajwwyb5.20260927-usp-amd2-low-node-ua-house.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1005,7 +1282,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇺🇦 UA-2 | 9PB
-  server: 5gi5d9l8.20260927-usp-amd2-low-node-ua-house.9999231.xyz
+  server: aux9oj2m.20260927-usp-amd2-low-node-ua-house.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1020,7 +1297,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇦 UA-3 | 9PB
-  server: amp3onyr.20260927-usp-amd2-low-node-ua-house.9999231.xyz
+  server: ufd8tngx.20260927-usp-amd2-low-node-ua-house.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1029,7 +1306,7 @@ proxies:
   sni: 20260927-usp-amd2-low-node-ua-house.9999231.xyz
 - type: anytls
   name: 🇦🇿 AZ-1 | 9PB
-  server: 6sacmbf1.20261015-il-amd1-low-node-az.9999231.xyz
+  server: po1c748t.20261015-il-amd1-low-node-az.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1038,7 +1315,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇦🇿 AZ-2 | 9PB
-  server: wnru1xyv.20261015-il-amd1-low-node-az.9999231.xyz
+  server: qjyo234p.20261015-il-amd1-low-node-az.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1053,7 +1330,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇦🇿 AZ-3 | 9PB
-  server: q6syptzw.20261015-il-amd1-low-node-az.9999231.xyz
+  server: uvvpfbn6.20261015-il-amd1-low-node-az.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1062,7 +1339,7 @@ proxies:
   sni: 20261015-il-amd1-low-node-az.9999231.xyz
 - type: anytls
   name: 🇮🇶 IQ-1 | 9PB
-  server: 9wbr17af.20261015-de-amd1-low-node-iq.9999231.xyz
+  server: wqtq31n4.20261015-de-amd1-low-node-iq.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1071,7 +1348,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇮🇶 IQ-2 | 9PB
-  server: 0trr2xc4.20261015-de-amd1-low-node-iq.9999231.xyz
+  server: vx0cn8pj.20261015-de-amd1-low-node-iq.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1086,7 +1363,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇮🇶 IQ-3 | 9PB
-  server: b7tvztsy.20261015-de-amd1-low-node-iq.9999231.xyz
+  server: t02bjlje.20261015-de-amd1-low-node-iq.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1095,7 +1372,7 @@ proxies:
   sni: 20261015-de-amd1-low-node-iq.9999231.xyz
 - type: anytls
   name: 🇰🇬 KG-1 | 9PB
-  server: jp53n5yd.20261015-it-amd1-low-node-kg.9999231.xyz
+  server: dfl0up2c.20261015-it-amd1-low-node-kg.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1104,7 +1381,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇰🇬 KG-2 | 9PB
-  server: ayetxul8.20261015-it-amd1-low-node-kg.9999231.xyz
+  server: 8yj5oge5.20261015-it-amd1-low-node-kg.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1119,7 +1396,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇰🇬 KG-3 | 9PB
-  server: yt97nytb.20261015-it-amd1-low-node-kg.9999231.xyz
+  server: s0cqe7gs.20261015-it-amd1-low-node-kg.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1128,7 +1405,7 @@ proxies:
   sni: 20261015-it-amd1-low-node-kg.9999231.xyz
 - type: anytls
   name: 🇳🇬 NG-1 | 9PB
-  server: 7oi3ff42.20261015-it-amd2-low-node-ng.9999231.xyz
+  server: e119g9bi.20261015-it-amd2-low-node-ng.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1137,7 +1414,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇳🇬 NG-2 | 9PB
-  server: jq9t8p1g.20261015-it-amd2-low-node-ng.9999231.xyz
+  server: xb3ku0e0.20261015-it-amd2-low-node-ng.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1152,7 +1429,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇳🇬 NG-3 | 9PB
-  server: l2dqms9p.20261015-it-amd2-low-node-ng.9999231.xyz
+  server: 4voduoda.20261015-it-amd2-low-node-ng.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1161,7 +1438,7 @@ proxies:
   sni: 20261015-it-amd2-low-node-ng.9999231.xyz
 - type: anytls
   name: 🇳🇱 NL-1 | 9PB
-  server: l52pljvl.20261015-ae-amd1-low-node-nl.9999231.xyz
+  server: ioy6zbmz.20261015-ae-amd1-low-node-nl.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1170,7 +1447,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇳🇱 NL-2 | 9PB
-  server: hl37ugyv.20261015-ae-amd1-low-node-nl.9999231.xyz
+  server: 088msm4f.20261015-ae-amd1-low-node-nl.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1185,7 +1462,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇳🇱 NL-3 | 9PB
-  server: im04u100.20261015-ae-amd1-low-node-nl.9999231.xyz
+  server: h534t1fz.20261015-ae-amd1-low-node-nl.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1194,7 +1471,7 @@ proxies:
   sni: 20261015-ae-amd1-low-node-nl.9999231.xyz
 - type: anytls
   name: 🇵🇪 PE-1 | 9PB
-  server: 2a9h89uf.20261015-ae-amd2-low-node-pe.9999231.xyz
+  server: ip1wpe2z.20261015-ae-amd2-low-node-pe.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1203,7 +1480,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇵🇪 PE-2 | 9PB
-  server: 869ldu7p.20261015-ae-amd2-low-node-pe.9999231.xyz
+  server: nrhz0gsb.20261015-ae-amd2-low-node-pe.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1218,7 +1495,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇵🇪 PE-3 | 9PB
-  server: x0qpen1j.20261015-ae-amd2-low-node-pe.9999231.xyz
+  server: 6wf8c927.20261015-ae-amd2-low-node-pe.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1227,7 +1504,7 @@ proxies:
   sni: 20261015-ae-amd2-low-node-pe.9999231.xyz
 - type: anytls
   name: 🇷🇴 RO-1 | 9PB
-  server: xiff3xh5.20261016-usp-amd1-low-node-ro.9999231.xyz
+  server: olffcwx2.20261016-usp-amd1-low-node-ro.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1236,7 +1513,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇷🇴 RO-2 | 9PB
-  server: gyok8xae.20261016-usp-amd1-low-node-ro.9999231.xyz
+  server: hsyst5ko.20261016-usp-amd1-low-node-ro.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1251,7 +1528,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇷🇴 RO-3 | 9PB
-  server: zbzpjp1h.20261016-usp-amd1-low-node-ro.9999231.xyz
+  server: ymvc1px8.20261016-usp-amd1-low-node-ro.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1260,7 +1537,7 @@ proxies:
   sni: 20261016-usp-amd1-low-node-ro.9999231.xyz
 - type: anytls
   name: 🇸🇮 SI-1 | 9PB
-  server: k3gz1xlv.20261016-usp-amd2-low-node-si.9999231.xyz
+  server: 34hfl7oh.20261016-usp-amd2-low-node-si.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1269,7 +1546,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇸🇮 SI-2 | 9PB
-  server: 167lalco.20261016-usp-amd2-low-node-si.9999231.xyz
+  server: o7plumue.20261016-usp-amd2-low-node-si.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1284,7 +1561,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇸🇮 SI-3 | 9PB
-  server: 8k8qbi4m.20261016-usp-amd2-low-node-si.9999231.xyz
+  server: 8rqkfxiy.20261016-usp-amd2-low-node-si.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1293,7 +1570,7 @@ proxies:
   sni: 20261016-usp-amd2-low-node-si.9999231.xyz
 - type: anytls
   name: 🇯🇵 JP-4 | 9PB
-  server: ew2mpy1e.20261016-jp-amd1-low-node.9999231.xyz
+  server: wsh17ext.20261016-jp-amd1-low-node.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1302,7 +1579,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇯🇵 JP-5 | 9PB
-  server: nci0zv6f.20261016-jp-amd1-low-node.9999231.xyz
+  server: hf3pa65a.20261016-jp-amd1-low-node.9999231.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1317,7 +1594,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇯🇵 JP-6 | 9PB
-  server: cie54275.20261016-jp-amd1-low-node.9999231.xyz
+  server: 8tdl2ren.20261016-jp-amd1-low-node.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1326,7 +1603,7 @@ proxies:
   sni: 20261016-jp-amd1-low-node.9999231.xyz
 - type: anytls
   name: 🇮🇳 IN-1 | 9PB
-  server: px4qduwm.20261015-il-amd2-low-node-in-psiphon.9999231.xyz
+  server: ewxxa5sz.20261015-il-amd2-low-node-in-psiphon.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1335,7 +1612,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇮🇳 IN-2 | 9PB
-  server: errbdpc1.20261015-il-amd2-low-node-in-psiphon.9999231.xyz
+  server: 7zj02tcz.20261015-il-amd2-low-node-in-psiphon.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1344,7 +1621,7 @@ proxies:
   sni: 20261015-il-amd2-low-node-in-psiphon.9999231.xyz
 - type: anytls
   name: 🇩🇰 DK-1 | 9PB
-  server: 8yargn4r.20261015-uk-amd2-low-node-dk-psiphon.9999231.xyz
+  server: 5x8c70s3.20261015-uk-amd2-low-node-dk-psiphon.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1353,7 +1630,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇩🇰 DK-2 | 9PB
-  server: 3xuwuafj.20261015-uk-amd2-low-node-dk-psiphon.9999231.xyz
+  server: qjnq1kk5.20261015-uk-amd2-low-node-dk-psiphon.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1362,7 +1639,7 @@ proxies:
   sni: 20261015-uk-amd2-low-node-dk-psiphon.9999231.xyz
 - type: anytls
   name: 🇧🇪 BE-1 | 9PB
-  server: giw4rlwu.20261015-fr-amd2-low-node-be-psiphon.9999231.xyz
+  server: x70xy83g.20261015-fr-amd2-low-node-be-psiphon.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1371,7 +1648,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇧🇪 BE-2 | 9PB
-  server: 54ei3tou.20261015-fr-amd2-low-node-be-psiphon.9999231.xyz
+  server: llbe1vwm.20261015-fr-amd2-low-node-be-psiphon.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1380,7 +1657,7 @@ proxies:
   sni: 20261015-fr-amd2-low-node-be-psiphon.9999231.xyz
 - type: anytls
   name: 🇦🇹 AT-1 | 9PB
-  server: zk828chl.20261015-de-amd2-low-node-at-psiphon.9999231.xyz
+  server: 3vrc2ye3.20261015-de-amd2-low-node-at-psiphon.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1389,7 +1666,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇦🇹 AT-2 | 9PB
-  server: 81yi2pd3.20261015-de-amd2-low-node-at-psiphon.9999231.xyz
+  server: vz3hr6vc.20261015-de-amd2-low-node-at-psiphon.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1398,7 +1675,7 @@ proxies:
   sni: 20261015-de-amd2-low-node-at-psiphon.9999231.xyz
 - type: anytls
   name: 🇦🇺 AU-1 | 9PB
-  server: 2r9rwbyy.20261016-jp-amd2-low-node-au-psiphon.9999231.xyz
+  server: xa4p75fw.20261016-jp-amd2-low-node-au-psiphon.9999231.xyz
   port: 10000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1407,7 +1684,7 @@ proxies:
   client-fingerprint: chrome
 - type: hysteria2
   name: 🇦🇺 AU-2 | 9PB
-  server: gmf5pn4z.20261016-jp-amd2-low-node-au-psiphon.9999231.xyz
+  server: 754aaog4.20261016-jp-amd2-low-node-au-psiphon.9999231.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1416,7 +1693,7 @@ proxies:
   sni: 20261016-jp-amd2-low-node-au-psiphon.9999231.xyz
 - type: vless
   name: 🇨🇦 CA-1 | 9PB
-  server: s5sixelf.zf-cdn-01.9966690.xyz
+  server: c42ymd8j.zf-cdn-01.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1432,7 +1709,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-2 | 9PB
-  server: tr3en4y9.zf-cdn-02.9966690.xyz
+  server: m5g0wp13.zf-cdn-02.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1448,7 +1725,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-3 | 9PB
-  server: ugt5lysr.zf-cdn-03.9966690.xyz
+  server: htd0sy56.zf-cdn-03.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1464,7 +1741,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-4 | 9PB
-  server: azmudyi2.zf-cdn-04.9966690.xyz
+  server: r03zsnio.zf-cdn-04.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1480,7 +1757,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-5 | 9PB
-  server: sizoyd9r.zf-cdn-05.9966690.xyz
+  server: w49v6ke6.zf-cdn-05.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1496,7 +1773,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-6 | 9PB
-  server: 898l5o51.zf-cdn-06.9966690.xyz
+  server: 4a9dlqm2.zf-cdn-06.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1512,7 +1789,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-7 | 9PB
-  server: hrrk4z1k.zf-cdn-07.9966690.xyz
+  server: f0estoj6.zf-cdn-07.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1528,7 +1805,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-8 | 9PB
-  server: mgetwm6y.zf-cdn-08.9966690.xyz
+  server: 6ytkdjjv.zf-cdn-08.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1544,7 +1821,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-9 | 9PB
-  server: qqn9m6tv.zf-cdn-09.9966690.xyz
+  server: p7f5ra66.zf-cdn-09.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1560,7 +1837,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-10 | 9PB
-  server: z1vbjsv4.zf-cdn-10.9966690.xyz
+  server: 3uawux6w.zf-cdn-10.9966690.xyz
   port: 443
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -1574,86 +1851,169 @@ proxies:
     headers:
       Host: co-8ce91c.9966690.xyz
   ech: cloudflare-ech.com+https://doh.pub/dns-query
-- name: 🇺🇸 US-1 | Lifetime
-  server: 66.23.203.19
-  type: ss
-  country: 🇺🇸US
-  port: 19690
-  password: 4e501338a6c03d7626f2fa0e09ed66d6
-  cipher: aes-128-gcm
-  delay: 564
-- name: 🇯🇵 JP-1 | Lifetime
-  server: 160.21.74.183
+- name: 🇦🇺 AU-1 | Lifetime
+  server: au.tronsg.com
   type: trojan
-  country: 🇯🇵JP
-  port: 8443
-  password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
-  sni: 160.21.74.183
+  country: 🇦🇺AU
+  port: 443
+  password: Trojan@82164024
+  sni: au.tronsg.com
   skip-cert-verify: true
   udp: true
-  delay: 441
-- name: 🇮🇹 IT-4 | Lifetime
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  country: 🇳🇿 NZ
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 2037
-- cipher: aes-256-gcm
-  name: 🇮🇹 IT-5 | Lifetime
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-  udp: true
-  delay: 1129
-- name: 🇮🇹 IT-7 | Lifetime
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  delay: 593
-- name: 🇨🇳 CN-1 | Lifetime
-  server: 120.48.133.162
-  type: vmess
-  country: 🇨🇳CN
-  port: 10086
-  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
-  alterId: 0
-  cipher: auto
-  network: ws
+  delay: 1123
+- name: 🇩🇪 DE-1 | Lifetime
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  type: trojan
+  country: 🇦🇺AU
+  port: 443
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
+  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   skip-cert-verify: true
-  ws-opts:
-    path: /
-  delay: 179
-- name: 🇨🇳 CN-2 | Lifetime
-  server: 104.25.134.76
-  type: vmess
+  udp: true
+  delay: 2645
+- name: 🇩🇪 DE-2 | Lifetime
+  server: 158.173.154.5
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 1048
+- name: 🇩🇪 DE-3 | Lifetime
+  server: 213.109.163.119
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 935
+- name: 🇷🇺 RU-1 | Lifetime
+  server: 46.17.47.58
+  port: 18443
+  type: ss
+  cipher: aes-256-gcm
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  delay: 1382
+- name: 🇫🇷 FR-1 | Lifetime
+  server: 62.210.28.175
+  port: 24667
+  type: hysteria
+  protocol: udp
+  up: 11 Mbps
+  up-speed: 1028797232
+  down: 55 Mbps
+  down-speed: 1029217536
+  auth-str: dongtaiwang.com
+  auth: ZG9uZ3RhaXdhbmcuY29t
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  delay: 2570
+- name: 🇳🇱 NL-1 | Lifetime
+  server: 103.97.88.154
+  port: 443
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+  delay: 1074
+- name: 🇳🇱 NL-2 | Lifetime
+  server: 84.17.47.124
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 895
+- name: 🇳🇱 NL-3 | Lifetime
+  server: 84.17.47.148
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  delay: 2654
+- name: 🇳🇱 NL-4 | Lifetime
+  server: 84.17.47.125
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 1106
+- name: 🇳🇱 NL-5 | Lifetime
+  server: 51.159.225.197
+  port: 19362
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 2901
+- name: 🇳🇱 NL-6 | Lifetime
+  server: 51.159.225.196
+  port: 23856
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+  delay: 1125
+- name: 🇳🇱 NL-7 | Lifetime
+  server: 5.255.97.220
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 2361
+- name: 🇱🇻 LV-1 | Lifetime
+  server: 185.219.159.15
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 1639
+- name: 🇱🇻 LV-2 | Lifetime
+  server: 185.219.159.16
+  port: 443
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  delay: 1534
+- name: 🇺🇸 US-1 | Lifetime
+  server: 38.247.141.135
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 1497
+- name: 🇺🇸 US-2 | Lifetime
+  server: 138.199.35.196
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 1480
+- name: 🇺🇸 US-3 | Lifetime
+  server: 118.184.140.90
+  port: 58764
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 571
+- name: 🇯🇵 JP-1 | Lifetime
+  server: 45.12.89.202
+  type: ss
   country: 🇺🇸US
   port: 443
-  uuid: c8b455ad-fff1-43e9-9af9-d97585c4534a
-  alterId: 0
-  cipher: auto
-  network: ws
-  servername: hk-v2ray.ryin.vip
+  password: 1f24d145bf7c877f7e3140b7918eb9cd804b1576a96596f9
+  cipher: chacha20-ietf-poly1305
+  delay: 304
+- name: 🇯🇵 JP-2 | Lifetime
+  server: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
+  port: 443
+  type: http
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   tls: true
-  skip-cert-verify: true
-  ws-opts:
-    path: /ryinsocksv2board
-    headers:
-      HOST: hk-v2ray.ryin.vip
-  delay: 1734
-- name: 🇨🇳 CN-3 | Lifetime
-  server: 152.175.6.229
-  type: vless
-  port: 31884
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  tls: true
-  servername: hk010.zestapp778.com
-  delay: 1135
+  delay: 1776
 - type: vless
   name: 🇨🇳 CN-1 | Sub3
   server: 60.248.219.76
@@ -1940,7 +2300,7 @@ proxies:
   network: tcp
 - type: anytls
   name: 🇺🇸 US-1 | Filter
-  server: 244f6ajn.20260927-usp-amd1-low-node.9999231.xyz
+  server: uzc07lb4.20260927-usp-amd1-low-node.9999231.xyz
   port: 10000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -1949,7 +2309,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇺🇸 US-2 | Filter
-  server: 8hbmrvbl.20260927-usp-amd1-low-node.9999231.xyz
+  server: lsijjq2h.20260927-usp-amd1-low-node.9999231.xyz
   port: 20000
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -1964,7 +2324,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇸 US-3 | Filter
-  server: ogv4b6zy.20260927-usp-amd1-low-node.9999231.xyz
+  server: scz16lxp.20260927-usp-amd1-low-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -1973,7 +2333,7 @@ proxies:
   sni: 20260927-usp-amd1-low-node.9999231.xyz
 - type: anytls
   name: 🇺🇸 US-4 | Filter
-  server: ecosimg5.20260927-usp-arm1-fast-node.9999231.xyz
+  server: tsxz74w4.20260927-usp-arm1-fast-node.9999231.xyz
   port: 10000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -1982,7 +2342,7 @@ proxies:
   client-fingerprint: chrome
 - type: vless
   name: 🇺🇸 US-5 | Filter
-  server: ujnjm5j9.20260927-usp-arm1-fast-node.9999231.xyz
+  server: 0bt07yyg.20260927-usp-arm1-fast-node.9999231.xyz
   port: 20000
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -1997,7 +2357,7 @@ proxies:
   network: tcp
 - type: hysteria2
   name: 🇺🇸 US-6 | Filter
-  server: y5lg7smy.20260927-usp-arm1-fast-node.9999231.xyz
+  server: eakbaj6k.20260927-usp-arm1-fast-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2006,7 +2366,7 @@ proxies:
   sni: 20260927-usp-arm1-fast-node.9999231.xyz
 - type: hysteria2
   name: 🇸🇬 SG-1 | Filter
-  server: roxh9cgt.20260927-sg-arm1-fast-node.9999231.xyz
+  server: k6oh9xsp.20260927-sg-arm1-fast-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2015,7 +2375,7 @@ proxies:
   sni: 20260927-sg-arm1-fast-node.9999231.xyz
 - type: hysteria2
   name: 🇬🇧 GB-1 | Filter
-  server: 2b3g2y95.20261015-uk-arm1-fast-node.9999231.xyz
+  server: 8k8rq7pv.20261015-uk-arm1-fast-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2024,7 +2384,7 @@ proxies:
   sni: 20261015-uk-arm1-fast-node.9999231.xyz
 - type: hysteria2
   name: 🇬🇧 GB-2 | Filter
-  server: y2x5860p.20261015-uk-amd1-low-node.9999231.xyz
+  server: wnyv3pwp.20261015-uk-amd1-low-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2033,7 +2393,7 @@ proxies:
   sni: 20261015-uk-amd1-low-node.9999231.xyz
 - type: hysteria2
   name: 🇫🇷 FR-1 | Filter
-  server: beya8zcd.20261015-fr-amd1-low-node.9999231.xyz
+  server: 2adgjtxb.20261015-fr-amd1-low-node.9999231.xyz
   port: 30000
   password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2042,7 +2402,7 @@ proxies:
   sni: 20261015-fr-amd1-low-node.9999231.xyz
 - type: vless
   name: 🇨🇦 CA-1 | Filter
-  server: fyb3qh3c.zf-cdn-01.9966690.xyz
+  server: 04wpxs8s.zf-cdn-01.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2058,7 +2418,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-2 | Filter
-  server: kt7tfful.zf-cdn-02.9966690.xyz
+  server: fmxagyf9.zf-cdn-02.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2074,7 +2434,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-3 | Filter
-  server: qq62x171.zf-cdn-03.9966690.xyz
+  server: q33zj241.zf-cdn-03.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2090,7 +2450,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-4 | Filter
-  server: ht3q36ia.zf-cdn-04.9966690.xyz
+  server: pcmf3nzq.zf-cdn-04.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2106,7 +2466,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-5 | Filter
-  server: hu4wctv7.zf-cdn-05.9966690.xyz
+  server: i2gs7phb.zf-cdn-05.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2122,7 +2482,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-6 | Filter
-  server: 4r5pb233.zf-cdn-06.9966690.xyz
+  server: 47e1dgbt.zf-cdn-06.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2138,7 +2498,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-7 | Filter
-  server: plz3kyko.zf-cdn-07.9966690.xyz
+  server: ev4nn632.zf-cdn-07.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2154,7 +2514,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-8 | Filter
-  server: 0p9kcsfr.zf-cdn-08.9966690.xyz
+  server: p3mn10eq.zf-cdn-08.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2170,7 +2530,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-9 | Filter
-  server: he44zaaw.zf-cdn-09.9966690.xyz
+  server: 3lxesfv7.zf-cdn-09.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
@@ -2186,7 +2546,7 @@ proxies:
   ech: cloudflare-ech.com+https://doh.pub/dns-query
 - type: vless
   name: 🇨🇦 CA-10 | Filter
-  server: zzi43ys5.zf-cdn-10.9966690.xyz
+  server: dow619jo.zf-cdn-10.9966690.xyz
   port: 443
   uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
   udp: true
