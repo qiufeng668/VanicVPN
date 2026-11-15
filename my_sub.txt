@@ -322,18 +322,9 @@ proxies:
     path: /ws
     headers:
       Host: guessable-turnpikes.cdn-content.com
-- type: anytls
-  name: 🇸🇬 SG-1 | 9PB
-  server: hk-ssl.552213.xyz
-  port: 10000
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  udp: true
-  sni: hk-ssl.552213.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
 - type: vless
-  name: 🇭🇰 HK-1 | 9PB
-  server: hk-ssl.552213.xyz
+  name: 🇸🇬 SG-1 | 9PB
+  server: 7xvwtsqze.hk-node.552213.xyz
   port: 20000
   uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
@@ -347,11 +338,13 @@ proxies:
     short-id: 6f2adf66
   network: tcp
 - type: hysteria2
-  name: 🇭🇰 HK-2 | 9PB
-  server: hk-ssl.552213.xyz
+  name: 🇭🇰 HK-1 | 9PB
+  server: qvzqq1j6e.hk-node.552213.xyz
   port: 30000
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   udp: true
+  ports: 30000-40000
+  mport: 30000-40000
   sni: hk-ssl.552213.xyz
 - type: anytls
   name: 🇸🇬 SG-2 | 9PB
@@ -1538,4 +1531,19 @@ proxies:
   reality-opts:
     public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
     short-id: b390142456517acc
+  network: tcp
+- type: vless
+  name: 🇸🇬 SG-1 | Filter
+  server: 8h8tbaspe.hk-node.552213.xyz
+  port: 20000
+  uuid: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  servername: access.baswaredev.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: l5ojauVwrOl4iNiX9mjrn1V6s5b9roQdzMWt1XJcYmg
+    short-id: 6f2adf66
   network: tcp
